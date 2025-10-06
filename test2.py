@@ -26,7 +26,7 @@ def fetch_mlb_schedule(year):
             # Regular Season (split into 1st and 2nd half)
             if 'regularSeasonStartDate' in season and 'lastDate1stHalf' in season:
                 phases.append((
-                    'Regular Season (1st Half)',
+                    'Regular Season<br>(1st Half)',
                     season['regularSeasonStartDate'],
                     season['lastDate1stHalf']
                 ))
@@ -35,7 +35,7 @@ def fetch_mlb_schedule(year):
             
             if 'firstDate2ndHalf' in season and 'regularSeasonEndDate' in season:
                 phases.append((
-                    'Regular Season (2nd Half)',
+                    'Regular Season<br>(2nd Half)',
                     season['firstDate2ndHalf'],
                     season['regularSeasonEndDate']
                 ))
@@ -156,6 +156,7 @@ def plot_season(fig, league, phases, colors, season_offset=0, opacity=0.7, seaso
             marker=dict(color=colors[league], opacity=opacity, line=dict(color='black', width=1)),
             text=phase_name,
             textposition='inside',
+            insidetextanchor='middle', 
             textfont=dict(size=10, color='black'),
             showlegend=bool(season_name),  # Only show legend if season_name is provided
             hovertemplate=(
