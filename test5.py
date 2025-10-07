@@ -111,8 +111,8 @@ def plot_season(fig, league, phases, colors, season_offset=0, opacity=0.7, seaso
             start_year = int((start_adjusted - 1) // 12 + (datetime.now().year - 1))
             end_month = int((end_adjusted - 1) % 12 + 1)
             end_year = int((end_adjusted - 1) // 12 + (datetime.now().year - 1))
-            start_label = f"{start_day} {calendar.month_abbr[start_month]}"
-            end_label = f"{end_day} {calendar.month_abbr[end_month]}"
+            start_label = f"{start_day} {calendar.month_abbr[start_month]} {start_year}"
+            end_label = f"{end_day} {calendar.month_abbr[end_month]} {end_year}"
         else:
             start_date = datetime.strptime(start, "%Y-%m-%d")
             end_date = datetime.strptime(end, "%Y-%m-%d")
@@ -135,10 +135,10 @@ def plot_season(fig, league, phases, colors, season_offset=0, opacity=0.7, seaso
             orientation='h',
             name=season_name,
             marker=dict(color=colors[league], opacity=opacity, line=dict(color='black', width=0.5)),
-            text=phase_name.replace('<br>', ' '),  # Remove line breaks for mobile
+            text=phase_name.replace('<br>', ' '),
             textposition='inside',
             insidetextanchor='middle', 
-            textfont=dict(size=8, color='black'),  # Smaller text
+            textfont=dict(size=8, color='black'),
             showlegend=bool(season_name),
             customdata=[[start_label, end_label]],
             hovertemplate=(
@@ -242,15 +242,15 @@ def create_sports_timeline():
         # xaxis_rangeslider_visible=False
     )
     
-    # Update traces for better mobile display
-    fig.update_traces(
-        textfont=dict(size=9),
-        hovertemplate=(
-            '<b>%{y}</b><br>%{text}'
-            '<br>From: %{customdata[0]}<br>To: %{customdata[1]}'
-            '<extra></extra>'
-        )
-    )
+    # # Update traces for better mobile display
+    # fig.update_traces(
+    #     textfont=dict(size=9),
+    #     hovertemplate=(
+    #         '<b>%{y}</b><br>%{name}'
+    #         '<br>From: %{customdata[0]}<br>To: %{customdata[1]}'
+    #         '<extra></extra>'
+    #     )
+    # )
     
     return fig
 
@@ -533,40 +533,40 @@ footer {
 }
 
 /* Fade effects to indicate scrollability */
-.timeline-container::before,
-.timeline-container::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 30px;
-    pointer-events: none;
-    z-index: 2;
-    transition: opacity 0.3s;
-}
+# .timeline-container::before,
+# .timeline-container::after {
+#     content: '';
+#     position: absolute;
+#     top: 0;
+#     bottom: 0;
+#     width: 30px;
+#     pointer-events: none;
+#     z-index: 2;
+#     transition: opacity 0.3s;
+# }
 
-.timeline-container::before {
-    left: 0;
-    background: linear-gradient(to right, rgba(248,249,250,1) 0%, rgba(248,249,250,0) 100%);
-}
+# .timeline-container::before {
+#     left: 0;
+#     background: linear-gradient(to right, rgba(248,249,250,1) 0%, rgba(248,249,250,0) 100%);
+# }
 
-.timeline-container::after {
-    right: 0;
-    background: linear-gradient(to left, rgba(248,249,250,1) 0%, rgba(248,249,250,0) 100%);
-}
+# .timeline-container::after {
+#     right: 0;
+#     background: linear-gradient(to left, rgba(248,249,250,1) 0%, rgba(248,249,250,0) 100%);
+# }
 
-/* Show/hide fade based on scroll position */
-.timeline-container.scroll-start::after,
-.timeline-container.scroll-middle::before,
-.timeline-container.scroll-middle::after,
-.timeline-container.scroll-end::before {
-    opacity: 1;
-}
+# /* Show/hide fade based on scroll position */
+# .timeline-container.scroll-start::after,
+# .timeline-container.scroll-middle::before,
+# .timeline-container.scroll-middle::after,
+# .timeline-container.scroll-end::before {
+#     opacity: 1;
+# }
 
-.timeline-container:not(.scroll-start):not(.scroll-middle):not(.scroll-end)::before,
-.timeline-container:not(.scroll-start):not(.scroll-middle):not(.scroll-end)::after {
-    opacity: 0;
-}
+# .timeline-container:not(.scroll-start):not(.scroll-middle):not(.scroll-end)::before,
+# .timeline-container:not(.scroll-start):not(.scroll-middle):not(.scroll-end)::after {
+#     opacity: 0;
+# }
 
 /* Tablet and Desktop Styles */
 @media (min-width: 768px) {
