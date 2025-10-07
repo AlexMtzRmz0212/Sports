@@ -1,0 +1,730 @@
+import plotly.graph_objects as go
+from datetime import datetime, timedelta
+import calendar
+import requests
+import os
+
+
+def fetch_MLB(year):
+    """Fetch MLB schedule from their API"""
+    url = f"https://statsapi.mlb.com/api/v1/seasons?sportId=1&season={year}"
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        data = response.json()
+        
+        if data['seasons']:
+            season = data['seasons'][0]
+            phases = []
+            
+            if 'springStartDate' in season and 'springEndDate' in season:
+                phases.append((
+                    'Spring Training',
+                    season['springStartDate'],
+                    season['springEndDate']
+                ))
+            
+            if 'regularSeasonStartDate' in season and 'lastDate1stHalf' in season:
+                phases.append((
+                    'Regular Season<br>(1st Half)',
+                    season['regularSeasonStartDate'],
+                    season['lastDate1stHalf']
+                ))
+            
+            if 'allStarDate' in season:
+                phases.append((
+                    'All-Star Game',
+                    season['allStarDate'],
+                    (datetime.strptime(season['allStarDate'], "%Y-%m-%d") + timedelta(hours=23)).strftime("%Y-%m-%d")
+                ))
+
+            if 'firstDate2ndHalf' in season and 'regularSeasonEndDate' in season:
+                phases.append((
+                    'Regular Season<br>(2nd Half)',
+                    season['firstDate2ndHalf'],
+                    season['regularSeasonEndDate']
+                ))
+            
+            if 'postSeasonStartDate' in season and 'postSeasonEndDate' in season:
+                phases.append((
+                    'World Series',
+                    season['postSeasonStartDate'],
+                    season['postSeasonEndDate']
+                ))
+            
+            return phases
+    except Exception as e:
+        print(f"Error fetching MLB data: {e}")
+        return None
+
+def get_league_data(current_year):
+    """Get schedule data for all leagues"""
+    data = {
+        'League': ['NBA', 'NHL', 'NFL', 'MLB'],
+        'Phases': []
+    }
+    
+    mlb_phases = fetch_MLB(current_year)
+    year = 12
+    
+    data['Phases'].append([
+        ('Pre Season', 10.0, 10.5), 
+        ('Regular Season', 10.5, 4.25 + year), 
+        ('The Finals', 4.5 + year, 6.5 + year)
+    ])
+    
+    data['Phases'].append([
+        ('Pre Season', 9.75, 10.2), 
+        ('Regular Season', 10.2, 4.5 + year), 
+        ('Stanley Cup', 4.5 + year, 6.5 + year)
+    ])
+    
+    data['Phases'].append([
+        ('Pre Season', 8.0, 9.0), 
+        ('Regular Season', 9.0, 1.2 + year), 
+        ('Super Bowl', 1.5 + year, 2.5 + year)
+    ])
+    
+    if mlb_phases:
+        print("✓ Using live MLB data from API")
+        data['Phases'].append(mlb_phases)
+    else:
+        print("✗ Using fallback MLB data (API unavailable)")
+        data['Phases'].append([
+            ('Spring Training', 2.75, 4.0), 
+            ('Regular Season', 4.0, 10.25), 
+            ('World Series', 10.0, 11.25)
+        ])
+    
+    return data
+
+def plot_season(fig, league, phases, colors, season_offset=0, opacity=0.7, season_name=""):
+    """Plot season phases as horizontal bars on a plotly figure."""
+    for phase_name, start, end in phases:
+        if isinstance(start, float) and isinstance(end, float):
+            start_adjusted = start + season_offset
+            end_adjusted = end + season_offset
+
+            start_day = int((start_adjusted - 1) % 1 * 30) + 1
+            end_day = int((end_adjusted - 1) % 1 * 30) + 1
+            start_month = int((start_adjusted - 1) % 12 + 1)
+            start_year = int((start_adjusted - 1) // 12 + (datetime.now().year - 1))
+            end_month = int((end_adjusted - 1) % 12 + 1)
+            end_year = int((end_adjusted - 1) // 12 + (datetime.now().year - 1))
+            start_label = f"{start_day} {calendar.month_abbr[start_month]} {start_year}"
+            end_label = f"{end_day} {calendar.month_abbr[end_month]} {end_year}"
+        else:
+            start_date = datetime.strptime(start, "%Y-%m-%d")
+            end_date = datetime.strptime(end, "%Y-%m-%d")
+            def add_months(dt, months):
+                year = dt.year + (dt.month - 1 + months) // 12
+                month = (dt.month - 1 + months) % 12 + 1
+                day = min(dt.day, calendar.monthrange(year, month)[1])
+                return datetime(year, month, day)
+            start_date_offset = add_months(start_date, season_offset-12)
+            end_date_offset = add_months(end_date, season_offset-12)
+            start_adjusted = start_date_offset.month + (start_date_offset.day - 1) / 30 + (start_date_offset.year - (datetime.now().year - 1)) * 12
+            end_adjusted = end_date_offset.month + (end_date_offset.day - 1) / 30 + (end_date_offset.year - (datetime.now().year - 1)) * 12
+            start_label = start_date_offset.strftime("%d %b %Y")
+            end_label = end_date_offset.strftime("%d %b %Y")
+
+        fig.add_trace(go.Bar(
+            x=[end_adjusted - start_adjusted],
+            y=[league],
+            base=[start_adjusted],
+            orientation='h',
+            name=season_name,
+            marker=dict(color=colors[league], opacity=opacity, line=dict(color='black', width=1)),
+            text=phase_name,
+            textposition='inside',
+            insidetextanchor='middle', 
+            textfont=dict(size=10, color='black'),
+            showlegend=bool(season_name),
+            hovertemplate=(
+                f'<b>{league}</b><br>{phase_name}'
+                f'<br>From: {start_label}<br>To: {end_label}'
+            )
+        ))
+
+def create_sports_timeline():
+    """Create interactive sports timeline visualization"""
+    now = datetime.now()
+    current_year = now.year
+    current_month = now.month
+    current_day = now.day
+    current_month_str = calendar.month_name[current_month]
+    
+    data = get_league_data(current_year)
+    
+    colors = {
+        'NBA': "#C98613", 
+        'NHL': "#A2AAAD", 
+        'NFL': "#82CD32", 
+        'MLB': "#217EE1"
+    }
+    
+    fig = go.Figure()
+
+    for i, league in enumerate(data['League']):
+        phases = data['Phases'][i]
+        plot_season(fig, league, phases, colors, season_offset=0, opacity=0.3, season_name="Previous<br>Season")
+        plot_season(fig, league, phases, colors, season_offset=12, opacity=0.7, season_name="Current<br>Season")
+        plot_season(fig, league, phases, colors, season_offset=24, opacity=0.5, season_name="Next<br>Season")
+    
+    today_x = now.month + (now.day - 1) / 30 + 12
+    # fig.add_vline(x=today_x, line_dash="dash", line_color="red", line_width=2,
+    #               annotation_text=f"Today: {current_month_str} {current_day}, {current_year}",
+    #               annotation_position="top",
+    #               annotation=dict(yshift=20)
+    #               )
+    
+    # 1. Draw the vertical line using add_shape
+    #    yref='paper' makes the line span the entire height of the plot area
+    fig.add_shape(type="line",
+        xref="x", yref="paper",
+        x0=today_x, y0=0, x1=today_x, y1=1.05,
+        line=dict(
+            color="red",
+            width=2,
+            dash="dash",
+        )
+    )
+
+    # 2. Add the annotation text separately
+    #    y=1 positions it at the top, and yanchor='bottom' places the
+    #    bottom of the text at that position, so it sits neatly on top.
+    fig.add_annotation(
+        x=today_x,
+        y=1,
+        yref='paper',
+        yanchor='bottom',
+        text=f"Today: {current_month_str} {current_day}, {current_year}",
+        showarrow=False,
+        yshift=15 # Add a small shift for spacing
+    )
+
+    fig.add_vline(x=13, line_color="brown", line_width=2,
+                  annotation_text=f"Start of {current_year}",
+                  annotation_position="top")
+    fig.add_vline(x=25, line_color="brown", line_width=2,
+                  annotation_text=f"Start of {current_year+1}",
+                  annotation_position="top")
+    
+    month_labels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'] * 3
+    tick_positions = list(range(1, 37))
+    
+    fig.update_layout(
+        title=dict(
+            text='Sports League Timeline',
+            font=dict(size=20),
+            x=0.5,
+            xanchor='center'
+        ),
+        xaxis=dict(
+            title=f'Years {current_year-1}, {current_year}, {current_year + 1}',
+            tickmode='array',
+            tickvals=tick_positions,
+            ticktext=month_labels,
+            range=[2, 31],
+            showgrid=True,
+            gridcolor='lightgray',
+            gridwidth=1
+        ),
+        yaxis=dict(
+            title='League',
+            categoryorder='array',
+            categoryarray=['MLB', 'NFL', 'NHL', 'NBA']
+        ),
+        barmode='overlay',
+        height=500,
+        plot_bgcolor='white',
+        showlegend=False,
+        margin=dict(l=100, r=50, t=80, b=80)
+    )
+    
+    return fig
+
+def generate_css():
+    """Generate CSS stylesheet"""
+    return '''* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+header p {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+nav {
+    background: #2c3e50;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    display: inline-block;
+    transition: background 0.3s;
+    font-weight: 600;
+}
+
+nav a:hover {
+    background: #34495e;
+}
+
+.content {
+    padding: 40px;
+}
+
+.section {
+    margin-bottom: 60px;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.timeline-container {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.league-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.league-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-top: 5px solid;
+}
+
+.league-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.league-card.mlb {
+    border-top-color: #217EE1;
+}
+
+.league-card.nba {
+    border-top-color: #C98613;
+}
+
+.league-card.nfl {
+    border-top-color: #82CD32;
+}
+
+.league-card.nhl {
+    border-top-color: #A2AAAD;
+}
+
+.league-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.league-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+}
+
+.mlb .league-icon {
+    background: #217EE1;
+}
+
+.nba .league-icon {
+    background: #C98613;
+}
+
+.nfl .league-icon {
+    background: #82CD32;
+}
+
+.nhl .league-icon {
+    background: #A2AAAD;
+}
+
+.league-card p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.project-list {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.project-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    color: #555;
+}
+
+.project-list li:last-child {
+    border-bottom: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: background 0.3s;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.stat-card h4 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    opacity: 0.9;
+    color: white;
+}'''
+
+def generate_js():
+    """Generate JavaScript file"""
+    return '''// Smooth scrolling for navigation links
+document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
+});
+
+// Add active state to navigation
+const sections = document.querySelectorAll('.section');
+const navLinks = document.querySelectorAll('nav a');
+
+window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (scrollY >= (sectionTop - 200)) {
+            current = section.getAttribute('id');
+        }
+    });
+
+    navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href').slice(1) === current) {
+            link.classList.add('active');
+        }
+    });
+});
+
+// Animate stat cards on scroll
+const observerOptions = {
+    threshold: 0.5,
+    rootMargin: '0px 0px -100px 0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.opacity = '0';
+            entry.target.style.transform = 'translateY(20px)';
+            setTimeout(() => {
+                entry.target.style.transition = 'all 0.6s ease';
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }, 100);
+        }
+    });
+}, observerOptions);
+
+document.querySelectorAll('.stat-card, .league-card').forEach(card => {
+    observer.observe(card);
+});
+
+console.log('Sports Hub initialized! 🏆');'''
+
+def generate_html(current_year):
+    """Generate HTML file"""
+    return f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Analytics Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏆 Sports Analytics Hub</h1>
+            <p>Your central dashboard for sports data, analytics, and insights</p>
+        </header>
+        
+        <nav>
+            <a href="#timeline">Timeline</a>
+            <a href="#projects">Projects</a>
+            <a href="#mlb">MLB</a>
+            <a href="#nba">NBA</a>
+            <a href="#nfl">NFL</a>
+            <a href="#nhl">NHL</a>
+        </nav>
+        
+        <div class="content">
+            <!-- Timeline Section -->
+            <section id="timeline" class="section">
+                <h2>📅 League Season Timeline</h2>
+                <div class="timeline-container">
+                    <div id="timeline-plot"></div>
+                </div>
+            </section>
+            
+            <!-- Quick Stats -->
+            <section class="section">
+                <h2>📊 Quick Stats</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h4>4</h4>
+                        <p>Major Leagues Tracked</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>{current_year}</h4>
+                        <p>Current Season</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Live</h4>
+                        <p>Real-time Updates</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>∞</h4>
+                        <p>Insights Generated</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- League Projects Section -->
+            <section id="projects" class="section">
+                <h2>🚀 League Projects</h2>
+                <div class="league-grid">
+                    <!-- MLB Card -->
+                    <div class="league-card mlb" id="mlb">
+                        <h3>
+                            <span class="league-icon">⚾</span>
+                            MLB Projects
+                        </h3>
+                        <p>Exploring baseball analytics, player statistics, and game predictions for Major League Baseball.</p>
+                        <ul class="project-list">
+                            <li>📈 Player Performance Analytics</li>
+                            <li>🎯 Win Probability Calculator</li>
+                            <li>📊 Team Statistics Dashboard</li>
+                            <li>🔮 Season Predictions Model</li>
+                        </ul>
+                        <a href="#" class="btn">View MLB Projects →</a>
+                    </div>
+                    
+                    <!-- NBA Card -->
+                    <div class="league-card nba" id="nba">
+                        <h3>
+                            <span class="league-icon">🏀</span>
+                            NBA Projects
+                        </h3>
+                        <p>Basketball analytics covering player efficiency, shot analysis, and championship predictions.</p>
+                        <ul class="project-list">
+                            <li>🎯 Shot Chart Visualization</li>
+                            <li>📊 Player Efficiency Rating</li>
+                            <li>🏆 Playoff Bracket Predictor</li>
+                            <li>📈 Real-time Game Analytics</li>
+                        </ul>
+                        <a href="#" class="btn">View NBA Projects →</a>
+                    </div>
+                    
+                    <!-- NFL Card -->
+                    <div class="league-card nfl" id="nfl">
+                        <h3>
+                            <span class="league-icon">🏈</span>
+                            NFL Projects
+                        </h3>
+                        <p>Football analytics including game simulations, fantasy predictions, and team performance metrics.</p>
+                        <ul class="project-list">
+                            <li>🎮 Game Outcome Simulator</li>
+                            <li>👤 Fantasy Football Optimizer</li>
+                            <li>📊 Offensive vs Defensive Stats</li>
+                            <li>🏆 Super Bowl Predictions</li>
+                        </ul>
+                        <a href="#" class="btn">View NFL Projects →</a>
+                    </div>
+                    
+                    <!-- NHL Card -->
+                    <div class="league-card nhl" id="nhl">
+                        <h3>
+                            <span class="league-icon">🏒</span>
+                            NHL Projects
+                        </h3>
+                        <p>Hockey analytics with goalie performance tracking, team comparisons, and playoff forecasting.</p>
+                        <ul class="project-list">
+                            <li>🥅 Goalie Performance Tracker</li>
+                            <li>📊 Team Power Rankings</li>
+                            <li>🔥 Hot Streak Analyzer</li>
+                            <li>🏆 Stanley Cup Predictor</li>
+                        </ul>
+                        <a href="#" class="btn">View NHL Projects →</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <footer>
+            <p>&copy; {current_year} Sports Analytics Hub | Built with Python & Plotly</p>
+            <p style="margin-top: 10px; opacity: 0.8;">Data updated in real-time from official league APIs</p>
+        </footer>
+    </div>
+    
+    <script src="timeline-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>'''
+
+if __name__ == "__main__":
+    # Create the timeline visualization
+    print("Generating sports timeline...")
+    fig = create_sports_timeline()
+    current_year = datetime.now().year
+    
+    # Get plotly JSON data
+    plotly_json = fig.to_json()
+    
+    # Create timeline-data.js with the plotly data
+    timeline_js = f'''// Timeline data generated from Python
+const timelineData = {plotly_json};
+
+// Render the plot
+Plotly.newPlot('timeline-plot', timelineData.data, timelineData.layout, {{responsive: true}});'''
+    
+    # Create directories if needed
+    os.makedirs('.', exist_ok=True)
+    
+    # Write all files
+    print("Creating HTML file...")
+    with open('index.html', 'w', encoding='utf-8') as f:
+        f.write(generate_html(current_year))
+    
+    print("Creating CSS file...")
+    with open('styles.css', 'w', encoding='utf-8') as f:
+        f.write(generate_css())
+    
+    print("Creating JavaScript files...")
+    with open('script.js', 'w', encoding='utf-8') as f:
+        f.write(generate_js())
+    
+    with open('timeline-data.js', 'w', encoding='utf-8') as f:
+        f.write(timeline_js)
+    
+    print("\n" + "="*60)
+    print("✓ Sports Hub website created successfully!")
+    print("="*60)
+    print("\nFiles generated:")
+    print("  📄 index.html       - Main HTML structure")
+    print("  🎨 styles.css       - All styling")
+    print("  ⚙️  script.js        - Interactive features")
+    print("  📊 timeline-data.js - Plotly chart data")
+    print("\n" + "="*60)
+    print("Open index.html in your browser to view your sports hub.")
+    print("\nFeatures:")
+    print("  • Smooth scrolling navigation")
+    print("  • Animated cards on scroll")
+    print("  • Active navigation highlighting")
+    print("  • Responsive Plotly timeline")
+    print("  • Modular, maintainable code structure")

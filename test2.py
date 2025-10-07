@@ -1,9 +1,10 @@
 import plotly.graph_objects as go
-from datetime import datetime
+from datetime import datetime, timedelta
 import calendar
 import requests
 
-def fetch_mlb_schedule(year):
+
+def fetch_MLB(year):
     """Fetch MLB schedule from their API"""
     url = f"https://statsapi.mlb.com/api/v1/seasons?sportId=1&season={year}"
     try:
@@ -31,8 +32,15 @@ def fetch_mlb_schedule(year):
                     season['lastDate1stHalf']
                 ))
             
-            # All-Star Break indicator could be added here
-            
+            # All-Star Game indicator could be added here
+
+            if 'allStarDate' in season:
+                phases.append((
+                    'All-Star Game',
+                    season['allStarDate'],
+                    (datetime.strptime(season['allStarDate'], "%Y-%m-%d") + timedelta(hours=23)).strftime("%Y-%m-%d")
+                ))
+
             if 'firstDate2ndHalf' in season and 'regularSeasonEndDate' in season:
                 phases.append((
                     'Regular Season<br>(2nd Half)',
@@ -61,7 +69,7 @@ def get_league_data(current_year):
     }
     
     # Try to fetch MLB data from API
-    mlb_phases = fetch_mlb_schedule(current_year)
+    mlb_phases = fetch_MLB(current_year)
     
     # Fallback to hardcoded data if API fails
     year = 12  # Offset for displaying across years
