@@ -111,8 +111,8 @@ def plot_season(fig, league, phases, colors, season_offset=0, opacity=0.7, seaso
             start_year = int((start_adjusted - 1) // 12 + (datetime.now().year - 1))
             end_month = int((end_adjusted - 1) % 12 + 1)
             end_year = int((end_adjusted - 1) // 12 + (datetime.now().year - 1))
-            start_label = f"{start_day} {calendar.month_abbr[start_month]} {start_year}"
-            end_label = f"{end_day} {calendar.month_abbr[end_month]} {end_year}"
+            start_label = f"{start_day} {calendar.month_abbr[start_month]}"
+            end_label = f"{end_day} {calendar.month_abbr[end_month]}"
         else:
             start_date = datetime.strptime(start, "%Y-%m-%d")
             end_date = datetime.strptime(end, "%Y-%m-%d")
@@ -125,8 +125,8 @@ def plot_season(fig, league, phases, colors, season_offset=0, opacity=0.7, seaso
             end_date_offset = add_months(end_date, season_offset-12)
             start_adjusted = start_date_offset.month + (start_date_offset.day - 1) / 30 + (start_date_offset.year - (datetime.now().year - 1)) * 12
             end_adjusted = end_date_offset.month + (end_date_offset.day - 1) / 30 + (end_date_offset.year - (datetime.now().year - 1)) * 12
-            start_label = start_date_offset.strftime("%d %b %Y")
-            end_label = end_date_offset.strftime("%d %b %Y")
+            start_label = start_date_offset.strftime("%d %b")
+            end_label = end_date_offset.strftime("%d %b")
 
         fig.add_trace(go.Bar(
             x=[end_adjusted - start_adjusted],
@@ -134,20 +134,22 @@ def plot_season(fig, league, phases, colors, season_offset=0, opacity=0.7, seaso
             base=[start_adjusted],
             orientation='h',
             name=season_name,
-            marker=dict(color=colors[league], opacity=opacity, line=dict(color='black', width=1)),
-            text=phase_name,
+            marker=dict(color=colors[league], opacity=opacity, line=dict(color='black', width=0.5)),
+            text=phase_name.replace('<br>', ' '),  # Remove line breaks for mobile
             textposition='inside',
             insidetextanchor='middle', 
-            textfont=dict(size=10, color='black'),
+            textfont=dict(size=8, color='black'),  # Smaller text
             showlegend=bool(season_name),
+            customdata=[[start_label, end_label]],
             hovertemplate=(
                 f'<b>{league}</b><br>{phase_name}'
                 f'<br>From: {start_label}<br>To: {end_label}'
+                '<extra></extra>'
             )
         ))
 
 def create_sports_timeline():
-    """Create interactive sports timeline visualization"""
+    """Create mobile-optimized interactive sports timeline visualization"""
     now = datetime.now()
     current_year = now.year
     current_month = now.month
@@ -172,14 +174,6 @@ def create_sports_timeline():
         plot_season(fig, league, phases, colors, season_offset=24, opacity=0.5, season_name="Next<br>Season")
     
     today_x = now.month + (now.day - 1) / 30 + 12
-    # fig.add_vline(x=today_x, line_dash="dash", line_color="red", line_width=2,
-    #               annotation_text=f"Today: {current_month_str} {current_day}, {current_year}",
-    #               annotation_position="top",
-    #               annotation=dict(yshift=20)
-    #               )
-    
-    # 1. Draw the vertical line using add_shape
-    #    yref='paper' makes the line span the entire height of the plot area
     fig.add_shape(type="line",
         xref="x", yref="paper",
         x0=today_x, y0=0, x1=today_x, y1=1.05,
@@ -189,26 +183,25 @@ def create_sports_timeline():
             dash="dash",
         )
     )
-
-    # 2. Add the annotation text separately
-    #    y=1 positions it at the top, and yanchor='bottom' places the
-    #    bottom of the text at that position, so it sits neatly on top.
     fig.add_annotation(
         x=today_x,
         y=1,
         yref='paper',
         yanchor='bottom',
-        text=f"Today: {current_month_str} {current_day}, {current_year}",
+        text=f"Today: {current_month_str} {current_day}",
         showarrow=False,
-        yshift=15 # Add a small shift for spacing
+        yshift=15,
+        font=dict(size=10)  # Smaller font for mobile
     )
 
     fig.add_vline(x=13, line_color="brown", line_width=2,
-                  annotation_text=f"Start of {current_year}",
-                  annotation_position="top")
+                  annotation_text=f"Start {current_year}",
+                  annotation_position="top",
+                  annotation_font_size=10)
     fig.add_vline(x=25, line_color="brown", line_width=2,
-                  annotation_text=f"Start of {current_year+1}",
-                  annotation_position="top")
+                  annotation_text=f"Start {current_year+1}",
+                  annotation_position="top",
+                  annotation_font_size=10)
     
     month_labels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'] * 3
     tick_positions = list(range(1, 37))
@@ -216,7 +209,7 @@ def create_sports_timeline():
     fig.update_layout(
         title=dict(
             text='Sports League Timeline',
-            font=dict(size=20),
+            font=dict(size=16),  # Smaller title
             x=0.5,
             xanchor='center'
         ),
@@ -228,25 +221,44 @@ def create_sports_timeline():
             range=[2, 31],
             showgrid=True,
             gridcolor='lightgray',
-            gridwidth=1
+            gridwidth=1,
+            tickfont=dict(size=8),  # Smaller x-axis labels
+            title_font=dict(size=10)
         ),
         yaxis=dict(
             title='League',
             categoryorder='array',
-            categoryarray=['MLB', 'NFL', 'NHL', 'NBA']
+            categoryarray=['MLB', 'NFL', 'NHL', 'NBA'],
+            title_font=dict(size=12),
+            tickfont=dict(size=10)
         ),
         barmode='overlay',
-        height=500,
+        height=400,  # Reduced height for mobile
         plot_bgcolor='white',
         showlegend=False,
-        margin=dict(l=100, r=50, t=80, b=80)
+        margin=dict(l=80, r=20, t=60, b=80),  # Reduced margins
+        # Mobile-specific optimizations
+        autosize=True,
+        # Better for mobile viewing
+        xaxis_rangeslider_visible=False
+    )
+    
+    # Update traces for better mobile display
+    fig.update_traces(
+        textfont=dict(size=8),  # Smaller text inside bars
+        hovertemplate=(
+            '<b>%{y}</b><br>%{text}'
+            '<br>From: %{customdata[0]}<br>To: %{customdata[1]}'
+            '<extra></extra>'  # Remove extra hover info
+        )
     )
     
     return fig
 
 def generate_css():
     """Generate CSS stylesheet"""
-    return '''* {
+    return '''
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -256,33 +268,33 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
-    padding: 20px;
+    padding: 10px;
 }
 
 .container {
-    max-width: 1600px;
+    max-width: 100%;
     margin: 0 auto;
     background: white;
-    border-radius: 20px;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     overflow: hidden;
 }
 
 header {
     background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
     color: white;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
 }
 
 header h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
+    font-size: 1.8em;
+    margin-bottom: 8px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 header p {
-    font-size: 1.2em;
+    font-size: 1em;
     opacity: 0.9;
 }
 
@@ -292,15 +304,20 @@ nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 1px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 12px 15px;
     display: inline-block;
     transition: background 0.3s;
     font-weight: 600;
+    font-size: 0.9em;
+    flex: 1;
+    min-width: 80px;
+    text-align: center;
 }
 
 nav a:hover {
@@ -308,47 +325,48 @@ nav a:hover {
 }
 
 .content {
-    padding: 40px;
+    padding: 20px;
 }
 
 .section {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
     color: #2c3e50;
-    border-bottom: 3px solid #3498db;
-    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
 }
 
 .timeline-container {
     background: #f8f9fa;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow-x: auto;
 }
 
 .league-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 30px;
-    margin-top: 30px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .league-card {
     background: white;
-    border-radius: 15px;
-    padding: 30px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s, box-shadow 0.3s;
-    border-top: 5px solid;
+    border-top: 4px solid;
 }
 
 .league-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
 
 .league-card.mlb {
@@ -368,22 +386,23 @@ nav a:hover {
 }
 
 .league-card h3 {
-    font-size: 1.8em;
-    margin-bottom: 15px;
+    font-size: 1.4em;
+    margin-bottom: 12px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
 }
 
 .league-icon {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
     color: white;
+    font-size: 0.9em;
 }
 
 .mlb .league-icon {
@@ -404,19 +423,21 @@ nav a:hover {
 
 .league-card p {
     color: #666;
-    line-height: 1.6;
-    margin-bottom: 15px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    font-size: 0.9em;
 }
 
 .project-list {
     list-style: none;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 .project-list li {
-    padding: 10px 0;
+    padding: 8px 0;
     border-bottom: 1px solid #eee;
     color: #555;
+    font-size: 0.9em;
 }
 
 .project-list li:last-child {
@@ -425,14 +446,15 @@ nav a:hover {
 
 .btn {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 10px 20px;
     background: #3498db;
     color: white;
     text-decoration: none;
-    border-radius: 8px;
-    margin-top: 15px;
+    border-radius: 6px;
+    margin-top: 12px;
     transition: background 0.3s;
     font-weight: 600;
+    font-size: 0.9em;
 }
 
 .btn:hover {
@@ -443,38 +465,105 @@ footer {
     background: #2c3e50;
     color: white;
     text-align: center;
-    padding: 30px;
-    margin-top: 40px;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 0.9em;
 }
 
 .stats-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    margin: 30px 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 20px 0;
 }
 
 .stat-card {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 25px;
-    border-radius: 12px;
+    padding: 20px;
+    border-radius: 10px;
     text-align: center;
 }
 
 .stat-card h4 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    font-size: 1.8em;
+    margin-bottom: 8px;
 }
 
 .stat-card p {
     opacity: 0.9;
     color: white;
-}'''
+    font-size: 0.9em;
+}
+
+/* Tablet and Desktop Styles */
+@media (min-width: 768px) {
+    body {
+        padding: 20px;
+    }
+    
+    .container {
+        max-width: 1400px;
+        border-radius: 20px;
+    }
+    
+    header {
+        padding: 30px;
+    }
+    
+    header h1 {
+        font-size: 2.5em;
+    }
+    
+    header p {
+        font-size: 1.1em;
+    }
+    
+    nav a {
+        padding: 15px 25px;
+        font-size: 1em;
+        flex: none;
+    }
+    
+    .content {
+        padding: 30px;
+    }
+    
+    .section h2 {
+        font-size: 1.8em;
+    }
+    
+    .league-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+    
+    .timeline-container {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .league-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    nav a {
+        padding: 20px 30px;
+    }
+}
+'''
 
 def generate_js():
     """Generate JavaScript file"""
-    return '''// Smooth scrolling for navigation links
+    return '''
+
+// Smooth scrolling for navigation links
 document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -497,7 +586,7 @@ window.addEventListener('scroll', () => {
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
-        if (scrollY >= (sectionTop - 200)) {
+        if (scrollY >= (sectionTop - 100)) {
             current = section.getAttribute('id');
         }
     });
@@ -510,35 +599,31 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Animate stat cards on scroll
-const observerOptions = {
-    threshold: 0.5,
-    rootMargin: '0px 0px -100px 0px'
-};
+// Mobile menu toggle for small screens
+function initMobileMenu() {
+    const nav = document.querySelector('nav');
+    if (window.innerWidth < 768) {
+        nav.style.flexWrap = 'wrap';
+    }
+}
 
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.style.opacity = '0';
-            entry.target.style.transform = 'translateY(20px)';
-            setTimeout(() => {
-                entry.target.style.transition = 'all 0.6s ease';
-                entry.target.style.opacity = '1';
-                entry.target.style.transform = 'translateY(0)';
-            }, 100);
-        }
-    });
-}, observerOptions);
-
-document.querySelectorAll('.stat-card, .league-card').forEach(card => {
-    observer.observe(card);
+// Initialize mobile features
+document.addEventListener('DOMContentLoaded', function() {
+    initMobileMenu();
+    
+    // Re-initialize on resize
+    window.addEventListener('resize', initMobileMenu);
 });
 
-console.log('Sports Hub initialized! 🏆');'''
+console.log('Sports Hub initialized! 🏆');
+
+'''
 
 def generate_html(current_year):
     """Generate HTML file"""
-    return f'''<!DOCTYPE html>
+    return f'''
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -675,7 +760,9 @@ def generate_html(current_year):
     <script src="timeline-data.js"></script>
     <script src="script.js"></script>
 </body>
-</html>'''
+</html>
+
+'''
 
 if __name__ == "__main__":
     # Create the timeline visualization
@@ -687,12 +774,28 @@ if __name__ == "__main__":
     plotly_json = fig.to_json()
     
     # Create timeline-data.js with the plotly data
-    timeline_js = f'''// Timeline data generated from Python
+    timeline_js = f'''
+    
+// Timeline data generated from Python
 const timelineData = {plotly_json};
 
-// Render the plot
-Plotly.newPlot('timeline-plot', timelineData.data, timelineData.layout, {{responsive: true}});'''
-    
+// Render the plot with mobile optimization
+Plotly.newPlot('timeline-plot', timelineData.data, timelineData.layout, {{
+    responsive: true,
+    scrollZoom: false,
+    displayModeBar: true,
+    displaylogo: false,
+    modeBarButtonsToRemove: ['pan2d', 'lasso2d', 'select2d'],
+    modeBarButtonsToAdd: [],
+    modeBarButtons: [['zoom2d', 'resetScale2d']]
+}});
+
+// Handle window resize
+window.addEventListener('resize', function() {{
+    Plotly.Plots.resize('timeline-plot');
+}});
+
+'''
     # Create directories if needed
     os.makedirs('.', exist_ok=True)
     

@@ -1,3 +1,5 @@
+
+
 // Smooth scrolling for navigation links
 document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -21,7 +23,7 @@ window.addEventListener('scroll', () => {
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
-        if (scrollY >= (sectionTop - 200)) {
+        if (scrollY >= (sectionTop - 100)) {
             current = section.getAttribute('id');
         }
     });
@@ -34,28 +36,21 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Animate stat cards on scroll
-const observerOptions = {
-    threshold: 0.5,
-    rootMargin: '0px 0px -100px 0px'
-};
+// Mobile menu toggle for small screens
+function initMobileMenu() {
+    const nav = document.querySelector('nav');
+    if (window.innerWidth < 768) {
+        nav.style.flexWrap = 'wrap';
+    }
+}
 
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.style.opacity = '0';
-            entry.target.style.transform = 'translateY(20px)';
-            setTimeout(() => {
-                entry.target.style.transition = 'all 0.6s ease';
-                entry.target.style.opacity = '1';
-                entry.target.style.transform = 'translateY(0)';
-            }, 100);
-        }
-    });
-}, observerOptions);
-
-document.querySelectorAll('.stat-card, .league-card').forEach(card => {
-    observer.observe(card);
+// Initialize mobile features
+document.addEventListener('DOMContentLoaded', function() {
+    initMobileMenu();
+    
+    // Re-initialize on resize
+    window.addEventListener('resize', initMobileMenu);
 });
 
 console.log('Sports Hub initialized! 🏆');
+
