@@ -52,5 +52,30 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('resize', initMobileMenu);
 });
 
+// Update scroll indicators based on position
+function updateScrollIndicators() {
+    const container = document.querySelector('.timeline-container');
+    const scrollLeft = container.scrollLeft;
+    const scrollWidth = container.scrollWidth;
+    const clientWidth = container.clientWidth;
+    
+    container.classList.remove('scroll-start', 'scroll-middle', 'scroll-end');
+    
+    if (scrollLeft === 0) {
+        container.classList.add('scroll-start');
+    } else if (scrollLeft + clientWidth >= scrollWidth - 10) {
+        container.classList.add('scroll-end');
+    } else {
+        container.classList.add('scroll-middle');
+    }
+}
+
+// Initialize scroll indicators
+document.addEventListener('DOMContentLoaded', function() {
+    const timelineContainer = document.querySelector('.timeline-container');
+    timelineContainer.addEventListener('scroll', updateScrollIndicators);
+    updateScrollIndicators(); // Initial check
+});
+
 console.log('Sports Hub initialized! 🏆');
 
