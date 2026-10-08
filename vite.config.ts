@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// Served from https://alexmtzrmz0212.github.io/Sports/
+// Served from the domain root on Vercel (https://sports.bittobyte.qzz.io).
 export default defineConfig({
-  base: "/Sports/",
+  base: "/",
   plugins: [react()],
 });
