@@ -8,3 +8,5 @@ venv/
 .ipynb_checkpoints/
 .claude/
 tsconfig.tsbuildinfo
+.vercel
+.env*
