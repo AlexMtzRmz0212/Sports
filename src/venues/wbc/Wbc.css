@@ -1,0 +1,354 @@
+/* The press box keeps the almanac look of the original WBC archive. */
+.wbc {
+  font-family: var(--f-press-body);
+  font-size: 1rem;
+}
+
+.wbc h2 {
+  font-family: var(--f-press);
+  font-weight: 400;
+}
+
+/* Flag bunting hung along the press box rail */
+.bunting {
+  height: 34px;
+  background: repeating-linear-gradient(90deg, #9b1c1c 0 40px, #f8f5ee 40px 80px, #1d3c78 80px 120px);
+  -webkit-mask: radial-gradient(circle 20px at 20px 0, #000 98%, transparent) 0 0 / 40px 34px repeat-x;
+  mask: radial-gradient(circle 20px at 20px 0, #000 98%, transparent) 0 0 / 40px 34px repeat-x;
+}
+
+.masthead {
+  padding-top: clamp(24px, 5vw, 56px);
+  padding-bottom: 24px;
+  border-bottom: 3px double var(--ink);
+  margin-bottom: 8px;
+}
+
+.masthead-dateline {
+  margin: 0 0 6px;
+  font: 600 0.95rem/1.3 var(--f-cond);
+  color: var(--accent);
+}
+
+.masthead-dateline a {
+  text-decoration-thickness: 1px;
+}
+
+.masthead h1,
+.masthead-small {
+  font: 400 clamp(3rem, 10vw, 7rem) / 0.95 var(--f-press);
+  letter-spacing: -0.01em;
+}
+
+.masthead-small {
+  font-size: var(--fs-2xl);
+}
+
+.masthead-deck {
+  margin: 14px 0 0;
+  max-width: 60ch;
+  font-size: var(--fs-md);
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
+.section-tight {
+  padding-block: 28px;
+}
+
+.press-link {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 8px 16px;
+  font: 700 1rem/1.2 var(--f-cond);
+  text-decoration: none;
+  color: var(--accent-ink);
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+.press-link:hover {
+  background: var(--ink);
+}
+
+/* ---------- Champions strip / tabs ---------- */
+.champ-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0;
+  border: 1px solid var(--ink);
+  background: var(--surface);
+}
+
+.champ-tab {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  align-items: center;
+  column-gap: 10px;
+  padding: 12px 14px;
+  border: 0;
+  border-right: 1px solid var(--line);
+  background: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.champ-tab[aria-selected="true"] {
+  background: var(--ink);
+  color: var(--surface);
+}
+
+.champ-tab:hover:not([aria-selected="true"]) {
+  background: var(--surface-2);
+}
+
+.champ-year {
+  grid-column: 1 / -1;
+  font: 400 1.6rem/1 var(--f-press);
+}
+
+.champ-name {
+  font: 700 0.95rem/1.2 var(--f-cond);
+}
+
+.flag {
+  flex: none;
+  object-fit: cover;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 2px;
+}
+
+.flag-code {
+  display: inline-grid;
+  place-items: center;
+  font: 700 0.6rem/1 var(--f-cond);
+  background: var(--surface-2);
+  color: var(--ink);
+}
+
+/* ---------- Edition ---------- */
+.edition {
+  padding: clamp(18px, 3vw, 32px);
+  background: var(--surface);
+  border: 1px solid var(--ink);
+  border-top: 0;
+}
+
+.edition-kicker {
+  margin: 0;
+  font: 600 0.95rem/1.3 var(--f-cond);
+  color: var(--ink-soft);
+}
+
+.edition-head h3 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 8px 0;
+  font: 400 clamp(2.2rem, 5vw, 3.4rem) / 1 var(--f-press);
+}
+
+.edition-final {
+  margin: 0 0 20px;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+.edition-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: clamp(20px, 4vw, 48px);
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.dropcap {
+  line-height: 1.75;
+  max-width: 62ch;
+}
+
+.dropcap::first-letter {
+  float: left;
+  margin: 6px 10px 0 0;
+  font: 400 4.2rem/0.8 var(--f-press);
+  color: var(--accent);
+}
+
+.edition-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  margin: 0;
+  background: var(--line);
+  border: 1px solid var(--line);
+  align-self: start;
+}
+
+.edition-facts div {
+  padding: 12px 14px;
+  background: var(--surface);
+}
+
+.edition-facts dt {
+  font: 600 0.85rem/1.2 var(--f-cond);
+  color: var(--ink-soft);
+}
+
+.edition-facts dd {
+  margin: 4px 0 0;
+  font: 400 1.25rem/1.25 var(--f-press);
+}
+
+.edition-facts dd.num {
+  font: 700 1.6rem/1 var(--f-cond);
+}
+
+.press-subhead {
+  margin: 28px 0 10px;
+  font: 700 1rem/1.2 var(--f-cond);
+  color: var(--accent);
+}
+
+.press-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.press-table th {
+  padding: 8px 10px;
+  text-align: left;
+  font: 700 0.85rem/1.2 var(--f-cond);
+  border-bottom: 2px solid var(--ink);
+}
+
+.press-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+.press-table .is-num {
+  text-align: right;
+}
+
+/* ---------- Record book ---------- */
+.records {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+  gap: 1px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.records li {
+  display: grid;
+  gap: 4px;
+  padding: 18px;
+  background: var(--surface);
+}
+
+.record-value {
+  font: 700 2.4rem/1 var(--f-cond);
+  color: var(--accent);
+}
+
+.record-label {
+  font: 400 1.15rem/1.2 var(--f-press);
+}
+
+.record-who {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.wbc .data-table {
+  background: var(--surface);
+}
+
+/* ---------- Game log ---------- */
+.press-h2 {
+  margin-bottom: 14px;
+  padding-bottom: 6px;
+  font-size: var(--fs-xl);
+  border-bottom: 1px solid var(--ink);
+}
+
+.games {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: 11rem minmax(0, 1fr) 3.5rem minmax(0, 1fr) 11rem;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.95rem;
+}
+
+.game-team {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.game-team:last-of-type {
+  justify-content: flex-start;
+}
+
+.game-team.won {
+  font-weight: 700;
+}
+
+.game-score {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.game-when,
+.game-where {
+  font-size: 0.85rem;
+}
+
+.pool-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 340px) minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+
+.pool-table {
+  background: var(--surface);
+}
+
+@media (max-width: 900px) {
+  .edition-grid,
+  .pool-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .game {
+    grid-template-columns: minmax(0, 1fr) 3rem minmax(0, 1fr);
+    row-gap: 2px;
+  }
+
+  .game-when,
+  .game-where {
+    grid-column: 1 / -1;
+  }
+
+  .game-where {
+    order: 5;
+  }
+}

@@ -1,0 +1,1236 @@
+{
+ "generated": "2026-10-08T03:55:40+00:00",
+ "year": 2026,
+ "games": [
+  {
+   "pk": 788120,
+   "date": "2026-03-05",
+   "start": "2026-03-05T03:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "home": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "awayScore": 0,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788115,
+   "date": "2026-03-05",
+   "start": "2026-03-05T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CZE",
+    "name": "Czechia",
+    "iso2": "cz"
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 4,
+   "homeScore": 11,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788116,
+   "date": "2026-03-06",
+   "start": "2026-03-06T03:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "home": {
+    "abbr": "CZE",
+    "name": "Czechia",
+    "iso2": "cz"
+   },
+   "awayScore": 5,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788114,
+   "date": "2026-03-06",
+   "start": "2026-03-06T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "awayScore": 13,
+   "homeScore": 0,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 788139,
+   "date": "2026-03-06",
+   "start": "2026-03-06T16:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "PAN",
+    "name": "Panama",
+    "iso2": "pa"
+   },
+   "awayScore": 3,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788110,
+   "date": "2026-03-06",
+   "start": "2026-03-06T17:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 2,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788129,
+   "date": "2026-03-06",
+   "start": "2026-03-06T18:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B",
+   "venue": "Daikin Park",
+   "city": "Houston",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "GBR",
+    "name": "Great Britain",
+    "iso2": "gb"
+   },
+   "awayScore": 8,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788136,
+   "date": "2026-03-06",
+   "start": "2026-03-06T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "COL",
+    "name": "Colombia",
+    "iso2": "co"
+   },
+   "awayScore": 5,
+   "homeScore": 0,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788105,
+   "date": "2026-03-06",
+   "start": "2026-03-07T00:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "NCA",
+    "name": "Nicaragua",
+    "iso2": "ni"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 3,
+   "homeScore": 12,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788128,
+   "date": "2026-03-06",
+   "start": "2026-03-07T01:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B",
+   "venue": "Daikin Park",
+   "city": "Houston",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "BRA",
+    "name": "Brazil",
+    "iso2": "br"
+   },
+   "awayScore": 15,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788117,
+   "date": "2026-03-07",
+   "start": "2026-03-07T03:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "home": {
+    "abbr": "CZE",
+    "name": "Czechia",
+    "iso2": "cz"
+   },
+   "awayScore": 14,
+   "homeScore": 0,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 788118,
+   "date": "2026-03-07",
+   "start": "2026-03-07T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 6,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788138,
+   "date": "2026-03-07",
+   "start": "2026-03-07T16:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "COL",
+    "name": "Colombia",
+    "iso2": "co"
+   },
+   "home": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "awayScore": 2,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788108,
+   "date": "2026-03-07",
+   "start": "2026-03-07T17:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "NCA",
+    "name": "Nicaragua",
+    "iso2": "ni"
+   },
+   "home": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "awayScore": 3,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788126,
+   "date": "2026-03-07",
+   "start": "2026-03-07T18:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B",
+   "venue": "Daikin Park",
+   "city": "Houston",
+   "away": {
+    "abbr": "BRA",
+    "name": "Brazil",
+    "iso2": "br"
+   },
+   "home": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "awayScore": 0,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788137,
+   "date": "2026-03-07",
+   "start": "2026-03-07T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "PAN",
+    "name": "Panama",
+    "iso2": "pa"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 3,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788107,
+   "date": "2026-03-07",
+   "start": "2026-03-08T00:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "ISR",
+    "name": "Israel",
+    "iso2": "il"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 3,
+   "homeScore": 11,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788127,
+   "date": "2026-03-07",
+   "start": "2026-03-08T01:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B",
+   "venue": "Daikin Park",
+   "city": "Houston",
+   "away": {
+    "abbr": "GBR",
+    "name": "Great Britain",
+    "iso2": "gb"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 1,
+   "homeScore": 9,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788113,
+   "date": "2026-03-08",
+   "start": "2026-03-08T03:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 5,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788109,
+   "date": "2026-03-08",
+   "start": "2026-03-08T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 3,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788135,
+   "date": "2026-03-08",
+   "start": "2026-03-08T16:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "COL",
+    "name": "Colombia",
+    "iso2": "co"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 4,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788106,
+   "date": "2026-03-08",
+   "start": "2026-03-08T16:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 1,
+   "homeScore": 12,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 788124,
+   "date": "2026-03-08",
+   "start": "2026-03-08T17:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B",
+   "venue": "Daikin Park",
+   "city": "Houston",
+   "away": {
+    "abbr": "GBR",
+    "name": "Great Britain",
+    "iso2": "gb"
+   },
+   "home": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "awayScore": 4,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788104,
+   "date": "2026-03-08",
+   "start": "2026-03-08T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "NCA",
+    "name": "Nicaragua",
+    "iso2": "ni"
+   },
+   "home": {
+    "abbr": "ISR",
+    "name": "Israel",
+    "iso2": "il"
+   },
+   "awayScore": 0,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788134,
+   "date": "2026-03-08",
+   "start": "2026-03-08T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "PAN",
+    "name": "Panama",
+    "iso2": "pa"
+   },
+   "home": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "awayScore": 4,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788125,
+   "date": "2026-03-08",
+   "start": "2026-03-09T00:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B",
+   "venue": "Daikin Park",
+   "city": "Houston",
+   "away": {
+    "abbr": "BRA",
+    "name": "Brazil",
+    "iso2": "br"
+   },
+   "home": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "awayScore": 0,
+   "homeScore": 16,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 788112,
+   "date": "2026-03-09",
+   "start": "2026-03-09T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "home": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "awayScore": 7,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788103,
+   "date": "2026-03-09",
+   "start": "2026-03-09T16:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "home": {
+    "abbr": "ISR",
+    "name": "Israel",
+    "iso2": "il"
+   },
+   "awayScore": 10,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788133,
+   "date": "2026-03-09",
+   "start": "2026-03-09T16:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "COL",
+    "name": "Colombia",
+    "iso2": "co"
+   },
+   "home": {
+    "abbr": "PAN",
+    "name": "Panama",
+    "iso2": "pa"
+   },
+   "awayScore": 4,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788123,
+   "date": "2026-03-09",
+   "start": "2026-03-09T17:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B",
+   "venue": "Daikin Park",
+   "city": "Houston",
+   "away": {
+    "abbr": "BRA",
+    "name": "Brazil",
+    "iso2": "br"
+   },
+   "home": {
+    "abbr": "GBR",
+    "name": "Great Britain",
+    "iso2": "gb"
+   },
+   "awayScore": 1,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788131,
+   "date": "2026-03-09",
+   "start": "2026-03-09T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 1,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788099,
+   "date": "2026-03-09",
+   "start": "2026-03-09T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "NCA",
+    "name": "Nicaragua",
+    "iso2": "ni"
+   },
+   "awayScore": 4,
+   "homeScore": 0,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788122,
+   "date": "2026-03-09",
+   "start": "2026-03-10T00:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B",
+   "venue": "Daikin Park",
+   "city": "Houston",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 3,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788111,
+   "date": "2026-03-10",
+   "start": "2026-03-10T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CZE",
+    "name": "Czechia",
+    "iso2": "cz"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 0,
+   "homeScore": 9,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788102,
+   "date": "2026-03-10",
+   "start": "2026-03-10T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "ISR",
+    "name": "Israel",
+    "iso2": "il"
+   },
+   "home": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "awayScore": 6,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788132,
+   "date": "2026-03-10",
+   "start": "2026-03-10T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 3,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788119,
+   "date": "2026-03-10",
+   "start": "2026-03-11T01:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B",
+   "venue": "Daikin Park",
+   "city": "Houston",
+   "away": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 8,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788130,
+   "date": "2026-03-11",
+   "start": "2026-03-11T19:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 7,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788121,
+   "date": "2026-03-11",
+   "start": "2026-03-11T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B",
+   "venue": "Daikin Park",
+   "city": "Houston",
+   "away": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "home": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "awayScore": 9,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788101,
+   "date": "2026-03-11",
+   "start": "2026-03-12T00:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 7,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788095,
+   "date": "2026-03-13",
+   "start": "2026-03-13T22:30:00Z",
+   "stage": "Quarterfinals",
+   "type": "D",
+   "label": "Quarterfinal 1: Pool C Runner-Up vs. Pool D Winner",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 0,
+   "homeScore": 10,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 788100,
+   "date": "2026-03-13",
+   "start": "2026-03-14T00:00:00Z",
+   "stage": "Quarterfinals",
+   "type": "D",
+   "label": "Quarterfinal 2: Pool B Runner-Up vs. Pool A Winner",
+   "venue": "Daikin Park",
+   "city": "Houston",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "awayScore": 5,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788098,
+   "date": "2026-03-14",
+   "start": "2026-03-14T19:00:00Z",
+   "stage": "Quarterfinals",
+   "type": "D",
+   "label": "Quarterfinal 3: Pool A Runner-Up vs. Pool B Winner",
+   "venue": "Daikin Park",
+   "city": "Houston",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "awayScore": 6,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788097,
+   "date": "2026-03-14",
+   "start": "2026-03-15T01:00:00Z",
+   "stage": "Quarterfinals",
+   "type": "D",
+   "label": "Quarterfinal 4: Pool D Runner-Up vs. Pool C Winner",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 8,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788096,
+   "date": "2026-03-15",
+   "start": "2026-03-16T00:00:00Z",
+   "stage": "Semifinals",
+   "type": "L",
+   "label": "Semifinal 1: Winners of Quarterfinals 1 & 2",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 2,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788093,
+   "date": "2026-03-16",
+   "start": "2026-03-17T00:00:00Z",
+   "stage": "Semifinals",
+   "type": "L",
+   "label": "Semifinal 2: Winners of Quarterfinals 3 & 4",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "awayScore": 4,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 788094,
+   "date": "2026-03-17",
+   "start": "2026-03-18T00:00:00Z",
+   "stage": "Final",
+   "type": "W",
+   "label": "Finals: Winners of Semifinals 1 & 2",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 3,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  }
+ ],
+ "teams": [
+  {
+   "abbr": "TPE",
+   "name": "Chinese Taipei",
+   "iso2": null
+  },
+  {
+   "abbr": "AUS",
+   "name": "Australia",
+   "iso2": "au"
+  },
+  {
+   "abbr": "CZE",
+   "name": "Czechia",
+   "iso2": "cz"
+  },
+  {
+   "abbr": "KOR",
+   "name": "South Korea",
+   "iso2": "kr"
+  },
+  {
+   "abbr": "JPN",
+   "name": "Japan",
+   "iso2": "jp"
+  },
+  {
+   "abbr": "CUB",
+   "name": "Cuba",
+   "iso2": "cu"
+  },
+  {
+   "abbr": "PAN",
+   "name": "Panama",
+   "iso2": "pa"
+  },
+  {
+   "abbr": "NED",
+   "name": "Netherlands",
+   "iso2": "nl"
+  },
+  {
+   "abbr": "VEN",
+   "name": "Venezuela",
+   "iso2": "ve"
+  },
+  {
+   "abbr": "MEX",
+   "name": "Mexico",
+   "iso2": "mx"
+  },
+  {
+   "abbr": "GBR",
+   "name": "Great Britain",
+   "iso2": "gb"
+  },
+  {
+   "abbr": "PUR",
+   "name": "Puerto Rico",
+   "iso2": "pr"
+  },
+  {
+   "abbr": "COL",
+   "name": "Colombia",
+   "iso2": "co"
+  },
+  {
+   "abbr": "NCA",
+   "name": "Nicaragua",
+   "iso2": "ni"
+  },
+  {
+   "abbr": "DOM",
+   "name": "Dominican Republic",
+   "iso2": "do"
+  },
+  {
+   "abbr": "USA",
+   "name": "United States",
+   "iso2": "us"
+  },
+  {
+   "abbr": "BRA",
+   "name": "Brazil",
+   "iso2": "br"
+  },
+  {
+   "abbr": "CAN",
+   "name": "Canada",
+   "iso2": "ca"
+  },
+  {
+   "abbr": "ITA",
+   "name": "Italy",
+   "iso2": "it"
+  },
+  {
+   "abbr": "ISR",
+   "name": "Israel",
+   "iso2": "il"
+  }
+ ]
+}

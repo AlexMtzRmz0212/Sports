@@ -1,0 +1,43 @@
+/* Painted end-zone lettering for the sign */
+.nfl .venue-sign h1 {
+  font-style: italic;
+  color: transparent;
+  -webkit-text-stroke: 3px var(--ink);
+  text-shadow: 6px 6px 0 rgba(255, 199, 44, 0.35);
+}
+
+@supports not (-webkit-text-stroke: 1px black) {
+  .nfl .venue-sign h1 {
+    color: var(--ink);
+  }
+}
+
+/* Jumbotron: black bezel, LED panels */
+.jumbotron {
+  padding: 10px;
+  background: #05080c;
+  border-radius: 6px;
+  box-shadow: 0 0 0 3px #1c2733, 0 14px 40px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron .reading {
+  background:
+    radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 1.5px) 0 0 / 4px 4px,
+    var(--surface);
+  border-radius: 3px;
+}
+
+.jumbotron .reading-value {
+  color: var(--accent);
+  text-shadow: 0 0 14px rgba(255, 199, 44, 0.45);
+}
+
+.jumbotron-panel {
+  padding: 18px;
+  background: var(--surface);
+  border-radius: var(--radius);
+}
+
+.nfl .division {
+  border-top: 4px solid var(--accent);
+}

@@ -1,0 +1,1091 @@
+{
+ "1903": {
+  "year": 1903,
+  "champion": "Boston Americans",
+  "runnerUp": "Pittsburgh Pirates",
+  "wins": 5,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1903-10-13"
+ },
+ "1905": {
+  "year": 1905,
+  "champion": "New York Giants",
+  "runnerUp": "Philadelphia Athletics",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1905-10-14"
+ },
+ "1906": {
+  "year": 1906,
+  "champion": "Chicago White Sox",
+  "runnerUp": "Chicago Cubs",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1906-10-14"
+ },
+ "1907": {
+  "year": 1907,
+  "champion": "Chicago Cubs",
+  "runnerUp": "Detroit Tigers",
+  "wins": 4,
+  "losses": 0,
+  "ties": 1,
+  "decidedOn": "1907-10-12"
+ },
+ "1908": {
+  "year": 1908,
+  "champion": "Chicago Cubs",
+  "runnerUp": "Detroit Tigers",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1908-10-14"
+ },
+ "1909": {
+  "year": 1909,
+  "champion": "Pittsburgh Pirates",
+  "runnerUp": "Detroit Tigers",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1909-10-16"
+ },
+ "1910": {
+  "year": 1910,
+  "champion": "Philadelphia Athletics",
+  "runnerUp": "Chicago Cubs",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1910-10-23"
+ },
+ "1911": {
+  "year": 1911,
+  "champion": "Philadelphia Athletics",
+  "runnerUp": "New York Giants",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1911-10-26"
+ },
+ "1912": {
+  "year": 1912,
+  "champion": "Boston Red Sox",
+  "runnerUp": "New York Giants",
+  "wins": 4,
+  "losses": 3,
+  "ties": 1,
+  "decidedOn": "1912-10-16"
+ },
+ "1913": {
+  "year": 1913,
+  "champion": "Philadelphia Athletics",
+  "runnerUp": "New York Giants",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1913-10-11"
+ },
+ "1914": {
+  "year": 1914,
+  "champion": "Boston Braves",
+  "runnerUp": "Philadelphia Athletics",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1914-10-13"
+ },
+ "1915": {
+  "year": 1915,
+  "champion": "Boston Red Sox",
+  "runnerUp": "Philadelphia Phillies",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1915-10-13"
+ },
+ "1916": {
+  "year": 1916,
+  "champion": "Boston Red Sox",
+  "runnerUp": "Brooklyn Robins",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1916-10-12"
+ },
+ "1917": {
+  "year": 1917,
+  "champion": "Chicago White Sox",
+  "runnerUp": "New York Giants",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1917-10-15"
+ },
+ "1918": {
+  "year": 1918,
+  "champion": "Boston Red Sox",
+  "runnerUp": "Chicago Cubs",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1918-09-11"
+ },
+ "1919": {
+  "year": 1919,
+  "champion": "Cincinnati Reds",
+  "runnerUp": "Chicago White Sox",
+  "wins": 5,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1919-10-09"
+ },
+ "1920": {
+  "year": 1920,
+  "champion": "Cleveland Indians",
+  "runnerUp": "Brooklyn Robins",
+  "wins": 5,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1920-10-12"
+ },
+ "1921": {
+  "year": 1921,
+  "champion": "New York Giants",
+  "runnerUp": "New York Yankees",
+  "wins": 5,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1921-10-13"
+ },
+ "1922": {
+  "year": 1922,
+  "champion": "New York Giants",
+  "runnerUp": "New York Yankees",
+  "wins": 4,
+  "losses": 0,
+  "ties": 1,
+  "decidedOn": "1922-10-08"
+ },
+ "1923": {
+  "year": 1923,
+  "champion": "New York Yankees",
+  "runnerUp": "New York Giants",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1923-10-15"
+ },
+ "1924": {
+  "year": 1924,
+  "champion": "Washington Senators",
+  "runnerUp": "New York Giants",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1924-10-10"
+ },
+ "1925": {
+  "year": 1925,
+  "champion": "Pittsburgh Pirates",
+  "runnerUp": "Washington Senators",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1925-10-15"
+ },
+ "1926": {
+  "year": 1926,
+  "champion": "St. Louis Cardinals",
+  "runnerUp": "New York Yankees",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1926-10-10"
+ },
+ "1927": {
+  "year": 1927,
+  "champion": "New York Yankees",
+  "runnerUp": "Pittsburgh Pirates",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1927-10-08"
+ },
+ "1928": {
+  "year": 1928,
+  "champion": "New York Yankees",
+  "runnerUp": "St. Louis Cardinals",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1928-10-09"
+ },
+ "1929": {
+  "year": 1929,
+  "champion": "Philadelphia Athletics",
+  "runnerUp": "Chicago Cubs",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1929-10-14"
+ },
+ "1930": {
+  "year": 1930,
+  "champion": "Philadelphia Athletics",
+  "runnerUp": "St. Louis Cardinals",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1930-10-08"
+ },
+ "1931": {
+  "year": 1931,
+  "champion": "St. Louis Cardinals",
+  "runnerUp": "Philadelphia Athletics",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1931-10-10"
+ },
+ "1932": {
+  "year": 1932,
+  "champion": "New York Yankees",
+  "runnerUp": "Chicago Cubs",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1932-10-02"
+ },
+ "1933": {
+  "year": 1933,
+  "champion": "New York Giants",
+  "runnerUp": "Washington Senators",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1933-10-07"
+ },
+ "1934": {
+  "year": 1934,
+  "champion": "St. Louis Cardinals",
+  "runnerUp": "Detroit Tigers",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1934-10-09"
+ },
+ "1935": {
+  "year": 1935,
+  "champion": "Detroit Tigers",
+  "runnerUp": "Chicago Cubs",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1935-10-07"
+ },
+ "1936": {
+  "year": 1936,
+  "champion": "New York Yankees",
+  "runnerUp": "New York Giants",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1936-10-06"
+ },
+ "1937": {
+  "year": 1937,
+  "champion": "New York Yankees",
+  "runnerUp": "New York Giants",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1937-10-10"
+ },
+ "1938": {
+  "year": 1938,
+  "champion": "New York Yankees",
+  "runnerUp": "Chicago Cubs",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1938-10-09"
+ },
+ "1939": {
+  "year": 1939,
+  "champion": "New York Yankees",
+  "runnerUp": "Cincinnati Reds",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1939-10-08"
+ },
+ "1940": {
+  "year": 1940,
+  "champion": "Cincinnati Reds",
+  "runnerUp": "Detroit Tigers",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1940-10-08"
+ },
+ "1941": {
+  "year": 1941,
+  "champion": "New York Yankees",
+  "runnerUp": "Brooklyn Dodgers",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1941-10-06"
+ },
+ "1942": {
+  "year": 1942,
+  "champion": "St. Louis Cardinals",
+  "runnerUp": "New York Yankees",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1942-10-05"
+ },
+ "1943": {
+  "year": 1943,
+  "champion": "New York Yankees",
+  "runnerUp": "St. Louis Cardinals",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1943-10-11"
+ },
+ "1944": {
+  "year": 1944,
+  "champion": "St. Louis Cardinals",
+  "runnerUp": "St. Louis Browns",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1944-10-09"
+ },
+ "1945": {
+  "year": 1945,
+  "champion": "Detroit Tigers",
+  "runnerUp": "Chicago Cubs",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1945-10-10"
+ },
+ "1946": {
+  "year": 1946,
+  "champion": "St. Louis Cardinals",
+  "runnerUp": "Boston Red Sox",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1946-10-15"
+ },
+ "1947": {
+  "year": 1947,
+  "champion": "New York Yankees",
+  "runnerUp": "Brooklyn Dodgers",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1947-10-06"
+ },
+ "1948": {
+  "year": 1948,
+  "champion": "Cleveland Indians",
+  "runnerUp": "Boston Braves",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1948-10-11"
+ },
+ "1949": {
+  "year": 1949,
+  "champion": "New York Yankees",
+  "runnerUp": "Brooklyn Dodgers",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1949-10-09"
+ },
+ "1950": {
+  "year": 1950,
+  "champion": "New York Yankees",
+  "runnerUp": "Philadelphia Phillies",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1950-10-07"
+ },
+ "1951": {
+  "year": 1951,
+  "champion": "New York Yankees",
+  "runnerUp": "New York Giants",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1951-10-10"
+ },
+ "1952": {
+  "year": 1952,
+  "champion": "New York Yankees",
+  "runnerUp": "Brooklyn Dodgers",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1952-10-07"
+ },
+ "1953": {
+  "year": 1953,
+  "champion": "New York Yankees",
+  "runnerUp": "Brooklyn Dodgers",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1953-10-05"
+ },
+ "1954": {
+  "year": 1954,
+  "champion": "New York Giants",
+  "runnerUp": "Cleveland Indians",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1954-10-02"
+ },
+ "1955": {
+  "year": 1955,
+  "champion": "Brooklyn Dodgers",
+  "runnerUp": "New York Yankees",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1955-10-04"
+ },
+ "1956": {
+  "year": 1956,
+  "champion": "New York Yankees",
+  "runnerUp": "Brooklyn Dodgers",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1956-10-10"
+ },
+ "1957": {
+  "year": 1957,
+  "champion": "Milwaukee Braves",
+  "runnerUp": "New York Yankees",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1957-10-10"
+ },
+ "1958": {
+  "year": 1958,
+  "champion": "New York Yankees",
+  "runnerUp": "Milwaukee Braves",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1958-10-09"
+ },
+ "1959": {
+  "year": 1959,
+  "champion": "Los Angeles Dodgers",
+  "runnerUp": "Chicago White Sox",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1959-10-08"
+ },
+ "1960": {
+  "year": 1960,
+  "champion": "Pittsburgh Pirates",
+  "runnerUp": "New York Yankees",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1960-10-13"
+ },
+ "1961": {
+  "year": 1961,
+  "champion": "New York Yankees",
+  "runnerUp": "Cincinnati Reds",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1961-10-09"
+ },
+ "1962": {
+  "year": 1962,
+  "champion": "New York Yankees",
+  "runnerUp": "San Francisco Giants",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1962-10-16"
+ },
+ "1963": {
+  "year": 1963,
+  "champion": "Los Angeles Dodgers",
+  "runnerUp": "New York Yankees",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1963-10-06"
+ },
+ "1964": {
+  "year": 1964,
+  "champion": "St. Louis Cardinals",
+  "runnerUp": "New York Yankees",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1964-10-15"
+ },
+ "1965": {
+  "year": 1965,
+  "champion": "Los Angeles Dodgers",
+  "runnerUp": "Minnesota Twins",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1965-10-14"
+ },
+ "1966": {
+  "year": 1966,
+  "champion": "Baltimore Orioles",
+  "runnerUp": "Los Angeles Dodgers",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1966-10-09"
+ },
+ "1967": {
+  "year": 1967,
+  "champion": "St. Louis Cardinals",
+  "runnerUp": "Boston Red Sox",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1967-10-12"
+ },
+ "1968": {
+  "year": 1968,
+  "champion": "Detroit Tigers",
+  "runnerUp": "St. Louis Cardinals",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1968-10-10"
+ },
+ "1969": {
+  "year": 1969,
+  "champion": "New York Mets",
+  "runnerUp": "Baltimore Orioles",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1969-10-16"
+ },
+ "1970": {
+  "year": 1970,
+  "champion": "Baltimore Orioles",
+  "runnerUp": "Cincinnati Reds",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1970-10-15"
+ },
+ "1971": {
+  "year": 1971,
+  "champion": "Pittsburgh Pirates",
+  "runnerUp": "Baltimore Orioles",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1971-10-17"
+ },
+ "1972": {
+  "year": 1972,
+  "champion": "Oakland Athletics",
+  "runnerUp": "Cincinnati Reds",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1972-10-22"
+ },
+ "1973": {
+  "year": 1973,
+  "champion": "Oakland Athletics",
+  "runnerUp": "New York Mets",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1973-10-21"
+ },
+ "1974": {
+  "year": 1974,
+  "champion": "Oakland Athletics",
+  "runnerUp": "Los Angeles Dodgers",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1974-10-17"
+ },
+ "1975": {
+  "year": 1975,
+  "champion": "Cincinnati Reds",
+  "runnerUp": "Boston Red Sox",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1975-10-22"
+ },
+ "1976": {
+  "year": 1976,
+  "champion": "Cincinnati Reds",
+  "runnerUp": "New York Yankees",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1976-10-21"
+ },
+ "1977": {
+  "year": 1977,
+  "champion": "New York Yankees",
+  "runnerUp": "Los Angeles Dodgers",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1977-10-18"
+ },
+ "1978": {
+  "year": 1978,
+  "champion": "New York Yankees",
+  "runnerUp": "Los Angeles Dodgers",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1978-10-17"
+ },
+ "1979": {
+  "year": 1979,
+  "champion": "Pittsburgh Pirates",
+  "runnerUp": "Baltimore Orioles",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1979-10-17"
+ },
+ "1980": {
+  "year": 1980,
+  "champion": "Philadelphia Phillies",
+  "runnerUp": "Kansas City Royals",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1980-10-21"
+ },
+ "1981": {
+  "year": 1981,
+  "champion": "Los Angeles Dodgers",
+  "runnerUp": "New York Yankees",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1981-10-28"
+ },
+ "1982": {
+  "year": 1982,
+  "champion": "St. Louis Cardinals",
+  "runnerUp": "Milwaukee Brewers",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1982-10-20"
+ },
+ "1983": {
+  "year": 1983,
+  "champion": "Baltimore Orioles",
+  "runnerUp": "Philadelphia Phillies",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1983-10-16"
+ },
+ "1984": {
+  "year": 1984,
+  "champion": "Detroit Tigers",
+  "runnerUp": "San Diego Padres",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1984-10-14"
+ },
+ "1985": {
+  "year": 1985,
+  "champion": "Kansas City Royals",
+  "runnerUp": "St. Louis Cardinals",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1985-10-27"
+ },
+ "1986": {
+  "year": 1986,
+  "champion": "New York Mets",
+  "runnerUp": "Boston Red Sox",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1986-10-27"
+ },
+ "1987": {
+  "year": 1987,
+  "champion": "Minnesota Twins",
+  "runnerUp": "St. Louis Cardinals",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1987-10-25"
+ },
+ "1988": {
+  "year": 1988,
+  "champion": "Los Angeles Dodgers",
+  "runnerUp": "Oakland Athletics",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "1988-10-20"
+ },
+ "1989": {
+  "year": 1989,
+  "champion": "Oakland Athletics",
+  "runnerUp": "San Francisco Giants",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1989-10-28"
+ },
+ "1990": {
+  "year": 1990,
+  "champion": "Cincinnati Reds",
+  "runnerUp": "Oakland Athletics",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1990-10-20"
+ },
+ "1991": {
+  "year": 1991,
+  "champion": "Minnesota Twins",
+  "runnerUp": "Atlanta Braves",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1991-10-27"
+ },
+ "1992": {
+  "year": 1992,
+  "champion": "Toronto Blue Jays",
+  "runnerUp": "Atlanta Braves",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1992-10-24"
+ },
+ "1993": {
+  "year": 1993,
+  "champion": "Toronto Blue Jays",
+  "runnerUp": "Philadelphia Phillies",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1993-10-23"
+ },
+ "1995": {
+  "year": 1995,
+  "champion": "Atlanta Braves",
+  "runnerUp": "Cleveland Indians",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1995-10-28"
+ },
+ "1996": {
+  "year": 1996,
+  "champion": "New York Yankees",
+  "runnerUp": "Atlanta Braves",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "1996-10-26"
+ },
+ "1997": {
+  "year": 1997,
+  "champion": "Florida Marlins",
+  "runnerUp": "Cleveland Indians",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "1997-10-26"
+ },
+ "1998": {
+  "year": 1998,
+  "champion": "New York Yankees",
+  "runnerUp": "San Diego Padres",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1998-10-21"
+ },
+ "1999": {
+  "year": 1999,
+  "champion": "New York Yankees",
+  "runnerUp": "Atlanta Braves",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "1999-10-27"
+ },
+ "2000": {
+  "year": 2000,
+  "champion": "New York Yankees",
+  "runnerUp": "New York Mets",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "2000-10-26"
+ },
+ "2001": {
+  "year": 2001,
+  "champion": "Arizona Diamondbacks",
+  "runnerUp": "New York Yankees",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "2001-11-04"
+ },
+ "2002": {
+  "year": 2002,
+  "champion": "Anaheim Angels",
+  "runnerUp": "San Francisco Giants",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "2002-10-27"
+ },
+ "2003": {
+  "year": 2003,
+  "champion": "Florida Marlins",
+  "runnerUp": "New York Yankees",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "2003-10-25"
+ },
+ "2004": {
+  "year": 2004,
+  "champion": "Boston Red Sox",
+  "runnerUp": "St. Louis Cardinals",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "2004-10-27"
+ },
+ "2005": {
+  "year": 2005,
+  "champion": "Chicago White Sox",
+  "runnerUp": "Houston Astros",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "2005-10-26"
+ },
+ "2006": {
+  "year": 2006,
+  "champion": "St. Louis Cardinals",
+  "runnerUp": "Detroit Tigers",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "2006-10-27"
+ },
+ "2007": {
+  "year": 2007,
+  "champion": "Boston Red Sox",
+  "runnerUp": "Colorado Rockies",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "2007-10-28"
+ },
+ "2008": {
+  "year": 2008,
+  "champion": "Philadelphia Phillies",
+  "runnerUp": "Tampa Bay Rays",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "2008-10-27"
+ },
+ "2009": {
+  "year": 2009,
+  "champion": "New York Yankees",
+  "runnerUp": "Philadelphia Phillies",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "2009-11-04"
+ },
+ "2010": {
+  "year": 2010,
+  "champion": "San Francisco Giants",
+  "runnerUp": "Texas Rangers",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "2010-11-01"
+ },
+ "2011": {
+  "year": 2011,
+  "champion": "St. Louis Cardinals",
+  "runnerUp": "Texas Rangers",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "2011-10-28"
+ },
+ "2012": {
+  "year": 2012,
+  "champion": "San Francisco Giants",
+  "runnerUp": "Detroit Tigers",
+  "wins": 4,
+  "losses": 0,
+  "ties": 0,
+  "decidedOn": "2012-10-28"
+ },
+ "2013": {
+  "year": 2013,
+  "champion": "Boston Red Sox",
+  "runnerUp": "St. Louis Cardinals",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "2013-10-30"
+ },
+ "2014": {
+  "year": 2014,
+  "champion": "San Francisco Giants",
+  "runnerUp": "Kansas City Royals",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "2014-10-29"
+ },
+ "2015": {
+  "year": 2015,
+  "champion": "Kansas City Royals",
+  "runnerUp": "New York Mets",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "2015-11-01"
+ },
+ "2016": {
+  "year": 2016,
+  "champion": "Chicago Cubs",
+  "runnerUp": "Cleveland Indians",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "2016-11-02"
+ },
+ "2017": {
+  "year": 2017,
+  "champion": "Houston Astros",
+  "runnerUp": "Los Angeles Dodgers",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "2017-11-01"
+ },
+ "2018": {
+  "year": 2018,
+  "champion": "Boston Red Sox",
+  "runnerUp": "Los Angeles Dodgers",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "2018-10-28"
+ },
+ "2019": {
+  "year": 2019,
+  "champion": "Washington Nationals",
+  "runnerUp": "Houston Astros",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "2019-10-30"
+ },
+ "2020": {
+  "year": 2020,
+  "champion": "Los Angeles Dodgers",
+  "runnerUp": "Tampa Bay Rays",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "2020-10-27"
+ },
+ "2021": {
+  "year": 2021,
+  "champion": "Atlanta Braves",
+  "runnerUp": "Houston Astros",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "2021-11-02"
+ },
+ "2022": {
+  "year": 2022,
+  "champion": "Houston Astros",
+  "runnerUp": "Philadelphia Phillies",
+  "wins": 4,
+  "losses": 2,
+  "ties": 0,
+  "decidedOn": "2022-11-05"
+ },
+ "2023": {
+  "year": 2023,
+  "champion": "Texas Rangers",
+  "runnerUp": "Arizona Diamondbacks",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "2023-11-01"
+ },
+ "2024": {
+  "year": 2024,
+  "champion": "Los Angeles Dodgers",
+  "runnerUp": "New York Yankees",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "2024-10-30"
+ },
+ "2025": {
+  "year": 2025,
+  "champion": "Los Angeles Dodgers",
+  "runnerUp": "Toronto Blue Jays",
+  "wins": 4,
+  "losses": 3,
+  "ties": 0,
+  "decidedOn": "2025-11-01"
+ }
+}

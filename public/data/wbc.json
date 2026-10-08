@@ -1,0 +1,2393 @@
+{
+ "generated": "2026-10-08T03:55:40+00:00",
+ "editions": [
+  {
+   "year": 2006,
+   "edition": 1,
+   "complete": true,
+   "start": "2006-03-03",
+   "end": "2006-03-20",
+   "nations": 16,
+   "games": 39,
+   "runs": 368,
+   "venues": [
+    "Angel Stadium of Anaheim, Anaheim",
+    "Chase Field, Phoenix",
+    "Cracker Jack Stadium, Lake Buena Vista",
+    "Hiram Bithorn Stadium, San Juan",
+    "PETCO Park, San Diego",
+    "Scottsdale Stadium, Scottsdale",
+    "Tokyo Dome, Tokyo"
+   ],
+   "champion": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "runnerUp": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "final": {
+    "pk": 39938,
+    "date": "2006-03-20",
+    "start": "2006-03-21T02:00:00Z",
+    "stage": "Final",
+    "type": "W",
+    "label": "WBC Final",
+    "venue": "PETCO Park",
+    "city": "San Diego",
+    "away": {
+     "abbr": "JPN",
+     "name": "Japan",
+     "iso2": "jp"
+    },
+    "home": {
+     "abbr": "CUB",
+     "name": "Cuba",
+     "iso2": "cu"
+    },
+    "awayScore": 10,
+    "homeScore": 6,
+    "final": true,
+    "status": "Final"
+   },
+   "mvp": {
+    "name": "Daisuke Matsuzaka",
+    "team": "JPN"
+   },
+   "topHitters": [
+    {
+     "name": "Ken Griffey Jr.",
+     "team": "USA",
+     "pa": 24,
+     "ab": 21,
+     "h": 11,
+     "hr": 3,
+     "rbi": 10,
+     "bb": 3,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 22,
+     "avg": 0.524,
+     "obp": 0.583,
+     "slg": 1.048,
+     "ops": 1.631
+    },
+    {
+     "name": "Derrek Lee",
+     "team": "USA",
+     "pa": 16,
+     "ab": 14,
+     "h": 5,
+     "hr": 3,
+     "rbi": 8,
+     "bb": 1,
+     "hbp": 1,
+     "sf": 0,
+     "tb": 15,
+     "avg": 0.357,
+     "obp": 0.438,
+     "slg": 1.071,
+     "ops": 1.509
+    },
+    {
+     "name": "Seung Yuop Lee",
+     "team": "KOR",
+     "pa": 29,
+     "ab": 24,
+     "h": 8,
+     "hr": 5,
+     "rbi": 10,
+     "bb": 4,
+     "hbp": 0,
+     "sf": 1,
+     "tb": 23,
+     "avg": 0.333,
+     "obp": 0.414,
+     "slg": 0.958,
+     "ops": 1.372
+    },
+    {
+     "name": "Adrian Beltré",
+     "team": "DOM",
+     "pa": 23,
+     "ab": 20,
+     "h": 6,
+     "hr": 4,
+     "rbi": 9,
+     "bb": 1,
+     "hbp": 2,
+     "sf": 0,
+     "tb": 18,
+     "avg": 0.3,
+     "obp": 0.391,
+     "slg": 0.9,
+     "ops": 1.291
+    },
+    {
+     "name": "Chipper Jones",
+     "team": "USA",
+     "pa": 21,
+     "ab": 17,
+     "h": 6,
+     "hr": 2,
+     "rbi": 2,
+     "bb": 4,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 13,
+     "avg": 0.353,
+     "obp": 0.476,
+     "slg": 0.765,
+     "ops": 1.241
+    }
+   ],
+   "leaders": {
+    "hits": {
+     "name": "Nobuhiko Matsunaka",
+     "team": "JPN",
+     "pa": 36,
+     "ab": 30,
+     "h": 13,
+     "hr": 0,
+     "rbi": 2,
+     "bb": 4,
+     "hbp": 2,
+     "sf": 0,
+     "tb": 17,
+     "avg": 0.433,
+     "obp": 0.528,
+     "slg": 0.567,
+     "ops": 1.094
+    },
+    "homeRuns": {
+     "name": "Seung Yuop Lee",
+     "team": "KOR",
+     "pa": 29,
+     "ab": 24,
+     "h": 8,
+     "hr": 5,
+     "rbi": 10,
+     "bb": 4,
+     "hbp": 0,
+     "sf": 1,
+     "tb": 23,
+     "avg": 0.333,
+     "obp": 0.414,
+     "slg": 0.958,
+     "ops": 1.372
+    },
+    "rbi": {
+     "name": "Ken Griffey Jr.",
+     "team": "USA",
+     "pa": 24,
+     "ab": 21,
+     "h": 11,
+     "hr": 3,
+     "rbi": 10,
+     "bb": 3,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 22,
+     "avg": 0.524,
+     "obp": 0.583,
+     "slg": 1.048,
+     "ops": 1.631
+    }
+   },
+   "records": {
+    "KOR": {
+     "w": 6,
+     "l": 1,
+     "rf": 26,
+     "ra": 14,
+     "stage": 3
+    },
+    "TPE": {
+     "w": 1,
+     "l": 2,
+     "rf": 15,
+     "ra": 19,
+     "stage": 1
+    },
+    "JPN": {
+     "w": 5,
+     "l": 3,
+     "rf": 60,
+     "ra": 21,
+     "stage": 5
+    },
+    "CHN": {
+     "w": 0,
+     "l": 3,
+     "rf": 6,
+     "ra": 40,
+     "stage": 1
+    },
+    "DOM": {
+     "w": 5,
+     "l": 2,
+     "rf": 36,
+     "ra": 26,
+     "stage": 3
+    },
+    "VEN": {
+     "w": 3,
+     "l": 3,
+     "rf": 22,
+     "ra": 20,
+     "stage": 2
+    },
+    "MEX": {
+     "w": 3,
+     "l": 3,
+     "rf": 23,
+     "ra": 16,
+     "stage": 2
+    },
+    "USA": {
+     "w": 3,
+     "l": 3,
+     "rf": 33,
+     "ra": 20,
+     "stage": 2
+    },
+    "PAN": {
+     "w": 0,
+     "l": 3,
+     "rf": 7,
+     "ra": 20,
+     "stage": 1
+    },
+    "PUR": {
+     "w": 4,
+     "l": 2,
+     "rf": 32,
+     "ra": 17,
+     "stage": 2
+    },
+    "AUS": {
+     "w": 0,
+     "l": 3,
+     "rf": 4,
+     "ra": 18,
+     "stage": 1
+    },
+    "ITA": {
+     "w": 1,
+     "l": 2,
+     "rf": 13,
+     "ra": 14,
+     "stage": 1
+    },
+    "CAN": {
+     "w": 2,
+     "l": 1,
+     "rf": 20,
+     "ra": 23,
+     "stage": 1
+    },
+    "RSA": {
+     "w": 0,
+     "l": 3,
+     "rf": 12,
+     "ra": 38,
+     "stage": 1
+    },
+    "CUB": {
+     "w": 5,
+     "l": 3,
+     "rf": 44,
+     "ra": 43,
+     "stage": 4
+    },
+    "NED": {
+     "w": 1,
+     "l": 2,
+     "rf": 15,
+     "ra": 19,
+     "stage": 1
+    }
+   }
+  },
+  {
+   "year": 2009,
+   "edition": 2,
+   "complete": true,
+   "start": "2009-03-05",
+   "end": "2009-03-23",
+   "nations": 16,
+   "games": 39,
+   "runs": 379,
+   "venues": [
+    "Dodger Stadium, Los Angeles",
+    "Hiram Bithorn Stadium, San Juan",
+    "Land Shark Stadium, Miami",
+    "PETCO Park, San Diego",
+    "Parque Foro Sol, Mexico City",
+    "Rogers Centre, Toronto",
+    "Tokyo Dome, Tokyo"
+   ],
+   "champion": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "runnerUp": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "final": {
+    "pk": 251367,
+    "date": "2009-03-23",
+    "start": "2009-03-24T01:30:00Z",
+    "stage": "Final",
+    "type": "W",
+    "label": "WBC Final",
+    "venue": "Dodger Stadium",
+    "city": "Los Angeles",
+    "away": {
+     "abbr": "JPN",
+     "name": "Japan",
+     "iso2": "jp"
+    },
+    "home": {
+     "abbr": "KOR",
+     "name": "South Korea",
+     "iso2": "kr"
+    },
+    "awayScore": 5,
+    "homeScore": 3,
+    "final": true,
+    "status": "Final"
+   },
+   "mvp": {
+    "name": "Daisuke Matsuzaka",
+    "team": "JPN"
+   },
+   "topHitters": [
+    {
+     "name": "Carlos Delgado",
+     "team": "PUR",
+     "pa": 24,
+     "ab": 16,
+     "h": 7,
+     "hr": 2,
+     "rbi": 5,
+     "bb": 7,
+     "hbp": 1,
+     "sf": 0,
+     "tb": 15,
+     "avg": 0.438,
+     "obp": 0.625,
+     "slg": 0.938,
+     "ops": 1.562
+    },
+    {
+     "name": "Ivan Rodriguez",
+     "team": "PUR",
+     "pa": 24,
+     "ab": 20,
+     "h": 10,
+     "hr": 2,
+     "rbi": 6,
+     "bb": 4,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 19,
+     "avg": 0.5,
+     "obp": 0.583,
+     "slg": 0.95,
+     "ops": 1.533
+    },
+    {
+     "name": "Frederich Cepeda",
+     "team": "CUB",
+     "pa": 26,
+     "ab": 24,
+     "h": 12,
+     "hr": 3,
+     "rbi": 10,
+     "bb": 2,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 23,
+     "avg": 0.5,
+     "obp": 0.538,
+     "slg": 0.958,
+     "ops": 1.497
+    },
+    {
+     "name": "Yoenis Cespedes",
+     "team": "CUB",
+     "pa": 25,
+     "ab": 24,
+     "h": 11,
+     "hr": 2,
+     "rbi": 5,
+     "bb": 1,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 24,
+     "avg": 0.458,
+     "obp": 0.48,
+     "slg": 1.0,
+     "ops": 1.48
+    },
+    {
+     "name": "Brian Roberts",
+     "team": "USA",
+     "pa": 20,
+     "ab": 16,
+     "h": 7,
+     "hr": 1,
+     "rbi": 2,
+     "bb": 3,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 14,
+     "avg": 0.438,
+     "obp": 0.526,
+     "slg": 0.875,
+     "ops": 1.401
+    }
+   ],
+   "leaders": {
+    "hits": {
+     "name": "Frederich Cepeda",
+     "team": "CUB",
+     "pa": 26,
+     "ab": 24,
+     "h": 12,
+     "hr": 3,
+     "rbi": 10,
+     "bb": 2,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 23,
+     "avg": 0.5,
+     "obp": 0.538,
+     "slg": 0.958,
+     "ops": 1.497
+    },
+    "homeRuns": {
+     "name": "Frederich Cepeda",
+     "team": "CUB",
+     "pa": 26,
+     "ab": 24,
+     "h": 12,
+     "hr": 3,
+     "rbi": 10,
+     "bb": 2,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 23,
+     "avg": 0.5,
+     "obp": 0.538,
+     "slg": 0.958,
+     "ops": 1.497
+    },
+    "rbi": {
+     "name": "Taekyun Kim",
+     "team": "KOR",
+     "pa": 37,
+     "ab": 29,
+     "h": 10,
+     "hr": 3,
+     "rbi": 11,
+     "bb": 8,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 20,
+     "avg": 0.345,
+     "obp": 0.486,
+     "slg": 0.69,
+     "ops": 1.176
+    }
+   },
+   "records": {
+    "CHN": {
+     "w": 1,
+     "l": 2,
+     "rf": 4,
+     "ra": 19,
+     "stage": 1
+    },
+    "JPN": {
+     "w": 7,
+     "l": 2,
+     "rf": 50,
+     "ra": 16,
+     "stage": 5
+    },
+    "TPE": {
+     "w": 0,
+     "l": 2,
+     "rf": 1,
+     "ra": 13,
+     "stage": 1
+    },
+    "KOR": {
+     "w": 6,
+     "l": 3,
+     "rf": 53,
+     "ra": 30,
+     "stage": 4
+    },
+    "NED": {
+     "w": 2,
+     "l": 4,
+     "rf": 10,
+     "ra": 23,
+     "stage": 2
+    },
+    "DOM": {
+     "w": 1,
+     "l": 2,
+     "rf": 12,
+     "ra": 5,
+     "stage": 1
+    },
+    "CAN": {
+     "w": 0,
+     "l": 2,
+     "rf": 7,
+     "ra": 12,
+     "stage": 1
+    },
+    "USA": {
+     "w": 4,
+     "l": 4,
+     "rf": 50,
+     "ra": 54,
+     "stage": 3
+    },
+    "PAN": {
+     "w": 0,
+     "l": 2,
+     "rf": 0,
+     "ra": 16,
+     "stage": 1
+    },
+    "PUR": {
+     "w": 4,
+     "l": 2,
+     "rf": 31,
+     "ra": 10,
+     "stage": 2
+    },
+    "ITA": {
+     "w": 1,
+     "l": 2,
+     "rf": 7,
+     "ra": 19,
+     "stage": 1
+    },
+    "VEN": {
+     "w": 6,
+     "l": 2,
+     "rf": 45,
+     "ra": 36,
+     "stage": 3
+    },
+    "RSA": {
+     "w": 0,
+     "l": 2,
+     "rf": 4,
+     "ra": 22,
+     "stage": 1
+    },
+    "CUB": {
+     "w": 4,
+     "l": 2,
+     "rf": 36,
+     "ra": 24,
+     "stage": 2
+    },
+    "AUS": {
+     "w": 1,
+     "l": 2,
+     "rf": 22,
+     "ra": 28,
+     "stage": 1
+    },
+    "MEX": {
+     "w": 2,
+     "l": 4,
+     "rf": 47,
+     "ra": 52,
+     "stage": 2
+    }
+   }
+  },
+  {
+   "year": 2013,
+   "edition": 3,
+   "complete": true,
+   "start": "2013-03-02",
+   "end": "2013-03-19",
+   "nations": 16,
+   "games": 39,
+   "runs": 340,
+   "venues": [
+    "AT&T Park, San Francisco",
+    "Chase Field, Phoenix",
+    "Fukuoka Yahoo! Japan Dome, Fukuoka",
+    "Hiram Bithorn Stadium, San Juan",
+    "Marlins Park, Miami",
+    "Salt River Fields at Talking Stick, Scottsdale",
+    "Taichung Intercontinental Baseball Stadium, Taichung",
+    "Tokyo Dome, Tokyo"
+   ],
+   "champion": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "runnerUp": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "final": {
+    "pk": 361290,
+    "date": "2013-03-19",
+    "start": "2013-03-20T00:00:00Z",
+    "stage": "Final",
+    "type": "W",
+    "label": "WBC Final",
+    "venue": "AT&T Park",
+    "city": "San Francisco",
+    "away": {
+     "abbr": "PUR",
+     "name": "Puerto Rico",
+     "iso2": "pr"
+    },
+    "home": {
+     "abbr": "DOM",
+     "name": "Dominican Republic",
+     "iso2": "do"
+    },
+    "awayScore": 0,
+    "homeScore": 3,
+    "final": true,
+    "status": "Final"
+   },
+   "mvp": {
+    "name": "Robinson Canó",
+    "team": "DOM"
+   },
+   "topHitters": [
+    {
+     "name": "Frederich Cepeda",
+     "team": "CUB",
+     "pa": 26,
+     "ab": 19,
+     "h": 9,
+     "hr": 1,
+     "rbi": 5,
+     "bb": 7,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 17,
+     "avg": 0.474,
+     "obp": 0.615,
+     "slg": 0.895,
+     "ops": 1.51
+    },
+    {
+     "name": "Alfredo Despaigne",
+     "team": "CUB",
+     "pa": 23,
+     "ab": 18,
+     "h": 7,
+     "hr": 3,
+     "rbi": 8,
+     "bb": 3,
+     "hbp": 2,
+     "sf": 0,
+     "tb": 17,
+     "avg": 0.389,
+     "obp": 0.522,
+     "slg": 0.944,
+     "ops": 1.466
+    },
+    {
+     "name": "Robinson Canó",
+     "team": "DOM",
+     "pa": 35,
+     "ab": 32,
+     "h": 15,
+     "hr": 2,
+     "rbi": 6,
+     "bb": 3,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 25,
+     "avg": 0.469,
+     "obp": 0.514,
+     "slg": 0.781,
+     "ops": 1.296
+    },
+    {
+     "name": "David Wright",
+     "team": "USA",
+     "pa": 19,
+     "ab": 16,
+     "h": 7,
+     "hr": 1,
+     "rbi": 10,
+     "bb": 3,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 12,
+     "avg": 0.438,
+     "obp": 0.526,
+     "slg": 0.75,
+     "ops": 1.276
+    },
+    {
+     "name": "Hirokazu Ibata",
+     "team": "JPN",
+     "pa": 23,
+     "ab": 18,
+     "h": 10,
+     "hr": 0,
+     "rbi": 4,
+     "bb": 5,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 11,
+     "avg": 0.556,
+     "obp": 0.652,
+     "slg": 0.611,
+     "ops": 1.263
+    }
+   ],
+   "leaders": {
+    "hits": {
+     "name": "Robinson Canó",
+     "team": "DOM",
+     "pa": 35,
+     "ab": 32,
+     "h": 15,
+     "hr": 2,
+     "rbi": 6,
+     "bb": 3,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 25,
+     "avg": 0.469,
+     "obp": 0.514,
+     "slg": 0.781,
+     "ops": 1.296
+    },
+    "homeRuns": {
+     "name": "Alfredo Despaigne",
+     "team": "CUB",
+     "pa": 23,
+     "ab": 18,
+     "h": 7,
+     "hr": 3,
+     "rbi": 8,
+     "bb": 3,
+     "hbp": 2,
+     "sf": 0,
+     "tb": 17,
+     "avg": 0.389,
+     "obp": 0.522,
+     "slg": 0.944,
+     "ops": 1.466
+    },
+    "rbi": {
+     "name": "David Wright",
+     "team": "USA",
+     "pa": 19,
+     "ab": 16,
+     "h": 7,
+     "hr": 1,
+     "rbi": 10,
+     "bb": 3,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 12,
+     "avg": 0.438,
+     "obp": 0.526,
+     "slg": 0.75,
+     "ops": 1.276
+    }
+   },
+   "records": {
+    "AUS": {
+     "w": 0,
+     "l": 3,
+     "rf": 2,
+     "ra": 14,
+     "stage": 1
+    },
+    "TPE": {
+     "w": 2,
+     "l": 3,
+     "rf": 17,
+     "ra": 25,
+     "stage": 2
+    },
+    "JPN": {
+     "w": 5,
+     "l": 2,
+     "rf": 44,
+     "ra": 27,
+     "stage": 3
+    },
+    "BRA": {
+     "w": 0,
+     "l": 3,
+     "rf": 7,
+     "ra": 15,
+     "stage": 1
+    },
+    "KOR": {
+     "w": 2,
+     "l": 1,
+     "rf": 9,
+     "ra": 7,
+     "stage": 1
+    },
+    "NED": {
+     "w": 4,
+     "l": 4,
+     "rf": 36,
+     "ra": 47,
+     "stage": 3
+    },
+    "CUB": {
+     "w": 4,
+     "l": 2,
+     "rf": 45,
+     "ra": 18,
+     "stage": 2
+    },
+    "CHN": {
+     "w": 1,
+     "l": 2,
+     "rf": 7,
+     "ra": 19,
+     "stage": 1
+    },
+    "ITA": {
+     "w": 2,
+     "l": 3,
+     "rf": 29,
+     "ra": 24,
+     "stage": 2
+    },
+    "MEX": {
+     "w": 1,
+     "l": 2,
+     "rf": 13,
+     "ra": 18,
+     "stage": 1
+    },
+    "VEN": {
+     "w": 1,
+     "l": 2,
+     "rf": 17,
+     "ra": 21,
+     "stage": 1
+    },
+    "DOM": {
+     "w": 8,
+     "l": 0,
+     "rf": 36,
+     "ra": 14,
+     "stage": 5
+    },
+    "CAN": {
+     "w": 1,
+     "l": 2,
+     "rf": 18,
+     "ra": 26,
+     "stage": 1
+    },
+    "ESP": {
+     "w": 0,
+     "l": 3,
+     "rf": 9,
+     "ra": 20,
+     "stage": 1
+    },
+    "PUR": {
+     "w": 5,
+     "l": 4,
+     "rf": 23,
+     "ra": 26,
+     "stage": 4
+    },
+    "USA": {
+     "w": 3,
+     "l": 3,
+     "rf": 28,
+     "ra": 19,
+     "stage": 2
+    }
+   }
+  },
+  {
+   "year": 2017,
+   "edition": 4,
+   "complete": true,
+   "start": "2017-03-06",
+   "end": "2017-03-22",
+   "nations": 16,
+   "games": 40,
+   "runs": 415,
+   "venues": [
+    "Dodger Stadium, Los Angeles",
+    "Estadio Charros de Jalisco, Jalisco",
+    "Gocheok Sky Dome, Seoul",
+    "Marlins Park, Miami",
+    "Petco Park, San Diego",
+    "Tokyo Dome, Tokyo"
+   ],
+   "champion": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "runnerUp": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "final": {
+    "pk": 486941,
+    "date": "2017-03-22",
+    "start": "2017-03-23T01:00:00Z",
+    "stage": "Final",
+    "type": "W",
+    "label": "WBC Finals: Los Angeles - Championship",
+    "venue": "Dodger Stadium",
+    "city": "Los Angeles",
+    "away": {
+     "abbr": "USA",
+     "name": "United States",
+     "iso2": "us"
+    },
+    "home": {
+     "abbr": "PUR",
+     "name": "Puerto Rico",
+     "iso2": "pr"
+    },
+    "awayScore": 8,
+    "homeScore": 0,
+    "final": true,
+    "status": "Final"
+   },
+   "mvp": {
+    "name": "Marcus Stroman",
+    "team": "USA"
+   },
+   "topHitters": [
+    {
+     "name": "Wladimir Balentien",
+     "team": "NED",
+     "pa": 31,
+     "ab": 26,
+     "h": 16,
+     "hr": 4,
+     "rbi": 12,
+     "bb": 5,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 29,
+     "avg": 0.615,
+     "obp": 0.677,
+     "slg": 1.115,
+     "ops": 1.793
+    },
+    {
+     "name": "Alfredo Despaigne",
+     "team": "CUB",
+     "pa": 24,
+     "ab": 19,
+     "h": 9,
+     "hr": 3,
+     "rbi": 6,
+     "bb": 4,
+     "hbp": 1,
+     "sf": 0,
+     "tb": 18,
+     "avg": 0.474,
+     "obp": 0.583,
+     "slg": 0.947,
+     "ops": 1.531
+    },
+    {
+     "name": "Gregory Polanco",
+     "team": "DOM",
+     "pa": 21,
+     "ab": 19,
+     "h": 11,
+     "hr": 1,
+     "rbi": 2,
+     "bb": 2,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 16,
+     "avg": 0.579,
+     "obp": 0.619,
+     "slg": 0.842,
+     "ops": 1.461
+    },
+    {
+     "name": "Ryan Lavarnway",
+     "team": "ISR",
+     "pa": 23,
+     "ab": 18,
+     "h": 8,
+     "hr": 1,
+     "rbi": 6,
+     "bb": 4,
+     "hbp": 1,
+     "sf": 0,
+     "tb": 13,
+     "avg": 0.444,
+     "obp": 0.565,
+     "slg": 0.722,
+     "ops": 1.287
+    },
+    {
+     "name": "Ike Davis",
+     "team": "ISR",
+     "pa": 21,
+     "ab": 17,
+     "h": 8,
+     "hr": 0,
+     "rbi": 3,
+     "bb": 4,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 12,
+     "avg": 0.471,
+     "obp": 0.571,
+     "slg": 0.706,
+     "ops": 1.277
+    }
+   ],
+   "leaders": {
+    "hits": {
+     "name": "Wladimir Balentien",
+     "team": "NED",
+     "pa": 31,
+     "ab": 26,
+     "h": 16,
+     "hr": 4,
+     "rbi": 12,
+     "bb": 5,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 29,
+     "avg": 0.615,
+     "obp": 0.677,
+     "slg": 1.115,
+     "ops": 1.793
+    },
+    "homeRuns": {
+     "name": "Wladimir Balentien",
+     "team": "NED",
+     "pa": 31,
+     "ab": 26,
+     "h": 16,
+     "hr": 4,
+     "rbi": 12,
+     "bb": 5,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 29,
+     "avg": 0.615,
+     "obp": 0.677,
+     "slg": 1.115,
+     "ops": 1.793
+    },
+    "rbi": {
+     "name": "Wladimir Balentien",
+     "team": "NED",
+     "pa": 31,
+     "ab": 26,
+     "h": 16,
+     "hr": 4,
+     "rbi": 12,
+     "bb": 5,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 29,
+     "avg": 0.615,
+     "obp": 0.677,
+     "slg": 1.115,
+     "ops": 1.793
+    }
+   },
+   "records": {
+    "ISR": {
+     "w": 4,
+     "l": 2,
+     "rf": 30,
+     "ra": 31,
+     "stage": 2
+    },
+    "KOR": {
+     "w": 1,
+     "l": 2,
+     "rf": 12,
+     "ra": 15,
+     "stage": 1
+    },
+    "TPE": {
+     "w": 0,
+     "l": 3,
+     "rf": 20,
+     "ra": 32,
+     "stage": 1
+    },
+    "NED": {
+     "w": 4,
+     "l": 3,
+     "rf": 48,
+     "ra": 24,
+     "stage": 3
+    },
+    "CUB": {
+     "w": 2,
+     "l": 4,
+     "rf": 23,
+     "ra": 40,
+     "stage": 2
+    },
+    "JPN": {
+     "w": 6,
+     "l": 1,
+     "rf": 47,
+     "ra": 24,
+     "stage": 3
+    },
+    "CHN": {
+     "w": 0,
+     "l": 3,
+     "rf": 1,
+     "ra": 24,
+     "stage": 1
+    },
+    "AUS": {
+     "w": 1,
+     "l": 2,
+     "rf": 15,
+     "ra": 8,
+     "stage": 1
+    },
+    "CAN": {
+     "w": 0,
+     "l": 3,
+     "rf": 3,
+     "ra": 21,
+     "stage": 1
+    },
+    "DOM": {
+     "w": 4,
+     "l": 2,
+     "rf": 33,
+     "ra": 19,
+     "stage": 2
+    },
+    "MEX": {
+     "w": 1,
+     "l": 2,
+     "rf": 24,
+     "ra": 28,
+     "stage": 1
+    },
+    "ITA": {
+     "w": 1,
+     "l": 3,
+     "rf": 26,
+     "ra": 33,
+     "stage": 1
+    },
+    "COL": {
+     "w": 1,
+     "l": 2,
+     "rf": 9,
+     "ra": 14,
+     "stage": 1
+    },
+    "USA": {
+     "w": 6,
+     "l": 2,
+     "rf": 41,
+     "ra": 21,
+     "stage": 5
+    },
+    "VEN": {
+     "w": 2,
+     "l": 5,
+     "rf": 28,
+     "ra": 55,
+     "stage": 2
+    },
+    "PUR": {
+     "w": 7,
+     "l": 1,
+     "rf": 55,
+     "ra": 26,
+     "stage": 4
+    }
+   }
+  },
+  {
+   "year": 2023,
+   "edition": 5,
+   "complete": true,
+   "start": "2023-03-08",
+   "end": "2023-03-21",
+   "nations": 20,
+   "games": 47,
+   "runs": 502,
+   "venues": [
+    "Chase Field, Phoenix",
+    "Taichung Intercontinental Baseball Stadium, Taichung",
+    "Tokyo Dome, Tokyo",
+    "loanDepot park, Miami"
+   ],
+   "champion": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "runnerUp": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "final": {
+    "pk": 719497,
+    "date": "2023-03-21",
+    "start": "2023-03-21T23:00:00Z",
+    "stage": "Final",
+    "type": "W",
+    "label": "Championship Game",
+    "venue": "loanDepot park",
+    "city": "Miami",
+    "away": {
+     "abbr": "USA",
+     "name": "United States",
+     "iso2": "us"
+    },
+    "home": {
+     "abbr": "JPN",
+     "name": "Japan",
+     "iso2": "jp"
+    },
+    "awayScore": 2,
+    "homeScore": 3,
+    "final": true,
+    "status": "Final"
+   },
+   "mvp": {
+    "name": "Shohei Ohtani",
+    "team": "JPN"
+   },
+   "topHitters": [
+    {
+     "name": "Edouard Julien",
+     "team": "CAN",
+     "pa": 18,
+     "ab": 13,
+     "h": 7,
+     "hr": 2,
+     "rbi": 2,
+     "bb": 5,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 15,
+     "avg": 0.538,
+     "obp": 0.667,
+     "slg": 1.154,
+     "ops": 1.821
+    },
+    {
+     "name": "Randy Arozarena",
+     "team": "MEX",
+     "pa": 28,
+     "ab": 20,
+     "h": 9,
+     "hr": 1,
+     "rbi": 9,
+     "bb": 6,
+     "hbp": 2,
+     "sf": 0,
+     "tb": 18,
+     "avg": 0.45,
+     "obp": 0.607,
+     "slg": 0.9,
+     "ops": 1.507
+    },
+    {
+     "name": "Juan Soto",
+     "team": "DOM",
+     "pa": 18,
+     "ab": 15,
+     "h": 6,
+     "hr": 2,
+     "rbi": 3,
+     "bb": 3,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 15,
+     "avg": 0.4,
+     "obp": 0.5,
+     "slg": 1.0,
+     "ops": 1.5
+    },
+    {
+     "name": "Tyler O'Neill",
+     "team": "CAN",
+     "pa": 18,
+     "ab": 13,
+     "h": 8,
+     "hr": 0,
+     "rbi": 4,
+     "bb": 5,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 10,
+     "avg": 0.615,
+     "obp": 0.722,
+     "slg": 0.769,
+     "ops": 1.491
+    },
+    {
+     "name": "Trea Turner",
+     "team": "USA",
+     "pa": 25,
+     "ab": 23,
+     "h": 9,
+     "hr": 5,
+     "rbi": 11,
+     "bb": 2,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 24,
+     "avg": 0.391,
+     "obp": 0.44,
+     "slg": 1.043,
+     "ops": 1.483
+    }
+   ],
+   "leaders": {
+    "hits": {
+     "name": "Shohei Ohtani",
+     "team": "JPN",
+     "pa": 33,
+     "ab": 23,
+     "h": 10,
+     "hr": 1,
+     "rbi": 8,
+     "bb": 10,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 17,
+     "avg": 0.435,
+     "obp": 0.606,
+     "slg": 0.739,
+     "ops": 1.345
+    },
+    "homeRuns": {
+     "name": "Trea Turner",
+     "team": "USA",
+     "pa": 25,
+     "ab": 23,
+     "h": 9,
+     "hr": 5,
+     "rbi": 11,
+     "bb": 2,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 24,
+     "avg": 0.391,
+     "obp": 0.44,
+     "slg": 1.043,
+     "ops": 1.483
+    },
+    "rbi": {
+     "name": "Masataka Yoshida",
+     "team": "JPN",
+     "pa": 32,
+     "ab": 22,
+     "h": 9,
+     "hr": 2,
+     "rbi": 13,
+     "bb": 4,
+     "hbp": 4,
+     "sf": 2,
+     "tb": 16,
+     "avg": 0.409,
+     "obp": 0.531,
+     "slg": 0.727,
+     "ops": 1.259
+    }
+   },
+   "records": {
+    "CUB": {
+     "w": 3,
+     "l": 3,
+     "rf": 31,
+     "ra": 32,
+     "stage": 3
+    },
+    "NED": {
+     "w": 2,
+     "l": 2,
+     "rf": 13,
+     "ra": 19,
+     "stage": 1
+    },
+    "PAN": {
+     "w": 2,
+     "l": 2,
+     "rf": 19,
+     "ra": 21,
+     "stage": 1
+    },
+    "TPE": {
+     "w": 2,
+     "l": 2,
+     "rf": 26,
+     "ra": 31,
+     "stage": 1
+    },
+    "AUS": {
+     "w": 3,
+     "l": 2,
+     "rf": 32,
+     "ra": 23,
+     "stage": 2
+    },
+    "KOR": {
+     "w": 2,
+     "l": 2,
+     "rf": 40,
+     "ra": 26,
+     "stage": 1
+    },
+    "CHN": {
+     "w": 0,
+     "l": 4,
+     "rf": 10,
+     "ra": 50,
+     "stage": 1
+    },
+    "JPN": {
+     "w": 7,
+     "l": 0,
+     "rf": 56,
+     "ra": 18,
+     "stage": 5
+    },
+    "ITA": {
+     "w": 2,
+     "l": 3,
+     "rf": 23,
+     "ra": 26,
+     "stage": 2
+    },
+    "CZE": {
+     "w": 1,
+     "l": 3,
+     "rf": 16,
+     "ra": 30,
+     "stage": 1
+    },
+    "NCA": {
+     "w": 0,
+     "l": 4,
+     "rf": 4,
+     "ra": 22,
+     "stage": 1
+    },
+    "PUR": {
+     "w": 3,
+     "l": 2,
+     "rf": 34,
+     "ra": 17,
+     "stage": 2
+    },
+    "COL": {
+     "w": 1,
+     "l": 3,
+     "rf": 12,
+     "ra": 19,
+     "stage": 1
+    },
+    "MEX": {
+     "w": 4,
+     "l": 2,
+     "rf": 37,
+     "ra": 24,
+     "stage": 3
+    },
+    "DOM": {
+     "w": 2,
+     "l": 2,
+     "rf": 19,
+     "ra": 11,
+     "stage": 1
+    },
+    "VEN": {
+     "w": 4,
+     "l": 1,
+     "rf": 30,
+     "ra": 18,
+     "stage": 2
+    },
+    "GBR": {
+     "w": 1,
+     "l": 3,
+     "rf": 18,
+     "ra": 31,
+     "stage": 1
+    },
+    "USA": {
+     "w": 5,
+     "l": 2,
+     "rf": 51,
+     "ra": 28,
+     "stage": 4
+    },
+    "ISR": {
+     "w": 1,
+     "l": 3,
+     "rf": 4,
+     "ra": 26,
+     "stage": 1
+    },
+    "CAN": {
+     "w": 2,
+     "l": 2,
+     "rf": 27,
+     "ra": 30,
+     "stage": 1
+    }
+   }
+  },
+  {
+   "year": 2026,
+   "edition": 6,
+   "complete": true,
+   "start": "2026-03-05",
+   "end": "2026-03-17",
+   "nations": 20,
+   "games": 47,
+   "runs": 441,
+   "venues": [
+    "Daikin Park, Houston",
+    "Hiram Bithorn Stadium, San Juan",
+    "Tokyo Dome, Tokyo",
+    "loanDepot park, Miami"
+   ],
+   "champion": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "runnerUp": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "final": {
+    "pk": 788094,
+    "date": "2026-03-17",
+    "start": "2026-03-18T00:00:00Z",
+    "stage": "Final",
+    "type": "W",
+    "label": "Finals: Winners of Semifinals 1 & 2",
+    "venue": "loanDepot park",
+    "city": "Miami",
+    "away": {
+     "abbr": "VEN",
+     "name": "Venezuela",
+     "iso2": "ve"
+    },
+    "home": {
+     "abbr": "USA",
+     "name": "United States",
+     "iso2": "us"
+    },
+    "awayScore": 3,
+    "homeScore": 2,
+    "final": true,
+    "status": "Final"
+   },
+   "mvp": {
+    "name": "Maikel Garcia",
+    "team": "VEN"
+   },
+   "topHitters": [
+    {
+     "name": "Shohei Ohtani",
+     "team": "JPN",
+     "pa": 18,
+     "ab": 13,
+     "h": 6,
+     "hr": 3,
+     "rbi": 7,
+     "bb": 5,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 16,
+     "avg": 0.462,
+     "obp": 0.611,
+     "slg": 1.231,
+     "ops": 1.842
+    },
+    {
+     "name": "Seiya Suzuki",
+     "team": "JPN",
+     "pa": 15,
+     "ab": 9,
+     "h": 3,
+     "hr": 2,
+     "rbi": 5,
+     "bb": 6,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 9,
+     "avg": 0.333,
+     "obp": 0.6,
+     "slg": 1.0,
+     "ops": 1.6
+    },
+    {
+     "name": "Bo Gyeong Moon",
+     "team": "KOR",
+     "pa": 19,
+     "ab": 16,
+     "h": 7,
+     "hr": 2,
+     "rbi": 11,
+     "bb": 2,
+     "hbp": 1,
+     "sf": 0,
+     "tb": 15,
+     "avg": 0.438,
+     "obp": 0.526,
+     "slg": 0.938,
+     "ops": 1.464
+    },
+    {
+     "name": "Vladimir Guerrero Jr.",
+     "team": "DOM",
+     "pa": 21,
+     "ab": 18,
+     "h": 8,
+     "hr": 2,
+     "rbi": 8,
+     "bb": 2,
+     "hbp": 0,
+     "sf": 1,
+     "tb": 17,
+     "avg": 0.444,
+     "obp": 0.476,
+     "slg": 0.944,
+     "ops": 1.421
+    },
+    {
+     "name": "Jarren Duran",
+     "team": "MEX",
+     "pa": 17,
+     "ab": 15,
+     "h": 5,
+     "hr": 3,
+     "rbi": 5,
+     "bb": 1,
+     "hbp": 1,
+     "sf": 0,
+     "tb": 15,
+     "avg": 0.333,
+     "obp": 0.412,
+     "slg": 1.0,
+     "ops": 1.412
+    }
+   ],
+   "leaders": {
+    "hits": {
+     "name": "Maikel Garcia",
+     "team": "VEN",
+     "pa": 28,
+     "ab": 26,
+     "h": 10,
+     "hr": 1,
+     "rbi": 7,
+     "bb": 1,
+     "hbp": 0,
+     "sf": 1,
+     "tb": 15,
+     "avg": 0.385,
+     "obp": 0.393,
+     "slg": 0.577,
+     "ops": 0.97
+    },
+    "homeRuns": {
+     "name": "Shohei Ohtani",
+     "team": "JPN",
+     "pa": 18,
+     "ab": 13,
+     "h": 6,
+     "hr": 3,
+     "rbi": 7,
+     "bb": 5,
+     "hbp": 0,
+     "sf": 0,
+     "tb": 16,
+     "avg": 0.462,
+     "obp": 0.611,
+     "slg": 1.231,
+     "ops": 1.842
+    },
+    "rbi": {
+     "name": "Bo Gyeong Moon",
+     "team": "KOR",
+     "pa": 19,
+     "ab": 16,
+     "h": 7,
+     "hr": 2,
+     "rbi": 11,
+     "bb": 2,
+     "hbp": 1,
+     "sf": 0,
+     "tb": 15,
+     "avg": 0.438,
+     "obp": 0.526,
+     "slg": 0.938,
+     "ops": 1.464
+    }
+   },
+   "records": {
+    "TPE": {
+     "w": 2,
+     "l": 2,
+     "rf": 19,
+     "ra": 20,
+     "stage": 1
+    },
+    "AUS": {
+     "w": 2,
+     "l": 2,
+     "rf": 13,
+     "ra": 12,
+     "stage": 1
+    },
+    "CZE": {
+     "w": 0,
+     "l": 4,
+     "rf": 5,
+     "ra": 39,
+     "stage": 1
+    },
+    "KOR": {
+     "w": 2,
+     "l": 3,
+     "rf": 28,
+     "ra": 29,
+     "stage": 2
+    },
+    "JPN": {
+     "w": 4,
+     "l": 1,
+     "rf": 39,
+     "ra": 17,
+     "stage": 2
+    },
+    "CUB": {
+     "w": 2,
+     "l": 2,
+     "rf": 13,
+     "ra": 16,
+     "stage": 1
+    },
+    "PAN": {
+     "w": 1,
+     "l": 3,
+     "rf": 11,
+     "ra": 14,
+     "stage": 1
+    },
+    "NED": {
+     "w": 1,
+     "l": 3,
+     "rf": 9,
+     "ra": 27,
+     "stage": 1
+    },
+    "VEN": {
+     "w": 6,
+     "l": 1,
+     "rf": 41,
+     "ra": 21,
+     "stage": 5
+    },
+    "MEX": {
+     "w": 2,
+     "l": 2,
+     "rf": 28,
+     "ra": 16,
+     "stage": 1
+    },
+    "GBR": {
+     "w": 1,
+     "l": 3,
+     "rf": 15,
+     "ra": 25,
+     "stage": 1
+    },
+    "PUR": {
+     "w": 3,
+     "l": 2,
+     "rf": 21,
+     "ra": 15,
+     "stage": 2
+    },
+    "COL": {
+     "w": 1,
+     "l": 3,
+     "rf": 10,
+     "ra": 23,
+     "stage": 1
+    },
+    "NCA": {
+     "w": 0,
+     "l": 4,
+     "rf": 6,
+     "ra": 25,
+     "stage": 1
+    },
+    "DOM": {
+     "w": 5,
+     "l": 1,
+     "rf": 52,
+     "ra": 12,
+     "stage": 3
+    },
+    "USA": {
+     "w": 5,
+     "l": 2,
+     "rf": 44,
+     "ra": 24,
+     "stage": 4
+    },
+    "BRA": {
+     "w": 0,
+     "l": 4,
+     "rf": 6,
+     "ra": 47,
+     "stage": 1
+    },
+    "CAN": {
+     "w": 3,
+     "l": 2,
+     "rf": 24,
+     "ra": 15,
+     "stage": 2
+    },
+    "ITA": {
+     "w": 5,
+     "l": 1,
+     "rf": 42,
+     "ra": 21,
+     "stage": 3
+    },
+    "ISR": {
+     "w": 2,
+     "l": 2,
+     "rf": 15,
+     "ra": 23,
+     "stage": 1
+    }
+   }
+  }
+ ],
+ "nations": [
+  {
+   "abbr": "JPN",
+   "name": "Japan",
+   "iso2": "jp",
+   "apps": 6,
+   "w": 34,
+   "l": 9,
+   "rf": 296,
+   "ra": 123,
+   "titles": 3,
+   "best": 5,
+   "bestYears": [
+    2006,
+    2009,
+    2023
+   ],
+   "pct": 0.791,
+   "bestFinish": "Champion"
+  },
+  {
+   "abbr": "DOM",
+   "name": "Dominican Republic",
+   "iso2": "do",
+   "apps": 6,
+   "w": 25,
+   "l": 9,
+   "rf": 188,
+   "ra": 87,
+   "titles": 1,
+   "best": 5,
+   "bestYears": [
+    2013
+   ],
+   "pct": 0.735,
+   "bestFinish": "Champion"
+  },
+  {
+   "abbr": "USA",
+   "name": "United States",
+   "iso2": "us",
+   "apps": 6,
+   "w": 26,
+   "l": 16,
+   "rf": 247,
+   "ra": 166,
+   "titles": 1,
+   "best": 5,
+   "bestYears": [
+    2017
+   ],
+   "pct": 0.619,
+   "bestFinish": "Champion"
+  },
+  {
+   "abbr": "VEN",
+   "name": "Venezuela",
+   "iso2": "ve",
+   "apps": 6,
+   "w": 22,
+   "l": 14,
+   "rf": 183,
+   "ra": 171,
+   "titles": 1,
+   "best": 5,
+   "bestYears": [
+    2026
+   ],
+   "pct": 0.611,
+   "bestFinish": "Champion"
+  },
+  {
+   "abbr": "PUR",
+   "name": "Puerto Rico",
+   "iso2": "pr",
+   "apps": 6,
+   "w": 26,
+   "l": 13,
+   "rf": 196,
+   "ra": 111,
+   "titles": 0,
+   "best": 4,
+   "bestYears": [
+    2013,
+    2017
+   ],
+   "pct": 0.667,
+   "bestFinish": "Runner-up"
+  },
+  {
+   "abbr": "KOR",
+   "name": "South Korea",
+   "iso2": "kr",
+   "apps": 6,
+   "w": 19,
+   "l": 12,
+   "rf": 168,
+   "ra": 121,
+   "titles": 0,
+   "best": 4,
+   "bestYears": [
+    2009
+   ],
+   "pct": 0.613,
+   "bestFinish": "Runner-up"
+  },
+  {
+   "abbr": "CUB",
+   "name": "Cuba",
+   "iso2": "cu",
+   "apps": 6,
+   "w": 20,
+   "l": 16,
+   "rf": 192,
+   "ra": 173,
+   "titles": 0,
+   "best": 4,
+   "bestYears": [
+    2006
+   ],
+   "pct": 0.556,
+   "bestFinish": "Runner-up"
+  },
+  {
+   "abbr": "MEX",
+   "name": "Mexico",
+   "iso2": "mx",
+   "apps": 6,
+   "w": 13,
+   "l": 15,
+   "rf": 172,
+   "ra": 154,
+   "titles": 0,
+   "best": 3,
+   "bestYears": [
+    2023
+   ],
+   "pct": 0.464,
+   "bestFinish": "Semifinals"
+  },
+  {
+   "abbr": "ITA",
+   "name": "Italy",
+   "iso2": "it",
+   "apps": 6,
+   "w": 12,
+   "l": 14,
+   "rf": 140,
+   "ra": 137,
+   "titles": 0,
+   "best": 3,
+   "bestYears": [
+    2026
+   ],
+   "pct": 0.462,
+   "bestFinish": "Semifinals"
+  },
+  {
+   "abbr": "NED",
+   "name": "Netherlands",
+   "iso2": "nl",
+   "apps": 6,
+   "w": 14,
+   "l": 18,
+   "rf": 131,
+   "ra": 159,
+   "titles": 0,
+   "best": 3,
+   "bestYears": [
+    2013,
+    2017
+   ],
+   "pct": 0.438,
+   "bestFinish": "Semifinals"
+  },
+  {
+   "abbr": "ISR",
+   "name": "Israel",
+   "iso2": "il",
+   "apps": 3,
+   "w": 7,
+   "l": 7,
+   "rf": 49,
+   "ra": 80,
+   "titles": 0,
+   "best": 2,
+   "bestYears": [
+    2017
+   ],
+   "pct": 0.5,
+   "bestFinish": "Second round / QF"
+  },
+  {
+   "abbr": "CAN",
+   "name": "Canada",
+   "iso2": "ca",
+   "apps": 6,
+   "w": 8,
+   "l": 12,
+   "rf": 99,
+   "ra": 127,
+   "titles": 0,
+   "best": 2,
+   "bestYears": [
+    2026
+   ],
+   "pct": 0.4,
+   "bestFinish": "Second round / QF"
+  },
+  {
+   "abbr": "TPE",
+   "name": "Chinese Taipei",
+   "iso2": null,
+   "apps": 6,
+   "w": 7,
+   "l": 14,
+   "rf": 98,
+   "ra": 140,
+   "titles": 0,
+   "best": 2,
+   "bestYears": [
+    2013
+   ],
+   "pct": 0.333,
+   "bestFinish": "Second round / QF"
+  },
+  {
+   "abbr": "AUS",
+   "name": "Australia",
+   "iso2": "au",
+   "apps": 6,
+   "w": 7,
+   "l": 14,
+   "rf": 88,
+   "ra": 103,
+   "titles": 0,
+   "best": 2,
+   "bestYears": [
+    2023
+   ],
+   "pct": 0.333,
+   "bestFinish": "Second round / QF"
+  },
+  {
+   "abbr": "COL",
+   "name": "Colombia",
+   "iso2": "co",
+   "apps": 3,
+   "w": 3,
+   "l": 8,
+   "rf": 31,
+   "ra": 56,
+   "titles": 0,
+   "best": 1,
+   "bestYears": [
+    2017,
+    2023,
+    2026
+   ],
+   "pct": 0.273,
+   "bestFinish": "Pool play"
+  },
+  {
+   "abbr": "GBR",
+   "name": "Great Britain",
+   "iso2": "gb",
+   "apps": 2,
+   "w": 2,
+   "l": 6,
+   "rf": 33,
+   "ra": 56,
+   "titles": 0,
+   "best": 1,
+   "bestYears": [
+    2023,
+    2026
+   ],
+   "pct": 0.25,
+   "bestFinish": "Pool play"
+  },
+  {
+   "abbr": "PAN",
+   "name": "Panama",
+   "iso2": "pa",
+   "apps": 4,
+   "w": 3,
+   "l": 10,
+   "rf": 37,
+   "ra": 71,
+   "titles": 0,
+   "best": 1,
+   "bestYears": [
+    2006,
+    2009,
+    2023,
+    2026
+   ],
+   "pct": 0.231,
+   "bestFinish": "Pool play"
+  },
+  {
+   "abbr": "CHN",
+   "name": "China",
+   "iso2": "cn",
+   "apps": 5,
+   "w": 2,
+   "l": 14,
+   "rf": 28,
+   "ra": 152,
+   "titles": 0,
+   "best": 1,
+   "bestYears": [
+    2006,
+    2009,
+    2013,
+    2017,
+    2023
+   ],
+   "pct": 0.125,
+   "bestFinish": "Pool play"
+  },
+  {
+   "abbr": "CZE",
+   "name": "Czechia",
+   "iso2": "cz",
+   "apps": 2,
+   "w": 1,
+   "l": 7,
+   "rf": 21,
+   "ra": 69,
+   "titles": 0,
+   "best": 1,
+   "bestYears": [
+    2023,
+    2026
+   ],
+   "pct": 0.125,
+   "bestFinish": "Pool play"
+  },
+  {
+   "abbr": "RSA",
+   "name": "South Africa",
+   "iso2": "za",
+   "apps": 2,
+   "w": 0,
+   "l": 5,
+   "rf": 16,
+   "ra": 60,
+   "titles": 0,
+   "best": 1,
+   "bestYears": [
+    2006,
+    2009
+   ],
+   "pct": 0.0,
+   "bestFinish": "Pool play"
+  },
+  {
+   "abbr": "BRA",
+   "name": "Brazil",
+   "iso2": "br",
+   "apps": 2,
+   "w": 0,
+   "l": 7,
+   "rf": 13,
+   "ra": 62,
+   "titles": 0,
+   "best": 1,
+   "bestYears": [
+    2013,
+    2026
+   ],
+   "pct": 0.0,
+   "bestFinish": "Pool play"
+  },
+  {
+   "abbr": "ESP",
+   "name": "Spain",
+   "iso2": "es",
+   "apps": 1,
+   "w": 0,
+   "l": 3,
+   "rf": 9,
+   "ra": 20,
+   "titles": 0,
+   "best": 1,
+   "bestYears": [
+    2013
+   ],
+   "pct": 0.0,
+   "bestFinish": "Pool play"
+  },
+  {
+   "abbr": "NCA",
+   "name": "Nicaragua",
+   "iso2": "ni",
+   "apps": 2,
+   "w": 0,
+   "l": 8,
+   "rf": 10,
+   "ra": 47,
+   "titles": 0,
+   "best": 1,
+   "bestYears": [
+    2023,
+    2026
+   ],
+   "pct": 0.0,
+   "bestFinish": "Pool play"
+  }
+ ],
+ "records": [
+  {
+   "label": "Most runs in a game",
+   "value": 26,
+   "who": "Great Britain 8, Canada 18",
+   "year": 2023
+  },
+  {
+   "label": "Biggest winning margin",
+   "value": 20,
+   "who": "South Korea 22, China 2",
+   "year": 2023
+  },
+  {
+   "label": "Unbeaten champion",
+   "value": "8-0",
+   "who": "Dominican Republic",
+   "year": 2013
+  },
+  {
+   "label": "Unbeaten champion",
+   "value": "7-0",
+   "who": "Japan",
+   "year": 2023
+  },
+  {
+   "label": "Most hits in one Classic",
+   "value": 16,
+   "who": "Wladimir Balentien",
+   "team": "NED",
+   "year": 2017
+  },
+  {
+   "label": "Most home runs in one Classic",
+   "value": 5,
+   "who": "Seung Yuop Lee",
+   "team": "KOR",
+   "year": 2006
+  },
+  {
+   "label": "Most home runs in one Classic",
+   "value": 5,
+   "who": "Trea Turner",
+   "team": "USA",
+   "year": 2023
+  },
+  {
+   "label": "Most RBI in one Classic",
+   "value": 13,
+   "who": "Masataka Yoshida",
+   "team": "JPN",
+   "year": 2023
+  },
+  {
+   "label": "Best average in one Classic (min. 20 PA)",
+   "value": ".615",
+   "who": "Wladimir Balentien",
+   "team": "NED",
+   "year": 2017
+  }
+ ]
+}

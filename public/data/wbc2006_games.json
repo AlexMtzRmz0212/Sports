@@ -1,0 +1,1024 @@
+{
+ "generated": "2026-10-08T03:55:40+00:00",
+ "year": 2006,
+ "games": [
+  {
+   "pk": 39900,
+   "date": "2006-03-03",
+   "start": "2006-03-03T02:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A, Tokyo Dome",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "home": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "awayScore": 2,
+   "homeScore": 0,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39901,
+   "date": "2006-03-03",
+   "start": "2006-03-03T09:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A, Tokyo Dome",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "awayScore": 18,
+   "homeScore": 2,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 39902,
+   "date": "2006-03-04",
+   "start": "2006-03-04T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A, Tokyo Dome",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 1,
+   "homeScore": 10,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39903,
+   "date": "2006-03-04",
+   "start": "2006-03-04T09:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A, Tokyo Dome",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "awayScore": 14,
+   "homeScore": 3,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 39904,
+   "date": "2006-03-05",
+   "start": "2006-03-05T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A, Tokyo Dome",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "home": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "awayScore": 12,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39905,
+   "date": "2006-03-05",
+   "start": "2006-03-05T09:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A, Tokyo Dome",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 3,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39906,
+   "date": "2006-03-07",
+   "start": "2006-03-07T18:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D, Disney Orlando",
+   "venue": "Cracker Jack Stadium",
+   "city": "Lake Buena Vista",
+   "away": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 11,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39907,
+   "date": "2006-03-07",
+   "start": "2006-03-07T21:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B, Chase Field",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 0,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39909,
+   "date": "2006-03-07",
+   "start": "2006-03-08T00:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C, Hiram Bithorn Stadium",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "PAN",
+    "name": "Panama",
+    "iso2": "pa"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 1,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39908,
+   "date": "2006-03-07",
+   "start": "2006-03-08T01:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D, Disney Orlando",
+   "venue": "Cracker Jack Stadium",
+   "city": "Lake Buena Vista",
+   "away": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "home": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "awayScore": 0,
+   "homeScore": 10,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 39910,
+   "date": "2006-03-07",
+   "start": "2006-03-08T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B, Scottsdale Stadium",
+   "venue": "Scottsdale Stadium",
+   "city": "Scottsdale",
+   "away": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "home": {
+    "abbr": "RSA",
+    "name": "South Africa",
+    "iso2": "za"
+   },
+   "awayScore": 11,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39913,
+   "date": "2006-03-08",
+   "start": "2006-03-08T18:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C, Hiram Bithorn Stadium",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "PAN",
+    "name": "Panama",
+    "iso2": "pa"
+   },
+   "awayScore": 8,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39912,
+   "date": "2006-03-08",
+   "start": "2006-03-08T21:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B, Chase Field",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 8,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39914,
+   "date": "2006-03-08",
+   "start": "2006-03-09T00:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D, Disney Orlando",
+   "venue": "Cracker Jack Stadium",
+   "city": "Lake Buena Vista",
+   "away": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 0,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39911,
+   "date": "2006-03-08",
+   "start": "2006-03-09T00:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C, Hiram Bithorn Stadium",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "awayScore": 8,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39915,
+   "date": "2006-03-08",
+   "start": "2006-03-09T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B, Scottsdale Stadium",
+   "venue": "Scottsdale Stadium",
+   "city": "Scottsdale",
+   "away": {
+    "abbr": "RSA",
+    "name": "South Africa",
+    "iso2": "za"
+   },
+   "home": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "awayScore": 4,
+   "homeScore": 10,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39916,
+   "date": "2006-03-09",
+   "start": "2006-03-09T18:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D, Disney Orlando",
+   "venue": "Cracker Jack Stadium",
+   "city": "Lake Buena Vista",
+   "away": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 3,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39917,
+   "date": "2006-03-09",
+   "start": "2006-03-10T00:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C, Hiram Bithorn Stadium",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "awayScore": 11,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39919,
+   "date": "2006-03-09",
+   "start": "2006-03-10T01:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B, Chase Field",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "awayScore": 9,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39918,
+   "date": "2006-03-09",
+   "start": "2006-03-10T01:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D, Disney Orlando",
+   "venue": "Cracker Jack Stadium",
+   "city": "Lake Buena Vista",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "awayScore": 2,
+   "homeScore": 0,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39920,
+   "date": "2006-03-10",
+   "start": "2006-03-10T18:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C, Hiram Bithorn Stadium",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "PAN",
+    "name": "Panama",
+    "iso2": "pa"
+   },
+   "awayScore": 10,
+   "homeScore": 0,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 39921,
+   "date": "2006-03-10",
+   "start": "2006-03-10T20:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B, Scottsdale Stadium",
+   "venue": "Scottsdale Stadium",
+   "city": "Scottsdale",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "RSA",
+    "name": "South Africa",
+    "iso2": "za"
+   },
+   "awayScore": 17,
+   "homeScore": 0,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 39922,
+   "date": "2006-03-10",
+   "start": "2006-03-11T00:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D, Disney Orlando",
+   "venue": "Cracker Jack Stadium",
+   "city": "Lake Buena Vista",
+   "away": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 4,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39923,
+   "date": "2006-03-10",
+   "start": "2006-03-11T00:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C, Hiram Bithorn Stadium",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 12,
+   "homeScore": 2,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 39924,
+   "date": "2006-03-12",
+   "start": "2006-03-12T18:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 2, Hiram Bithorn Stadium",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 7,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39925,
+   "date": "2006-03-12",
+   "start": "2006-03-12T21:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 1, Angels Stadium",
+   "venue": "Angel Stadium of Anaheim",
+   "city": "Anaheim",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 3,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39926,
+   "date": "2006-03-12",
+   "start": "2006-03-13T01:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 2, Hiram Bithorn Stadium",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 7,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39927,
+   "date": "2006-03-12",
+   "start": "2006-03-13T04:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 1, Angels Stadium",
+   "venue": "Angel Stadium of Anaheim",
+   "city": "Anaheim",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 1,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39928,
+   "date": "2006-03-13",
+   "start": "2006-03-13T19:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 2, Hiram Bithorn Stadium",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 7,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39929,
+   "date": "2006-03-13",
+   "start": "2006-03-14T01:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 2, Hiram Bithorn Stadium",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 6,
+   "homeScore": 0,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39930,
+   "date": "2006-03-13",
+   "start": "2006-03-14T03:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 1, Angels Stadium",
+   "venue": "Angel Stadium of Anaheim",
+   "city": "Anaheim",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 3,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39931,
+   "date": "2006-03-14",
+   "start": "2006-03-15T00:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 1, Angels Stadium",
+   "venue": "Angel Stadium of Anaheim",
+   "city": "Anaheim",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "awayScore": 6,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39932,
+   "date": "2006-03-14",
+   "start": "2006-03-15T00:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 2, Hiram Bithorn Stadium",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 1,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39933,
+   "date": "2006-03-15",
+   "start": "2006-03-16T00:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 2, Hiram Bithorn Stadium",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 4,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39934,
+   "date": "2006-03-15",
+   "start": "2006-03-16T03:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 1, Angels Stadium",
+   "venue": "Angel Stadium of Anaheim",
+   "city": "Anaheim",
+   "away": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 2,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39935,
+   "date": "2006-03-16",
+   "start": "2006-03-17T00:30:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 1, Angels Stadium",
+   "venue": "Angel Stadium of Anaheim",
+   "city": "Anaheim",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "awayScore": 1,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39936,
+   "date": "2006-03-18",
+   "start": "2006-03-18T20:00:00Z",
+   "stage": "Semifinals",
+   "type": "L",
+   "label": "Semi 1, Petco Park",
+   "venue": "PETCO Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 3,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39937,
+   "date": "2006-03-18",
+   "start": "2006-03-19T03:00:00Z",
+   "stage": "Semifinals",
+   "type": "L",
+   "label": "Semi 2, Petco Park",
+   "venue": "PETCO Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 6,
+   "homeScore": 0,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 39938,
+   "date": "2006-03-20",
+   "start": "2006-03-21T02:00:00Z",
+   "stage": "Final",
+   "type": "W",
+   "label": "WBC Final",
+   "venue": "PETCO Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 10,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  }
+ ],
+ "teams": [
+  {
+   "abbr": "KOR",
+   "name": "South Korea",
+   "iso2": "kr"
+  },
+  {
+   "abbr": "TPE",
+   "name": "Chinese Taipei",
+   "iso2": null
+  },
+  {
+   "abbr": "JPN",
+   "name": "Japan",
+   "iso2": "jp"
+  },
+  {
+   "abbr": "CHN",
+   "name": "China",
+   "iso2": "cn"
+  },
+  {
+   "abbr": "DOM",
+   "name": "Dominican Republic",
+   "iso2": "do"
+  },
+  {
+   "abbr": "VEN",
+   "name": "Venezuela",
+   "iso2": "ve"
+  },
+  {
+   "abbr": "MEX",
+   "name": "Mexico",
+   "iso2": "mx"
+  },
+  {
+   "abbr": "USA",
+   "name": "United States",
+   "iso2": "us"
+  },
+  {
+   "abbr": "PAN",
+   "name": "Panama",
+   "iso2": "pa"
+  },
+  {
+   "abbr": "PUR",
+   "name": "Puerto Rico",
+   "iso2": "pr"
+  },
+  {
+   "abbr": "AUS",
+   "name": "Australia",
+   "iso2": "au"
+  },
+  {
+   "abbr": "ITA",
+   "name": "Italy",
+   "iso2": "it"
+  },
+  {
+   "abbr": "CAN",
+   "name": "Canada",
+   "iso2": "ca"
+  },
+  {
+   "abbr": "RSA",
+   "name": "South Africa",
+   "iso2": "za"
+  },
+  {
+   "abbr": "CUB",
+   "name": "Cuba",
+   "iso2": "cu"
+  },
+  {
+   "abbr": "NED",
+   "name": "Netherlands",
+   "iso2": "nl"
+  }
+ ]
+}

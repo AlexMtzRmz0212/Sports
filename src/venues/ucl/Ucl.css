@@ -1,0 +1,119 @@
+.ucl {
+  --zone-a: #3ccf8e;
+  --zone-b: var(--accent);
+}
+
+/* Silver lettering, like the trophy's engraving */
+.ucl .venue-sign h1 {
+  background: linear-gradient(180deg, #ffffff 0%, var(--silver) 45%, #8d97b8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.silverware .reading {
+  background: linear-gradient(160deg, var(--surface-2), var(--surface));
+  border: 1px solid rgba(217, 222, 234, 0.18);
+}
+
+.ucl-panel {
+  padding: 18px;
+  background: var(--surface);
+  border-radius: var(--radius);
+}
+
+.ucl-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+
+.ucl-steps li {
+  padding: 18px;
+  background: var(--surface);
+  border-radius: var(--radius);
+  border-top: 2px solid var(--silver);
+  counter-increment: step;
+}
+
+.ucl-steps li::before {
+  content: counter(step);
+  display: block;
+  margin-bottom: 6px;
+  font: 800 2rem/1 var(--f-sign);
+  color: var(--accent);
+}
+
+.ucl-steps h3 {
+  margin-bottom: 6px;
+}
+
+.ucl-steps p {
+  margin: 0;
+  font-size: 0.98rem;
+  color: var(--ink-soft);
+}
+
+/* ---------- Roll of honour ---------- */
+.honours {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr));
+  gap: 10px;
+  margin: 0 0 28px;
+  padding: 0;
+  list-style: none;
+}
+
+.honours li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 12px;
+  align-items: center;
+  padding: 12px 14px;
+  background: var(--surface);
+  border-radius: var(--radius);
+}
+
+.honours-count {
+  grid-row: span 2;
+  font: 800 2.4rem/1 var(--f-sign);
+  color: var(--silver);
+}
+
+.honours-club {
+  font: 700 1.1rem/1.15 var(--f-cond);
+}
+
+.honours-years {
+  font: 600 0.78rem/1.3 var(--f-cond);
+  color: var(--ink-soft);
+}
+
+.finals-roll {
+  columns: 3 280px;
+  column-gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.finals-roll li {
+  display: flex;
+  gap: 12px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--line);
+  break-inside: avoid;
+  font-size: 0.98rem;
+  line-height: 1.3;
+}
+
+.finals-year {
+  flex: none;
+  width: 4.2ch;
+  font-weight: 700;
+  color: var(--accent);
+}

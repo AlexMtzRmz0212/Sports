@@ -1,0 +1,203 @@
+/* ---------- Venue sign ---------- */
+.venue-sign {
+  padding-top: clamp(28px, 6vw, 72px);
+  padding-bottom: clamp(20px, 3vw, 32px);
+}
+
+.venue-league {
+  margin: 0 0 4px;
+  font: 700 var(--fs-md) / 1 var(--f-cond);
+  color: var(--accent);
+  letter-spacing: 0.04em;
+}
+
+.venue-sign h1 {
+  font: 800 var(--fs-sign) / 0.86 var(--f-sign);
+  text-transform: uppercase;
+  letter-spacing: -0.005em;
+  margin-bottom: 24px;
+}
+
+/* ---------- Readings ---------- */
+.readings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 10px;
+  margin: 0;
+}
+
+.reading {
+  padding: 14px 16px;
+  background: var(--surface);
+  color: var(--ink-on-surface, var(--ink));
+  border-radius: var(--radius);
+}
+
+.reading dt {
+  font: 600 var(--fs-sm) / 1.2 var(--f-cond);
+  color: color-mix(in srgb, currentColor 65%, transparent);
+  letter-spacing: 0.03em;
+}
+
+.reading dd {
+  margin: 4px 0 0;
+}
+
+.reading-value {
+  display: block;
+  font: 800 var(--fs-xl) / 1 var(--f-sign);
+}
+
+.reading-detail {
+  display: block;
+  margin-top: 6px;
+  font: 600 1rem/1.3 var(--f-cond);
+  color: color-mix(in srgb, currentColor 75%, transparent);
+}
+
+/* ---------- Divisions ---------- */
+.divisions {
+  display: grid;
+  gap: 28px;
+}
+
+.division-conf h3 {
+  margin-bottom: 12px;
+  font-family: var(--f-sign);
+  font-size: var(--fs-lg);
+}
+
+.division-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
+  gap: 12px;
+}
+
+.division {
+  padding: 14px 16px;
+  background: var(--surface);
+  color: var(--ink-on-surface, var(--ink));
+  border-radius: var(--radius);
+}
+
+.division h4 {
+  margin: 0 0 8px;
+  font: 700 1.05rem/1 var(--f-cond);
+  color: var(--accent);
+}
+
+.division ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 6px;
+}
+
+.division li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 1rem;
+}
+
+.division li img {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.division .dot {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* ---------- Data table ---------- */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  background: var(--surface);
+  color: var(--ink-on-surface, var(--ink));
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.data-table th {
+  text-align: left;
+  padding: 0;
+  border-bottom: 2px solid var(--line);
+  background: var(--surface-2);
+}
+
+.data-table th button {
+  display: flex;
+  gap: 4px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font: 700 0.95rem/1.2 var(--f-cond);
+  text-align: inherit;
+  white-space: nowrap;
+}
+
+.data-table th.is-num button {
+  justify-content: flex-end;
+}
+
+.sort-mark {
+  font-size: 0.7em;
+  min-width: 0.8em;
+}
+
+.data-table td {
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+.data-table .is-num {
+  text-align: right;
+}
+
+.data-table tbody tr:hover {
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+}
+
+.team-cell {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.team-cell img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  flex: none;
+}
+
+/* ---------- League tables ---------- */
+.league-table th span {
+  display: block;
+  padding: 10px 12px;
+  font: 700 0.95rem/1.2 var(--f-cond);
+}
+
+.league-table td.pts {
+  font-weight: 700;
+}
+
+.league-table tr.zone-a td:first-child {
+  box-shadow: inset 4px 0 0 var(--zone-a, #2fae66);
+}
+
+.league-table tr.zone-b td:first-child {
+  box-shadow: inset 4px 0 0 var(--zone-b, #e0a92b);
+}

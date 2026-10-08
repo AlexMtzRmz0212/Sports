@@ -1,0 +1,42 @@
+/* Center-court paint: the sign sits in a painted lane on the hardwood */
+.indoor-nba .venue-sign h1 {
+  display: inline-block;
+  padding: 6px 18px 2px;
+  color: #f4efe7;
+  background: var(--surface);
+  box-shadow: 8px 8px 0 var(--accent);
+}
+
+.indoor-nba .venue-league {
+  color: var(--surface);
+}
+
+.indoor-nba .boards .reading {
+  border-top: 4px solid var(--accent);
+}
+
+.indoor-nba .section-head p {
+  color: #3f2a17;
+}
+
+.indoor-nba .map-legend p {
+  color: #3f2a17;
+}
+
+.film-room {
+  padding: 20px 22px;
+  background: var(--surface);
+  color: var(--ink-on-surface);
+  border-radius: var(--radius);
+}
+
+.film-room p {
+  margin: 0;
+}
+
+.film-room code {
+  font-size: 0.92em;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.1);
+}

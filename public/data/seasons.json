@@ -1,0 +1,417 @@
+{
+ "generated": "2026-10-08T03:55:29+00:00",
+ "leagues": {
+  "mlb": {
+   "name": "MLB",
+   "seasons": [
+    {
+     "label": "2025",
+     "phases": [
+      {
+       "key": "pre",
+       "name": "Spring training",
+       "start": "2025-02-15",
+       "end": "2025-03-25"
+      },
+      {
+       "key": "reg",
+       "name": "Regular season",
+       "start": "2025-03-26",
+       "end": "2025-09-29"
+      },
+      {
+       "key": "post",
+       "name": "Postseason",
+       "start": "2025-09-30",
+       "end": "2025-12-10"
+      }
+     ]
+    },
+    {
+     "label": "2026",
+     "phases": [
+      {
+       "key": "pre",
+       "name": "Spring training",
+       "start": "2026-02-19",
+       "end": "2026-03-24"
+      },
+      {
+       "key": "reg",
+       "name": "Regular season",
+       "start": "2026-03-25",
+       "end": "2026-09-28"
+      },
+      {
+       "key": "post",
+       "name": "Postseason",
+       "start": "2026-09-29",
+       "end": "2026-11-11"
+      }
+     ]
+    },
+    {
+     "label": "2027",
+     "phases": [
+      {
+       "key": "pre",
+       "name": "Spring training",
+       "start": "2027-02-18",
+       "end": "2027-03-23"
+      },
+      {
+       "key": "reg",
+       "name": "Regular season",
+       "start": "2027-03-24",
+       "end": "2027-09-28"
+      },
+      {
+       "key": "post",
+       "name": "Postseason",
+       "start": "2027-09-29",
+       "end": "2027-12-10"
+      }
+     ]
+    }
+   ],
+   "events": [
+    {
+     "name": "All-Star Game",
+     "date": "2025-07-15"
+    },
+    {
+     "name": "All-Star Game",
+     "date": "2026-07-14"
+    },
+    {
+     "name": "All-Star Game",
+     "date": "2027-07-13"
+    }
+   ]
+  },
+  "nfl": {
+   "name": "NFL",
+   "seasons": [
+    {
+     "label": "2025",
+     "phases": [
+      {
+       "key": "pre",
+       "name": "Preseason",
+       "start": "2025-07-31",
+       "end": "2025-09-03"
+      },
+      {
+       "key": "reg",
+       "name": "Regular season",
+       "start": "2025-09-04",
+       "end": "2026-01-06"
+      },
+      {
+       "key": "post",
+       "name": "Postseason",
+       "start": "2026-01-07",
+       "end": "2026-02-11"
+      }
+     ]
+    },
+    {
+     "label": "2026",
+     "phases": [
+      {
+       "key": "pre",
+       "name": "Preseason",
+       "start": "2026-08-06",
+       "end": "2026-09-05"
+      },
+      {
+       "key": "reg",
+       "name": "Regular season",
+       "start": "2026-09-06",
+       "end": "2027-01-12"
+      },
+      {
+       "key": "post",
+       "name": "Postseason",
+       "start": "2027-01-13",
+       "end": "2027-02-15"
+      }
+     ]
+    }
+   ],
+   "events": []
+  },
+  "nba": {
+   "name": "NBA",
+   "seasons": [
+    {
+     "label": "2024-25",
+     "phases": [
+      {
+       "key": "pre",
+       "name": "Preseason",
+       "start": "2024-09-24",
+       "end": "2024-10-21"
+      },
+      {
+       "key": "reg",
+       "name": "Regular season",
+       "start": "2024-10-22",
+       "end": "2025-04-13"
+      },
+      {
+       "key": "playin",
+       "name": "Play-in",
+       "start": "2025-04-14",
+       "end": "2025-04-18"
+      },
+      {
+       "key": "post",
+       "name": "Postseason",
+       "start": "2025-04-19",
+       "end": "2025-06-26"
+      }
+     ]
+    },
+    {
+     "label": "2025-26",
+     "phases": [
+      {
+       "key": "pre",
+       "name": "Preseason",
+       "start": "2025-10-01",
+       "end": "2025-10-20"
+      },
+      {
+       "key": "reg",
+       "name": "Regular season",
+       "start": "2025-10-21",
+       "end": "2026-04-12"
+      },
+      {
+       "key": "playin",
+       "name": "Play-in",
+       "start": "2026-04-13",
+       "end": "2026-04-17"
+      },
+      {
+       "key": "post",
+       "name": "Postseason",
+       "start": "2026-04-18",
+       "end": "2026-06-26"
+      }
+     ]
+    },
+    {
+     "label": "2026-27",
+     "phases": [
+      {
+       "key": "pre",
+       "name": "Preseason",
+       "start": "2026-09-30",
+       "end": "2026-10-19"
+      },
+      {
+       "key": "reg",
+       "name": "Regular season",
+       "start": "2026-10-20",
+       "end": "2027-04-11"
+      },
+      {
+       "key": "playin",
+       "name": "Play-in",
+       "start": "2027-04-12",
+       "end": "2027-04-16"
+      },
+      {
+       "key": "post",
+       "name": "Postseason",
+       "start": "2027-04-17",
+       "end": "2027-06-25"
+      }
+     ]
+    }
+   ],
+   "events": []
+  },
+  "nhl": {
+   "name": "NHL",
+   "seasons": [
+    {
+     "label": "2024-25",
+     "phases": [
+      {
+       "key": "pre",
+       "name": "Preseason",
+       "start": "2024-09-21",
+       "end": "2024-10-03"
+      },
+      {
+       "key": "reg",
+       "name": "Regular season",
+       "start": "2024-10-04",
+       "end": "2025-04-17"
+      },
+      {
+       "key": "post",
+       "name": "Postseason",
+       "start": "2025-04-18",
+       "end": "2025-06-30"
+      }
+     ]
+    },
+    {
+     "label": "2025-26",
+     "phases": [
+      {
+       "key": "pre",
+       "name": "Preseason",
+       "start": "2025-09-20",
+       "end": "2025-10-06"
+      },
+      {
+       "key": "reg",
+       "name": "Regular season",
+       "start": "2025-10-07",
+       "end": "2026-04-17"
+      },
+      {
+       "key": "post",
+       "name": "Postseason",
+       "start": "2026-04-18",
+       "end": "2026-06-30"
+      }
+     ]
+    },
+    {
+     "label": "2026-27",
+     "phases": [
+      {
+       "key": "pre",
+       "name": "Preseason",
+       "start": "2026-09-15",
+       "end": "2026-09-27"
+      },
+      {
+       "key": "reg",
+       "name": "Regular season",
+       "start": "2026-09-28",
+       "end": "2027-04-10"
+      },
+      {
+       "key": "post",
+       "name": "Postseason",
+       "start": "2027-04-11",
+       "end": "2027-06-30"
+      }
+     ]
+    }
+   ],
+   "events": []
+  },
+  "ligamx": {
+   "name": "Liga MX",
+   "seasons": [
+    {
+     "label": "2025-26",
+     "phases": [
+      {
+       "key": "reg",
+       "name": "Apertura",
+       "start": "2025-06-01",
+       "end": "2025-11-10"
+      },
+      {
+       "key": "post",
+       "name": "Apertura Liguilla",
+       "start": "2025-11-11",
+       "end": "2025-12-31"
+      },
+      {
+       "key": "reg",
+       "name": "Clausura",
+       "start": "2026-01-01",
+       "end": "2026-04-24"
+      },
+      {
+       "key": "post",
+       "name": "Clausura Liguilla",
+       "start": "2026-04-24",
+       "end": "2026-05-31"
+      }
+     ]
+    },
+    {
+     "label": "2026-27",
+     "phases": [
+      {
+       "key": "reg",
+       "name": "Apertura",
+       "start": "2026-06-01",
+       "end": "2026-11-11"
+      },
+      {
+       "key": "post",
+       "name": "Apertura Liguilla",
+       "start": "2026-11-11",
+       "end": "2026-12-31"
+      },
+      {
+       "key": "reg",
+       "name": "Clausura",
+       "start": "2027-01-01",
+       "end": "2027-04-24"
+      },
+      {
+       "key": "post",
+       "name": "Clausura Liguilla",
+       "start": "2027-04-24",
+       "end": "2027-05-31"
+      }
+     ]
+    }
+   ],
+   "events": []
+  },
+  "ucl": {
+   "name": "Champions League",
+   "seasons": [
+    {
+     "label": "2025-26",
+     "phases": [
+      {
+       "key": "reg",
+       "name": "League phase",
+       "start": "2025-08-28",
+       "end": "2026-01-29"
+      },
+      {
+       "key": "post",
+       "name": "Knockout rounds",
+       "start": "2026-01-30",
+       "end": "2026-05-07"
+      }
+     ]
+    },
+    {
+     "label": "2026-27",
+     "phases": [
+      {
+       "key": "reg",
+       "name": "League phase",
+       "start": "2026-08-27",
+       "end": "2027-02-14"
+      },
+      {
+       "key": "post",
+       "name": "Knockout rounds",
+       "start": "2027-02-15",
+       "end": "2027-05-31"
+      }
+     ]
+    }
+   ],
+   "events": []
+  }
+ }
+}

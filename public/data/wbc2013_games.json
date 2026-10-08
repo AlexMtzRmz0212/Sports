@@ -1,0 +1,1024 @@
+{
+ "generated": "2026-10-08T03:55:40+00:00",
+ "year": 2013,
+ "games": [
+  {
+   "pk": 361258,
+   "date": "2013-03-02",
+   "start": "2013-03-02T04:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B - Game 1",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "home": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "awayScore": 1,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361252,
+   "date": "2013-03-02",
+   "start": "2013-03-02T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A - Game 1",
+   "venue": "Fukuoka Yahoo! Japan Dome",
+   "city": "Fukuoka",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "BRA",
+    "name": "Brazil",
+    "iso2": "br"
+   },
+   "awayScore": 5,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361259,
+   "date": "2013-03-02",
+   "start": "2013-03-02T11:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B - Game 2",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "home": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "awayScore": 0,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361253,
+   "date": "2013-03-03",
+   "start": "2013-03-03T03:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A - Game 2",
+   "venue": "Fukuoka Yahoo! Japan Dome",
+   "city": "Fukuoka",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "BRA",
+    "name": "Brazil",
+    "iso2": "br"
+   },
+   "awayScore": 5,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361261,
+   "date": "2013-03-03",
+   "start": "2013-03-03T06:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B - Game 3",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "awayScore": 3,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361254,
+   "date": "2013-03-03",
+   "start": "2013-03-03T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A - Game 3",
+   "venue": "Fukuoka Yahoo! Japan Dome",
+   "city": "Fukuoka",
+   "away": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 2,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361255,
+   "date": "2013-03-04",
+   "start": "2013-03-04T07:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A - Game 4",
+   "venue": "Fukuoka Yahoo! Japan Dome",
+   "city": "Fukuoka",
+   "away": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 0,
+   "homeScore": 12,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 361260,
+   "date": "2013-03-04",
+   "start": "2013-03-04T10:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B - Game 4",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "home": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "awayScore": 6,
+   "homeScore": 0,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361262,
+   "date": "2013-03-05",
+   "start": "2013-03-05T04:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B - Game 5",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "home": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "awayScore": 1,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361256,
+   "date": "2013-03-05",
+   "start": "2013-03-05T08:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A - Game 5",
+   "venue": "Fukuoka Yahoo! Japan Dome",
+   "city": "Fukuoka",
+   "away": {
+    "abbr": "BRA",
+    "name": "Brazil",
+    "iso2": "br"
+   },
+   "home": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "awayScore": 2,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361263,
+   "date": "2013-03-05",
+   "start": "2013-03-05T11:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B - Game 6",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 2,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361257,
+   "date": "2013-03-06",
+   "start": "2013-03-06T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A - Game 6",
+   "venue": "Fukuoka Yahoo! Japan Dome",
+   "city": "Fukuoka",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 3,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361270,
+   "date": "2013-03-07",
+   "start": "2013-03-07T20:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D - Game 1",
+   "venue": "Salt River Fields at Talking Stick",
+   "city": "Scottsdale",
+   "away": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "home": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "awayScore": 6,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361264,
+   "date": "2013-03-07",
+   "start": "2013-03-07T23:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C - Game 1",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 3,
+   "homeScore": 9,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361277,
+   "date": "2013-03-08",
+   "start": "2013-03-08T03:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 1 - Game 2",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 6,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361276,
+   "date": "2013-03-08",
+   "start": "2013-03-08T10:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 1 - Game 1",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "awayScore": 4,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361271,
+   "date": "2013-03-08",
+   "start": "2013-03-08T19:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D - Game 2",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "home": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "awayScore": 4,
+   "homeScore": 14,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 361265,
+   "date": "2013-03-08",
+   "start": "2013-03-08T22:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C - Game 2",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "ESP",
+    "name": "Spain",
+    "iso2": "es"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 0,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361272,
+   "date": "2013-03-08",
+   "start": "2013-03-09T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D - Game 3",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 5,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361278,
+   "date": "2013-03-09",
+   "start": "2013-03-09T10:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 1 - Game 3",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 0,
+   "homeScore": 14,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 361266,
+   "date": "2013-03-09",
+   "start": "2013-03-09T16:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C - Game 3",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "home": {
+    "abbr": "ESP",
+    "name": "Spain",
+    "iso2": "es"
+   },
+   "awayScore": 6,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361273,
+   "date": "2013-03-09",
+   "start": "2013-03-09T19:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D - Game 4",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "home": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "awayScore": 10,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361267,
+   "date": "2013-03-09",
+   "start": "2013-03-09T22:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C - Game 4",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 6,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361274,
+   "date": "2013-03-09",
+   "start": "2013-03-10T03:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D - Game 5",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "awayScore": 6,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361279,
+   "date": "2013-03-10",
+   "start": "2013-03-10T10:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 1 - Game 4",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "awayScore": 16,
+   "homeScore": 4,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 361268,
+   "date": "2013-03-10",
+   "start": "2013-03-10T16:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C - Game 5",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "ESP",
+    "name": "Spain",
+    "iso2": "es"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 6,
+   "homeScore": 11,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361275,
+   "date": "2013-03-10",
+   "start": "2013-03-10T20:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D - Game 6",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "awayScore": 9,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361269,
+   "date": "2013-03-10",
+   "start": "2013-03-10T23:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C - Game 6",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 4,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361280,
+   "date": "2013-03-11",
+   "start": "2013-03-11T10:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 1 - Game 5",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "awayScore": 6,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361281,
+   "date": "2013-03-12",
+   "start": "2013-03-12T10:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 1 - Game 6",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 6,
+   "homeScore": 10,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361282,
+   "date": "2013-03-12",
+   "start": "2013-03-12T17:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 2 - Game 1",
+   "venue": "Marlins Park",
+   "city": "Miami",
+   "away": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 4,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361283,
+   "date": "2013-03-12",
+   "start": "2013-03-13T00:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 2 - Game 2",
+   "venue": "Marlins Park",
+   "city": "Miami",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 1,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361284,
+   "date": "2013-03-13",
+   "start": "2013-03-13T23:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 2 - Game 3",
+   "venue": "Marlins Park",
+   "city": "Miami",
+   "away": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 3,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361285,
+   "date": "2013-03-14",
+   "start": "2013-03-14T23:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 2 - Game 4",
+   "venue": "Marlins Park",
+   "city": "Miami",
+   "away": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 3,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361286,
+   "date": "2013-03-15",
+   "start": "2013-03-15T23:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 2 - Game 5",
+   "venue": "Marlins Park",
+   "city": "Miami",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 4,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361287,
+   "date": "2013-03-16",
+   "start": "2013-03-16T17:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "Pool 2 - Game 6",
+   "venue": "Marlins Park",
+   "city": "Miami",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 0,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361288,
+   "date": "2013-03-17",
+   "start": "2013-03-18T01:00:00Z",
+   "stage": "Semifinals",
+   "type": "L",
+   "label": "Semifinals",
+   "venue": "AT&T Park",
+   "city": "San Francisco",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 3,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361289,
+   "date": "2013-03-18",
+   "start": "2013-03-19T01:00:00Z",
+   "stage": "Semifinals",
+   "type": "L",
+   "label": "Semifinals",
+   "venue": "AT&T Park",
+   "city": "San Francisco",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 1,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 361290,
+   "date": "2013-03-19",
+   "start": "2013-03-20T00:00:00Z",
+   "stage": "Final",
+   "type": "W",
+   "label": "WBC Final",
+   "venue": "AT&T Park",
+   "city": "San Francisco",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 0,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  }
+ ],
+ "teams": [
+  {
+   "abbr": "AUS",
+   "name": "Australia",
+   "iso2": "au"
+  },
+  {
+   "abbr": "TPE",
+   "name": "Chinese Taipei",
+   "iso2": null
+  },
+  {
+   "abbr": "JPN",
+   "name": "Japan",
+   "iso2": "jp"
+  },
+  {
+   "abbr": "BRA",
+   "name": "Brazil",
+   "iso2": "br"
+  },
+  {
+   "abbr": "KOR",
+   "name": "South Korea",
+   "iso2": "kr"
+  },
+  {
+   "abbr": "NED",
+   "name": "Netherlands",
+   "iso2": "nl"
+  },
+  {
+   "abbr": "CUB",
+   "name": "Cuba",
+   "iso2": "cu"
+  },
+  {
+   "abbr": "CHN",
+   "name": "China",
+   "iso2": "cn"
+  },
+  {
+   "abbr": "ITA",
+   "name": "Italy",
+   "iso2": "it"
+  },
+  {
+   "abbr": "MEX",
+   "name": "Mexico",
+   "iso2": "mx"
+  },
+  {
+   "abbr": "VEN",
+   "name": "Venezuela",
+   "iso2": "ve"
+  },
+  {
+   "abbr": "DOM",
+   "name": "Dominican Republic",
+   "iso2": "do"
+  },
+  {
+   "abbr": "CAN",
+   "name": "Canada",
+   "iso2": "ca"
+  },
+  {
+   "abbr": "ESP",
+   "name": "Spain",
+   "iso2": "es"
+  },
+  {
+   "abbr": "PUR",
+   "name": "Puerto Rico",
+   "iso2": "pr"
+  },
+  {
+   "abbr": "USA",
+   "name": "United States",
+   "iso2": "us"
+  }
+ ]
+}

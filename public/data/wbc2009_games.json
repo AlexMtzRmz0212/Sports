@@ -1,0 +1,1024 @@
+{
+ "generated": "2026-10-08T03:55:40+00:00",
+ "year": 2009,
+ "games": [
+  {
+   "pk": 251329,
+   "date": "2009-03-05",
+   "start": "2009-03-05T09:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool A Game 1",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 0,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251330,
+   "date": "2009-03-06",
+   "start": "2009-03-06T09:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool A Game 2",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 0,
+   "homeScore": 9,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251331,
+   "date": "2009-03-07",
+   "start": "2009-03-07T03:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool A Game 3",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "home": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "awayScore": 1,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251332,
+   "date": "2009-03-07",
+   "start": "2009-03-07T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool A Game 4",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 14,
+   "homeScore": 2,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 251347,
+   "date": "2009-03-07",
+   "start": "2009-03-07T16:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool D Game 1",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 3,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251341,
+   "date": "2009-03-07",
+   "start": "2009-03-07T19:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool C Game 1",
+   "venue": "Rogers Centre",
+   "city": "Toronto",
+   "away": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 5,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251348,
+   "date": "2009-03-07",
+   "start": "2009-03-07T22:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool D Game 2",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "PAN",
+    "name": "Panama",
+    "iso2": "pa"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 0,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251342,
+   "date": "2009-03-07",
+   "start": "2009-03-08T01:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool C Game 2",
+   "venue": "Rogers Centre",
+   "city": "Toronto",
+   "away": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 0,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251333,
+   "date": "2009-03-08",
+   "start": "2009-03-08T09:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool A Game 5",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 0,
+   "homeScore": 14,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 251335,
+   "date": "2009-03-08",
+   "start": "2009-03-08T18:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool B Game 1",
+   "venue": "Parque Foro Sol",
+   "city": "Mexico City",
+   "away": {
+    "abbr": "RSA",
+    "name": "South Africa",
+    "iso2": "za"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 1,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251349,
+   "date": "2009-03-08",
+   "start": "2009-03-08T20:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool D Game 3",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "PAN",
+    "name": "Panama",
+    "iso2": "pa"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 0,
+   "homeScore": 9,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251343,
+   "date": "2009-03-08",
+   "start": "2009-03-09T00:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool C Game 3",
+   "venue": "Rogers Centre",
+   "city": "Toronto",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 15,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251336,
+   "date": "2009-03-08",
+   "start": "2009-03-09T01:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool B Game 2",
+   "venue": "Parque Foro Sol",
+   "city": "Mexico City",
+   "away": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "home": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "awayScore": 17,
+   "homeScore": 7,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 251334,
+   "date": "2009-03-09",
+   "start": "2009-03-09T09:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool A Game 6",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 1,
+   "homeScore": 0,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251344,
+   "date": "2009-03-09",
+   "start": "2009-03-09T22:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool C Game 4",
+   "venue": "Rogers Centre",
+   "city": "Toronto",
+   "away": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "home": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "awayScore": 6,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251350,
+   "date": "2009-03-09",
+   "start": "2009-03-09T22:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool D Game 4",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 1,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251337,
+   "date": "2009-03-09",
+   "start": "2009-03-10T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool B Game 3",
+   "venue": "Parque Foro Sol",
+   "city": "Mexico City",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "RSA",
+    "name": "South Africa",
+    "iso2": "za"
+   },
+   "awayScore": 14,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251345,
+   "date": "2009-03-10",
+   "start": "2009-03-10T21:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool C Game 5",
+   "venue": "Rogers Centre",
+   "city": "Toronto",
+   "away": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 1,
+   "homeScore": 10,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251351,
+   "date": "2009-03-10",
+   "start": "2009-03-10T22:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool D Game 5",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "home": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "awayScore": 1,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251338,
+   "date": "2009-03-10",
+   "start": "2009-03-11T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool B Game 4",
+   "venue": "Parque Foro Sol",
+   "city": "Mexico City",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "awayScore": 5,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251352,
+   "date": "2009-03-11",
+   "start": "2009-03-11T21:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool D Game 6",
+   "venue": "Hiram Bithorn Stadium",
+   "city": "San Juan",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 0,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251346,
+   "date": "2009-03-11",
+   "start": "2009-03-11T22:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool C Game 6",
+   "venue": "Rogers Centre",
+   "city": "Toronto",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 5,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251339,
+   "date": "2009-03-11",
+   "start": "2009-03-12T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool B Game 5",
+   "venue": "Parque Foro Sol",
+   "city": "Mexico City",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "awayScore": 16,
+   "homeScore": 1,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 251340,
+   "date": "2009-03-12",
+   "start": "2009-03-13T01:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool B Game 6",
+   "venue": "Parque Foro Sol",
+   "city": "Mexico City",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 4,
+   "homeScore": 16,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 251359,
+   "date": "2009-03-14",
+   "start": "2009-03-14T17:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool 2 Game 1",
+   "venue": "Land Shark Stadium",
+   "city": "Miami",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 1,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251360,
+   "date": "2009-03-14",
+   "start": "2009-03-15T00:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool 2 Game 2",
+   "venue": "Land Shark Stadium",
+   "city": "Miami",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 1,
+   "homeScore": 11,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 251354,
+   "date": "2009-03-15",
+   "start": "2009-03-15T20:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool 1 Game 1",
+   "venue": "PETCO Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 6,
+   "homeScore": 0,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251361,
+   "date": "2009-03-15",
+   "start": "2009-03-15T23:30:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool 2 Game 3",
+   "venue": "Land Shark Stadium",
+   "city": "Miami",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 3,
+   "homeScore": 9,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251353,
+   "date": "2009-03-15",
+   "start": "2009-03-16T03:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool 1 Game 2",
+   "venue": "PETCO Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 2,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251362,
+   "date": "2009-03-16",
+   "start": "2009-03-17T00:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool 2 Game 4",
+   "venue": "Land Shark Stadium",
+   "city": "Miami",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 2,
+   "homeScore": 0,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251355,
+   "date": "2009-03-16",
+   "start": "2009-03-17T03:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool 1 Game 3",
+   "venue": "PETCO Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "awayScore": 7,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251363,
+   "date": "2009-03-17",
+   "start": "2009-03-17T23:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool 2 Game 5",
+   "venue": "Land Shark Stadium",
+   "city": "Miami",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 5,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251356,
+   "date": "2009-03-17",
+   "start": "2009-03-18T03:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool 1 Game 4",
+   "venue": "PETCO Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 1,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251364,
+   "date": "2009-03-18",
+   "start": "2009-03-18T23:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool 2 Game 6",
+   "venue": "Land Shark Stadium",
+   "city": "Miami",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 6,
+   "homeScore": 10,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251357,
+   "date": "2009-03-18",
+   "start": "2009-03-19T03:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool 1 Game 5",
+   "venue": "PETCO Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 5,
+   "homeScore": 0,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251358,
+   "date": "2009-03-19",
+   "start": "2009-03-20T01:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool 1 Game 6",
+   "venue": "PETCO Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 6,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251365,
+   "date": "2009-03-21",
+   "start": "2009-03-22T01:00:00Z",
+   "stage": "Semifinals",
+   "type": "L",
+   "label": "WBC Semifinal 1",
+   "venue": "Dodger Stadium",
+   "city": "Los Angeles",
+   "away": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 10,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251366,
+   "date": "2009-03-22",
+   "start": "2009-03-23T00:00:00Z",
+   "stage": "Semifinals",
+   "type": "L",
+   "label": "WBC Semifinal 2",
+   "venue": "Dodger Stadium",
+   "city": "Los Angeles",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 4,
+   "homeScore": 9,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 251367,
+   "date": "2009-03-23",
+   "start": "2009-03-24T01:30:00Z",
+   "stage": "Final",
+   "type": "W",
+   "label": "WBC Final",
+   "venue": "Dodger Stadium",
+   "city": "Los Angeles",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 5,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  }
+ ],
+ "teams": [
+  {
+   "abbr": "CHN",
+   "name": "China",
+   "iso2": "cn"
+  },
+  {
+   "abbr": "JPN",
+   "name": "Japan",
+   "iso2": "jp"
+  },
+  {
+   "abbr": "TPE",
+   "name": "Chinese Taipei",
+   "iso2": null
+  },
+  {
+   "abbr": "KOR",
+   "name": "South Korea",
+   "iso2": "kr"
+  },
+  {
+   "abbr": "NED",
+   "name": "Netherlands",
+   "iso2": "nl"
+  },
+  {
+   "abbr": "DOM",
+   "name": "Dominican Republic",
+   "iso2": "do"
+  },
+  {
+   "abbr": "CAN",
+   "name": "Canada",
+   "iso2": "ca"
+  },
+  {
+   "abbr": "USA",
+   "name": "United States",
+   "iso2": "us"
+  },
+  {
+   "abbr": "PAN",
+   "name": "Panama",
+   "iso2": "pa"
+  },
+  {
+   "abbr": "PUR",
+   "name": "Puerto Rico",
+   "iso2": "pr"
+  },
+  {
+   "abbr": "ITA",
+   "name": "Italy",
+   "iso2": "it"
+  },
+  {
+   "abbr": "VEN",
+   "name": "Venezuela",
+   "iso2": "ve"
+  },
+  {
+   "abbr": "RSA",
+   "name": "South Africa",
+   "iso2": "za"
+  },
+  {
+   "abbr": "CUB",
+   "name": "Cuba",
+   "iso2": "cu"
+  },
+  {
+   "abbr": "AUS",
+   "name": "Australia",
+   "iso2": "au"
+  },
+  {
+   "abbr": "MEX",
+   "name": "Mexico",
+   "iso2": "mx"
+  }
+ ]
+}

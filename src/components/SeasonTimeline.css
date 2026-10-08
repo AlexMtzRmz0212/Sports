@@ -1,0 +1,61 @@
+.timeline svg {
+  display: block;
+  width: 100%;
+  min-width: 720px;
+  height: auto;
+  overflow: visible;
+}
+
+.tl-month line {
+  stroke: var(--line);
+  stroke-width: 1;
+}
+
+.tl-month text {
+  font: 600 13px var(--f-cond);
+  fill: var(--ink-soft);
+}
+
+.tl-league {
+  font: 800 19px var(--f-sign);
+  fill: var(--ink);
+  letter-spacing: 0.02em;
+}
+
+.tl-phase {
+  font: 600 13px var(--f-cond);
+  fill: #fff;
+  pointer-events: none;
+  paint-order: stroke;
+  stroke: rgba(0, 0, 0, 0.35);
+  stroke-width: 2px;
+}
+
+.tl-event {
+  fill: var(--ink);
+}
+
+.tl-today line {
+  stroke: var(--accent);
+  stroke-width: 2;
+  stroke-dasharray: 5 4;
+}
+
+.tl-today text {
+  font: 700 13px var(--f-cond);
+  fill: var(--accent);
+}
+
+/* Chalk: everything is drawn on the board, so labels use the chalk hand */
+.timeline-chalk .tl-league,
+.timeline-chalk .tl-month text,
+.timeline-chalk .tl-today text {
+  font-family: var(--f-chalk);
+  font-weight: 700;
+}
+
+.timeline-chalk .tl-phase {
+  font-family: var(--f-chalk);
+  fill: var(--ink);
+  stroke: none;
+}

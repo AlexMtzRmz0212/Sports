@@ -1,0 +1,36 @@
+.tunnel {
+  --hole: 1%;
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  pointer-events: none;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(
+    circle farthest-corner at 50% 58%,
+    transparent 0 var(--hole),
+    rgba(255, 246, 220, 0.95) calc(var(--hole) + 0.6%),
+    rgba(40, 36, 30, 0.98) calc(var(--hole) + 7%),
+    #050505 calc(var(--hole) + 22%)
+  );
+}
+
+.tunnel-sign {
+  margin: 0;
+  max-width: none;
+  text-align: center;
+  font: 800 clamp(2.6rem, 9vw, 6rem) / 0.95 var(--f-sign);
+  color: #f4efe2;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  transform: translateY(-14vh);
+}
+
+.tunnel-sign span {
+  display: block;
+  font: 600 clamp(1rem, 2.4vw, 1.4rem) / 1.2 var(--f-cond);
+  text-transform: none;
+  letter-spacing: 0.04em;
+  color: #c9c2b0;
+  margin-bottom: 6px;
+}

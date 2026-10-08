@@ -1,0 +1,1048 @@
+{
+ "generated": "2026-10-08T03:55:40+00:00",
+ "year": 2017,
+ "games": [
+  {
+   "pk": 486904,
+   "date": "2017-03-06",
+   "start": "2017-03-06T09:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool A: Seoul - Game 1",
+   "venue": "Gocheok Sky Dome",
+   "city": "Seoul",
+   "away": {
+    "abbr": "ISR",
+    "name": "Israel",
+    "iso2": "il"
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 2,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486905,
+   "date": "2017-03-07",
+   "start": "2017-03-07T03:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool A: Seoul - Game 2",
+   "venue": "Gocheok Sky Dome",
+   "city": "Seoul",
+   "away": {
+    "abbr": "ISR",
+    "name": "Israel",
+    "iso2": "il"
+   },
+   "home": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "awayScore": 15,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486906,
+   "date": "2017-03-07",
+   "start": "2017-03-07T09:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool A: Seoul - Game 3",
+   "venue": "Gocheok Sky Dome",
+   "city": "Seoul",
+   "away": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "home": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "awayScore": 0,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486897,
+   "date": "2017-03-07",
+   "start": "2017-03-07T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool B: Tokyo - Game 1",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 6,
+   "homeScore": 11,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486898,
+   "date": "2017-03-08",
+   "start": "2017-03-08T03:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool B: Tokyo - Game 2",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 0,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486907,
+   "date": "2017-03-08",
+   "start": "2017-03-08T09:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool A: Seoul - Game 4",
+   "venue": "Gocheok Sky Dome",
+   "city": "Seoul",
+   "away": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "home": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "awayScore": 5,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486899,
+   "date": "2017-03-08",
+   "start": "2017-03-08T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool B: Tokyo - Game 3",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "awayScore": 4,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486908,
+   "date": "2017-03-09",
+   "start": "2017-03-09T03:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool A: Seoul - Game 5",
+   "venue": "Gocheok Sky Dome",
+   "city": "Seoul",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "ISR",
+    "name": "Israel",
+    "iso2": "il"
+   },
+   "awayScore": 2,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486901,
+   "date": "2017-03-10",
+   "start": "2017-03-09T03:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool B: Tokyo - Game 5",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 3,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486909,
+   "date": "2017-03-09",
+   "start": "2017-03-09T09:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool A: Seoul - Game 6",
+   "venue": "Gocheok Sky Dome",
+   "city": "Seoul",
+   "away": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "home": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "awayScore": 11,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486900,
+   "date": "2017-03-09",
+   "start": "2017-03-09T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool B: Tokyo - Game 4",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "home": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "awayScore": 11,
+   "homeScore": 0,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 486911,
+   "date": "2017-03-09",
+   "start": "2017-03-09T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool C: Miami - Game 1",
+   "venue": "Marlins Park",
+   "city": "Miami",
+   "away": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 2,
+   "homeScore": 9,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486918,
+   "date": "2017-03-09",
+   "start": "2017-03-10T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool D: Jalisco - Game 1",
+   "venue": "Estadio Charros de Jalisco",
+   "city": "Jalisco",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "awayScore": 9,
+   "homeScore": 10,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486902,
+   "date": "2017-03-10",
+   "start": "2017-03-10T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool B: Tokyo - Game 6",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 1,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486912,
+   "date": "2017-03-10",
+   "start": "2017-03-10T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool C: Miami - Game 2",
+   "venue": "Marlins Park",
+   "city": "Miami",
+   "away": {
+    "abbr": "COL",
+    "name": "Colombia",
+    "iso2": "co"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 2,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486921,
+   "date": "2017-03-10",
+   "start": "2017-03-11T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool D: Jalisco - Game 2",
+   "venue": "Estadio Charros de Jalisco",
+   "city": "Jalisco",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 0,
+   "homeScore": 11,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 486913,
+   "date": "2017-03-11",
+   "start": "2017-03-11T17:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool C: Miami - Game 3",
+   "venue": "Marlins Park",
+   "city": "Miami",
+   "away": {
+    "abbr": "COL",
+    "name": "Colombia",
+    "iso2": "co"
+   },
+   "home": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "awayScore": 4,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486919,
+   "date": "2017-03-11",
+   "start": "2017-03-11T20:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool D: Jalisco - Game 3",
+   "venue": "Estadio Charros de Jalisco",
+   "city": "Jalisco",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "awayScore": 11,
+   "homeScore": 10,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486914,
+   "date": "2017-03-11",
+   "start": "2017-03-11T23:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool C: Miami - Game 4",
+   "venue": "Marlins Park",
+   "city": "Miami",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 5,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486925,
+   "date": "2017-03-12",
+   "start": "2017-03-12T03:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool E: Tokyo - Game 1",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "ISR",
+    "name": "Israel",
+    "iso2": "il"
+   },
+   "awayScore": 1,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486920,
+   "date": "2017-03-11",
+   "start": "2017-03-12T03:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool D: Jalisco - Game 4",
+   "venue": "Estadio Charros de Jalisco",
+   "city": "Jalisco",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "awayScore": 9,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486926,
+   "date": "2017-03-12",
+   "start": "2017-03-12T10:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool E: Tokyo - Game 2",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "awayScore": 8,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486915,
+   "date": "2017-03-12",
+   "start": "2017-03-12T16:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool C: Miami - Game 5",
+   "venue": "Marlins Park",
+   "city": "Miami",
+   "away": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "home": {
+    "abbr": "COL",
+    "name": "Colombia",
+    "iso2": "co"
+   },
+   "awayScore": 10,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486922,
+   "date": "2017-03-12",
+   "start": "2017-03-12T19:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool D: Jalisco - Game 5",
+   "venue": "Estadio Charros de Jalisco",
+   "city": "Jalisco",
+   "away": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 3,
+   "homeScore": 9,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486916,
+   "date": "2017-03-12",
+   "start": "2017-03-12T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool C: Miami - Game 6",
+   "venue": "Marlins Park",
+   "city": "Miami",
+   "away": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 0,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486923,
+   "date": "2017-03-12",
+   "start": "2017-03-13T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool D: Jalisco - Game 6",
+   "venue": "Estadio Charros de Jalisco",
+   "city": "Jalisco",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 11,
+   "homeScore": 9,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486927,
+   "date": "2017-03-13",
+   "start": "2017-03-13T10:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool E: Tokyo - Game 3",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "ISR",
+    "name": "Israel",
+    "iso2": "il"
+   },
+   "awayScore": 12,
+   "homeScore": 2,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 486924,
+   "date": "2017-03-13",
+   "start": "2017-03-14T01:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "WBC Pool D: Jalisco - Tiebreaker",
+   "venue": "Estadio Charros de Jalisco",
+   "city": "Jalisco",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "awayScore": 4,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486928,
+   "date": "2017-03-14",
+   "start": "2017-03-14T10:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool E: Tokyo - Game 4",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 5,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486932,
+   "date": "2017-03-14",
+   "start": "2017-03-15T01:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool F: San Diego - Game 1",
+   "venue": "Petco Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 1,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486929,
+   "date": "2017-03-15",
+   "start": "2017-03-15T03:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool E: Tokyo - Game 5",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 14,
+   "homeScore": 1,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 486930,
+   "date": "2017-03-15",
+   "start": "2017-03-15T10:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool E: Tokyo - Game 6",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "ISR",
+    "name": "Israel",
+    "iso2": "il"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 3,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486933,
+   "date": "2017-03-15",
+   "start": "2017-03-16T01:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool F: San Diego - Game 2",
+   "venue": "Petco Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 2,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486934,
+   "date": "2017-03-16",
+   "start": "2017-03-17T02:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool F: San Diego - Game 3",
+   "venue": "Petco Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 0,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486935,
+   "date": "2017-03-17",
+   "start": "2017-03-18T02:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool F: San Diego - Game 4",
+   "venue": "Petco Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 5,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486936,
+   "date": "2017-03-18",
+   "start": "2017-03-18T19:30:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool F: San Diego - Game 5",
+   "venue": "Petco Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 13,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486937,
+   "date": "2017-03-18",
+   "start": "2017-03-19T02:00:00Z",
+   "stage": "Second round",
+   "type": "D",
+   "label": "WBC Pool F: San Diego - Game 6",
+   "venue": "Petco Park",
+   "city": "San Diego",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 6,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486939,
+   "date": "2017-03-20",
+   "start": "2017-03-21T01:00:00Z",
+   "stage": "Semifinals",
+   "type": "L",
+   "label": "WBC Finals: Los Angeles - Semifinal 1",
+   "venue": "Dodger Stadium",
+   "city": "Los Angeles",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 3,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486940,
+   "date": "2017-03-21",
+   "start": "2017-03-22T01:00:00Z",
+   "stage": "Semifinals",
+   "type": "L",
+   "label": "WBC Finals: Los Angeles - Semifinal 2",
+   "venue": "Dodger Stadium",
+   "city": "Los Angeles",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 2,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 486941,
+   "date": "2017-03-22",
+   "start": "2017-03-23T01:00:00Z",
+   "stage": "Final",
+   "type": "W",
+   "label": "WBC Finals: Los Angeles - Championship",
+   "venue": "Dodger Stadium",
+   "city": "Los Angeles",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 8,
+   "homeScore": 0,
+   "final": true,
+   "status": "Final"
+  }
+ ],
+ "teams": [
+  {
+   "abbr": "ISR",
+   "name": "Israel",
+   "iso2": "il"
+  },
+  {
+   "abbr": "KOR",
+   "name": "South Korea",
+   "iso2": "kr"
+  },
+  {
+   "abbr": "TPE",
+   "name": "Chinese Taipei",
+   "iso2": null
+  },
+  {
+   "abbr": "NED",
+   "name": "Netherlands",
+   "iso2": "nl"
+  },
+  {
+   "abbr": "CUB",
+   "name": "Cuba",
+   "iso2": "cu"
+  },
+  {
+   "abbr": "JPN",
+   "name": "Japan",
+   "iso2": "jp"
+  },
+  {
+   "abbr": "CHN",
+   "name": "China",
+   "iso2": "cn"
+  },
+  {
+   "abbr": "AUS",
+   "name": "Australia",
+   "iso2": "au"
+  },
+  {
+   "abbr": "CAN",
+   "name": "Canada",
+   "iso2": "ca"
+  },
+  {
+   "abbr": "DOM",
+   "name": "Dominican Republic",
+   "iso2": "do"
+  },
+  {
+   "abbr": "MEX",
+   "name": "Mexico",
+   "iso2": "mx"
+  },
+  {
+   "abbr": "ITA",
+   "name": "Italy",
+   "iso2": "it"
+  },
+  {
+   "abbr": "COL",
+   "name": "Colombia",
+   "iso2": "co"
+  },
+  {
+   "abbr": "USA",
+   "name": "United States",
+   "iso2": "us"
+  },
+  {
+   "abbr": "VEN",
+   "name": "Venezuela",
+   "iso2": "ve"
+  },
+  {
+   "abbr": "PUR",
+   "name": "Puerto Rico",
+   "iso2": "pr"
+  }
+ ]
+}

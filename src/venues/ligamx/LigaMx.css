@@ -1,0 +1,147 @@
+.ligamx {
+  --zone-a: var(--pitch);
+}
+
+/* Bengala glow behind the sign */
+.ligamx .venue-sign h1 {
+  text-shadow: 0 0 40px rgba(239, 75, 55, 0.55), 0 0 2px rgba(255, 220, 200, 0.6);
+}
+
+/* Concrete stands: stepped panels with a pitch-green rail */
+.stands .reading {
+  background: linear-gradient(180deg, var(--surface-2), var(--surface));
+  border-top: 3px solid var(--pitch);
+}
+
+.stands-panel {
+  padding: 18px;
+  background: var(--surface);
+  border-radius: var(--radius);
+}
+
+/* ---------- Liguilla steps ---------- */
+.liguilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+
+.liguilla li {
+  position: relative;
+  padding: 16px 16px 14px;
+  background: var(--surface);
+  border-radius: var(--radius);
+  counter-increment: step;
+}
+
+.liguilla li::before {
+  content: counter(step);
+  display: block;
+  margin-bottom: 8px;
+  font: 800 2.2rem/1 var(--f-sign);
+  color: var(--accent);
+}
+
+.liguilla h3 {
+  margin-bottom: 6px;
+}
+
+.liguilla p {
+  margin: 0;
+  font-size: 0.98rem;
+  color: var(--ink-soft);
+}
+
+/* ---------- Archive ---------- */
+.archive {
+  display: grid;
+  gap: 10px;
+}
+
+.archive-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  border-left: 4px solid var(--accent);
+}
+
+.archive-card summary {
+  display: grid;
+  grid-template-columns: 9.5rem minmax(0, auto) 1fr;
+  align-items: baseline;
+  gap: 4px 18px;
+  padding: 14px 18px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.archive-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.archive-card summary::after {
+  content: "+";
+  grid-column: 4;
+  font: 700 1.4rem/1 var(--f-cond);
+  color: var(--ink-soft);
+}
+
+.archive-card[open] summary::after {
+  content: "–";
+}
+
+.archive-name {
+  font: 700 1.05rem/1.2 var(--f-cond);
+  color: var(--ink-soft);
+}
+
+.archive-champ {
+  font: 800 1.6rem/1 var(--f-sign);
+}
+
+.archive-body {
+  padding: 4px 18px 20px;
+}
+
+.archive-body h3 {
+  margin: 14px 0 8px;
+}
+
+.legs {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.legs li {
+  display: grid;
+  grid-template-columns: 8rem 1fr auto;
+  gap: 12px;
+}
+
+@media (max-width: 640px) {
+  .archive-card summary {
+    grid-template-columns: 1fr auto;
+  }
+
+  .archive-card summary::after {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .archive-detail {
+    grid-column: 1 / -1;
+  }
+
+  .legs li {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--line);
+  }
+}

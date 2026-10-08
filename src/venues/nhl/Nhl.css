@@ -1,0 +1,39 @@
+/* The red line runs under the sign; blue lines frame the page */
+.indoor-nhl .venue-sign h1 {
+  color: var(--blueline);
+  padding-bottom: 10px;
+  background: linear-gradient(var(--accent), var(--accent)) left bottom / 100% 6px no-repeat;
+  display: inline-block;
+}
+
+.indoor-nhl .venue-league {
+  color: var(--accent);
+}
+
+/* Dasher boards: white panels with the yellow kick plate */
+.indoor-nhl .boards .reading,
+.indoor-nhl .division {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-bottom: 7px solid #f2c400;
+  border-radius: 14px 14px 4px 4px;
+}
+
+.indoor-nhl .boards .reading-value {
+  color: var(--blueline);
+}
+
+.indoor-nhl .clock {
+  background: #111;
+}
+
+/* The goal light on top of the clock */
+.indoor-nhl .clock::before {
+  content: "";
+  width: 26px;
+  height: 14px;
+  margin-bottom: 8px;
+  border-radius: 13px 13px 3px 3px;
+  background: var(--accent);
+  box-shadow: 0 0 18px var(--accent);
+}

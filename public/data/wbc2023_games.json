@@ -1,0 +1,1236 @@
+{
+ "generated": "2026-10-08T03:55:40+00:00",
+ "year": 2023,
+ "games": [
+  {
+   "pk": 719542,
+   "date": "2023-03-08",
+   "start": "2023-03-08T04:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A Game 1",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "awayScore": 2,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719543,
+   "date": "2023-03-08",
+   "start": "2023-03-08T11:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A Game 2",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "PAN",
+    "name": "Panama",
+    "iso2": "pa"
+   },
+   "home": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "awayScore": 12,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719530,
+   "date": "2023-03-09",
+   "start": "2023-03-09T03:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B Game 1",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 8,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719539,
+   "date": "2023-03-09",
+   "start": "2023-03-09T04:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A Game 3",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "PAN",
+    "name": "Panama",
+    "iso2": "pa"
+   },
+   "home": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "awayScore": 1,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719533,
+   "date": "2023-03-09",
+   "start": "2023-03-09T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B Game 2",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 1,
+   "homeScore": 8,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719541,
+   "date": "2023-03-09",
+   "start": "2023-03-09T11:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A Game 4",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 6,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719531,
+   "date": "2023-03-10",
+   "start": "2023-03-10T03:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B Game 3",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CZE",
+    "name": "Czechia",
+    "iso2": "cz"
+   },
+   "home": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "awayScore": 8,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719538,
+   "date": "2023-03-10",
+   "start": "2023-03-10T04:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A Game 5",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "PAN",
+    "name": "Panama",
+    "iso2": "pa"
+   },
+   "awayScore": 13,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719532,
+   "date": "2023-03-10",
+   "start": "2023-03-10T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B Game 4",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 4,
+   "homeScore": 13,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719540,
+   "date": "2023-03-10",
+   "start": "2023-03-10T11:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A Game 6",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "home": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "awayScore": 7,
+   "homeScore": 11,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719526,
+   "date": "2023-03-11",
+   "start": "2023-03-11T03:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B Game 5",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "home": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "awayScore": 2,
+   "homeScore": 12,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 719535,
+   "date": "2023-03-11",
+   "start": "2023-03-11T04:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A Game 7",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "PAN",
+    "name": "Panama",
+    "iso2": "pa"
+   },
+   "home": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "awayScore": 2,
+   "homeScore": 0,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719529,
+   "date": "2023-03-11",
+   "start": "2023-03-11T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B Game 6",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CZE",
+    "name": "Czechia",
+    "iso2": "cz"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 2,
+   "homeScore": 10,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719537,
+   "date": "2023-03-11",
+   "start": "2023-03-11T11:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A Game 8",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "awayScore": 5,
+   "homeScore": 9,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719512,
+   "date": "2023-03-11",
+   "start": "2023-03-11T17:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D Game 1",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "NCA",
+    "name": "Nicaragua",
+    "iso2": "ni"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 1,
+   "homeScore": 9,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719523,
+   "date": "2023-03-11",
+   "start": "2023-03-11T19:30:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C Game 1",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "COL",
+    "name": "Colombia",
+    "iso2": "co"
+   },
+   "home": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "awayScore": 5,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719514,
+   "date": "2023-03-11",
+   "start": "2023-03-12T00:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D Game 2",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 1,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719524,
+   "date": "2023-03-11",
+   "start": "2023-03-12T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C Game 2",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "GBR",
+    "name": "Great Britain",
+    "iso2": "gb"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 2,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719527,
+   "date": "2023-03-12",
+   "start": "2023-03-12T03:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B Game 7",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "CZE",
+    "name": "Czechia",
+    "iso2": "cz"
+   },
+   "home": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "awayScore": 3,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719534,
+   "date": "2023-03-12",
+   "start": "2023-03-12T04:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A Game 9",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "TPE",
+    "name": "Chinese Taipei",
+    "iso2": null
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 1,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719528,
+   "date": "2023-03-12",
+   "start": "2023-03-12T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B Game 8",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "home": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "awayScore": 7,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719536,
+   "date": "2023-03-12",
+   "start": "2023-03-12T11:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool A Game 10",
+   "venue": "Taichung Intercontinental Baseball Stadium",
+   "city": "Taichung",
+   "away": {
+    "abbr": "NED",
+    "name": "Netherlands",
+    "iso2": "nl"
+   },
+   "home": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "awayScore": 1,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719508,
+   "date": "2023-03-12",
+   "start": "2023-03-12T16:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D Game 3",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "NCA",
+    "name": "Nicaragua",
+    "iso2": "ni"
+   },
+   "home": {
+    "abbr": "ISR",
+    "name": "Israel",
+    "iso2": "il"
+   },
+   "awayScore": 1,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719517,
+   "date": "2023-03-12",
+   "start": "2023-03-12T19:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C Game 3",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "GBR",
+    "name": "Great Britain",
+    "iso2": "gb"
+   },
+   "home": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "awayScore": 8,
+   "homeScore": 18,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 719511,
+   "date": "2023-03-12",
+   "start": "2023-03-12T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D Game 4",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 9,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719518,
+   "date": "2023-03-12",
+   "start": "2023-03-13T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C Game 4",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 11,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719522,
+   "date": "2023-03-13",
+   "start": "2023-03-13T03:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B Game 9",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "home": {
+    "abbr": "CZE",
+    "name": "Czechia",
+    "iso2": "cz"
+   },
+   "awayScore": 8,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719525,
+   "date": "2023-03-13",
+   "start": "2023-03-13T10:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool B Game 10",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "KOR",
+    "name": "South Korea",
+    "iso2": "kr"
+   },
+   "home": {
+    "abbr": "CHN",
+    "name": "China",
+    "iso2": "cn"
+   },
+   "awayScore": 22,
+   "homeScore": 2,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 719509,
+   "date": "2023-03-13",
+   "start": "2023-03-13T16:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D Game 5",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "home": {
+    "abbr": "NCA",
+    "name": "Nicaragua",
+    "iso2": "ni"
+   },
+   "awayScore": 6,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719519,
+   "date": "2023-03-13",
+   "start": "2023-03-13T19:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C Game 5",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "COL",
+    "name": "Colombia",
+    "iso2": "co"
+   },
+   "home": {
+    "abbr": "GBR",
+    "name": "Great Britain",
+    "iso2": "gb"
+   },
+   "awayScore": 5,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719510,
+   "date": "2023-03-13",
+   "start": "2023-03-13T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D Game 6",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "ISR",
+    "name": "Israel",
+    "iso2": "il"
+   },
+   "home": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "awayScore": 0,
+   "homeScore": 10,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 719520,
+   "date": "2023-03-13",
+   "start": "2023-03-14T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C Game 6",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 1,
+   "homeScore": 12,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 719505,
+   "date": "2023-03-14",
+   "start": "2023-03-14T16:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D Game 7",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "NCA",
+    "name": "Nicaragua",
+    "iso2": "ni"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 1,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719516,
+   "date": "2023-03-14",
+   "start": "2023-03-14T19:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C Game 7",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "home": {
+    "abbr": "COL",
+    "name": "Colombia",
+    "iso2": "co"
+   },
+   "awayScore": 5,
+   "homeScore": 0,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719507,
+   "date": "2023-03-14",
+   "start": "2023-03-14T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D Game 8",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "ISR",
+    "name": "Israel",
+    "iso2": "il"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 0,
+   "homeScore": 10,
+   "final": true,
+   "status": "Completed Early"
+  },
+  {
+   "pk": 719521,
+   "date": "2023-03-14",
+   "start": "2023-03-15T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C Game 8",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "GBR",
+    "name": "Great Britain",
+    "iso2": "gb"
+   },
+   "home": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "awayScore": 1,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719503,
+   "date": "2023-03-15",
+   "start": "2023-03-15T10:00:00Z",
+   "stage": "Quarterfinals",
+   "type": "D",
+   "label": "Quarterfinal 1",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "AUS",
+    "name": "Australia",
+    "iso2": "au"
+   },
+   "home": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "awayScore": 3,
+   "homeScore": 4,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719504,
+   "date": "2023-03-15",
+   "start": "2023-03-15T16:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D Game 9",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "home": {
+    "abbr": "ISR",
+    "name": "Israel",
+    "iso2": "il"
+   },
+   "awayScore": 5,
+   "homeScore": 1,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719513,
+   "date": "2023-03-15",
+   "start": "2023-03-15T19:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C Game 9",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "CAN",
+    "name": "Canada",
+    "iso2": "ca"
+   },
+   "awayScore": 10,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719506,
+   "date": "2023-03-15",
+   "start": "2023-03-15T23:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool D Game 10",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "DOM",
+    "name": "Dominican Republic",
+    "iso2": "do"
+   },
+   "awayScore": 5,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719515,
+   "date": "2023-03-15",
+   "start": "2023-03-16T02:00:00Z",
+   "stage": "Pool play",
+   "type": "F",
+   "label": "Pool C Game 10",
+   "venue": "Chase Field",
+   "city": "Phoenix",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "COL",
+    "name": "Colombia",
+    "iso2": "co"
+   },
+   "awayScore": 3,
+   "homeScore": 2,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719502,
+   "date": "2023-03-16",
+   "start": "2023-03-16T10:00:00Z",
+   "stage": "Quarterfinals",
+   "type": "D",
+   "label": "Quarterfinal 2",
+   "venue": "Tokyo Dome",
+   "city": "Tokyo",
+   "away": {
+    "abbr": "ITA",
+    "name": "Italy",
+    "iso2": "it"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 3,
+   "homeScore": 9,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719500,
+   "date": "2023-03-17",
+   "start": "2023-03-17T23:00:00Z",
+   "stage": "Quarterfinals",
+   "type": "D",
+   "label": "Quarterfinal 4",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "PUR",
+    "name": "Puerto Rico",
+    "iso2": "pr"
+   },
+   "home": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "awayScore": 4,
+   "homeScore": 5,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719501,
+   "date": "2023-03-18",
+   "start": "2023-03-18T23:00:00Z",
+   "stage": "Quarterfinals",
+   "type": "D",
+   "label": "Quarterfinal 3",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "iso2": "ve"
+   },
+   "awayScore": 9,
+   "homeScore": 7,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719498,
+   "date": "2023-03-19",
+   "start": "2023-03-19T23:00:00Z",
+   "stage": "Semifinals",
+   "type": "L",
+   "label": "Semifinal 1",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "CUB",
+    "name": "Cuba",
+    "iso2": "cu"
+   },
+   "home": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "awayScore": 2,
+   "homeScore": 14,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719499,
+   "date": "2023-03-20",
+   "start": "2023-03-20T23:00:00Z",
+   "stage": "Semifinals",
+   "type": "L",
+   "label": "Semifinal 2",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "iso2": "mx"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 5,
+   "homeScore": 6,
+   "final": true,
+   "status": "Final"
+  },
+  {
+   "pk": 719497,
+   "date": "2023-03-21",
+   "start": "2023-03-21T23:00:00Z",
+   "stage": "Final",
+   "type": "W",
+   "label": "Championship Game",
+   "venue": "loanDepot park",
+   "city": "Miami",
+   "away": {
+    "abbr": "USA",
+    "name": "United States",
+    "iso2": "us"
+   },
+   "home": {
+    "abbr": "JPN",
+    "name": "Japan",
+    "iso2": "jp"
+   },
+   "awayScore": 2,
+   "homeScore": 3,
+   "final": true,
+   "status": "Final"
+  }
+ ],
+ "teams": [
+  {
+   "abbr": "CUB",
+   "name": "Cuba",
+   "iso2": "cu"
+  },
+  {
+   "abbr": "NED",
+   "name": "Netherlands",
+   "iso2": "nl"
+  },
+  {
+   "abbr": "PAN",
+   "name": "Panama",
+   "iso2": "pa"
+  },
+  {
+   "abbr": "TPE",
+   "name": "Chinese Taipei",
+   "iso2": null
+  },
+  {
+   "abbr": "AUS",
+   "name": "Australia",
+   "iso2": "au"
+  },
+  {
+   "abbr": "KOR",
+   "name": "South Korea",
+   "iso2": "kr"
+  },
+  {
+   "abbr": "CHN",
+   "name": "China",
+   "iso2": "cn"
+  },
+  {
+   "abbr": "JPN",
+   "name": "Japan",
+   "iso2": "jp"
+  },
+  {
+   "abbr": "ITA",
+   "name": "Italy",
+   "iso2": "it"
+  },
+  {
+   "abbr": "CZE",
+   "name": "Czechia",
+   "iso2": "cz"
+  },
+  {
+   "abbr": "NCA",
+   "name": "Nicaragua",
+   "iso2": "ni"
+  },
+  {
+   "abbr": "PUR",
+   "name": "Puerto Rico",
+   "iso2": "pr"
+  },
+  {
+   "abbr": "COL",
+   "name": "Colombia",
+   "iso2": "co"
+  },
+  {
+   "abbr": "MEX",
+   "name": "Mexico",
+   "iso2": "mx"
+  },
+  {
+   "abbr": "DOM",
+   "name": "Dominican Republic",
+   "iso2": "do"
+  },
+  {
+   "abbr": "VEN",
+   "name": "Venezuela",
+   "iso2": "ve"
+  },
+  {
+   "abbr": "GBR",
+   "name": "Great Britain",
+   "iso2": "gb"
+  },
+  {
+   "abbr": "USA",
+   "name": "United States",
+   "iso2": "us"
+  },
+  {
+   "abbr": "ISR",
+   "name": "Israel",
+   "iso2": "il"
+  },
+  {
+   "abbr": "CAN",
+   "name": "Canada",
+   "iso2": "ca"
+  }
+ ]
+}

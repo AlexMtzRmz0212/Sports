@@ -1,0 +1,147 @@
+/* ---------------------------------------------------------------
+   Venue tokens. Every page reads the same variable names; the venue
+   decides what they mean. --texture is the venue's floor.
+---------------------------------------------------------------- */
+
+/* The Locker Room: slate chalkboard, oak lockers, sportsbook flap board */
+:root,
+[data-venue="locker"] {
+  --bg: #1d2621;
+  --surface: #26312b;
+  --surface-2: #2f3b34;
+  --ink: #efece2;
+  --ink-soft: #a7b0a5;
+  --accent: #f2c230;
+  --accent-ink: #1a1a14;
+  --line: rgba(239, 236, 226, 0.16);
+  --wood: #6e4527;
+  --wood-lt: #8d5c35;
+  --flap: #141615;
+  --texture:
+    radial-gradient(ellipse 60% 40% at 20% 10%, rgba(239, 236, 226, 0.05), transparent 70%),
+    radial-gradient(ellipse 50% 50% at 85% 60%, rgba(239, 236, 226, 0.04), transparent 70%);
+}
+
+/* MLB ballpark, day game: mown outfield, clay, green manual scoreboard */
+[data-venue="ballpark"] {
+  --bg: #2e5a33;
+  --surface: #17382a;
+  --surface-2: #1e4434;
+  --ink: #f6f2e6;
+  --ink-soft: #bcd0bf;
+  --accent: #d9753f;
+  --accent-ink: #20120a;
+  --line: rgba(246, 242, 230, 0.22);
+  --clay: #b8643a;
+  --texture: repeating-linear-gradient(90deg, #2e5a33 0 96px, #346539 96px 192px);
+}
+
+/* NFL gridiron under the lights: turf, yard lines, jumbotron navy */
+[data-venue="gridiron"] {
+  --bg: #163b22;
+  --surface: #0c1d2e;
+  --surface-2: #12283d;
+  --ink: #ffffff;
+  --ink-soft: #b9c7d6;
+  --accent: #ffc72c;
+  --accent-ink: #14110a;
+  --line: rgba(255, 255, 255, 0.24);
+  --texture:
+    repeating-linear-gradient(180deg, transparent 0 118px, rgba(255, 255, 255, 0.13) 118px 121px),
+    repeating-linear-gradient(180deg, #163b22 0 240px, #19422a 240px 480px);
+}
+
+/* WBC press box: the almanac look from the original WBC archive */
+[data-venue="worldpark"] {
+  --bg: #f4efe4;
+  --surface: #fbf8f1;
+  --surface-2: #ece5d6;
+  --ink: #16120e;
+  --ink-soft: #5c544b;
+  --accent: #9b1c1c;
+  --accent-ink: #ffffff;
+  --gold: #a87a0c;
+  --line: rgba(22, 18, 14, 0.14);
+  --texture: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.06'/%3E%3C/svg%3E");
+}
+
+/* Liga MX estadio at night: concrete stands, bengala red, pitch green */
+[data-venue="estadio"] {
+  --bg: #15171b;
+  --surface: #1f2228;
+  --surface-2: #2a2e36;
+  --ink: #f1f1ee;
+  --ink-soft: #a3a8b1;
+  --accent: #ef4b37;
+  --accent-ink: #ffffff;
+  --pitch: #1d7a47;
+  --line: rgba(241, 241, 238, 0.14);
+  --texture:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(239, 75, 55, 0.18), transparent 60%),
+    repeating-linear-gradient(0deg, #15171b 0 6px, #17191e 6px 12px);
+}
+
+/* NBA arena: hardwood planks, painted key, shot-clock red */
+[data-venue="arena"] {
+  --bg: #c48a52;
+  --surface: #1b1d3a;
+  --surface-2: #25284d;
+  --ink: #20140b;
+  --ink-on-surface: #f4efe7;
+  --ink-soft: #5a3f27;
+  --accent: #ff3b2f;
+  --accent-ink: #ffffff;
+  --line: rgba(32, 20, 11, 0.22);
+  --texture:
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.07) 0 1px, transparent 1px 34px),
+    repeating-linear-gradient(90deg, #c48a52 0 68px, #c99159 68px 136px, #bf844c 136px 204px);
+}
+
+/* NHL rink: ice, dasher boards, blue lines and the goal light */
+[data-venue="rink"] {
+  --bg: #e9f1f5;
+  --surface: #ffffff;
+  --surface-2: #f2f7fa;
+  --ink: #0e1b2c;
+  --ink-soft: #4d6176;
+  --accent: #c8102e;
+  --accent-ink: #ffffff;
+  --blueline: #1d4f91;
+  --line: rgba(14, 27, 44, 0.14);
+  --texture:
+    linear-gradient(115deg, rgba(255, 255, 255, 0.6), transparent 40%),
+    radial-gradient(ellipse 70% 60% at 70% 30%, rgba(180, 205, 222, 0.35), transparent 70%);
+}
+
+/* Champions League final night: midnight navy, the starball, silver */
+[data-venue="starball"] {
+  --bg: #070b24;
+  --surface: #10173a;
+  --surface-2: #18214d;
+  --ink: #eef1fb;
+  --ink-soft: #a5afd3;
+  --accent: #9fb4ff;
+  --accent-ink: #070b24;
+  --silver: #d9deea;
+  --line: rgba(238, 241, 251, 0.14);
+  --texture:
+    radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.5) 0 1px, transparent 1.5px) 0 0 / 140px 140px,
+    radial-gradient(circle at 70% 80%, rgba(255, 255, 255, 0.35) 0 1px, transparent 1.5px) 0 0 / 90px 90px,
+    radial-gradient(ellipse 90% 60% at 50% -10%, rgba(80, 110, 255, 0.28), transparent 65%),
+    #070b24;
+}
+
+/* World Cup: the trophy's gold and malachite */
+[data-venue="worldstage"] {
+  --bg: #0d3a2d;
+  --surface: #134b3a;
+  --surface-2: #1a5a46;
+  --ink: #f6f0de;
+  --ink-soft: #b9cfc2;
+  --accent: #e2b33c;
+  --accent-ink: #1d1505;
+  --line: rgba(246, 240, 222, 0.16);
+  --texture:
+    radial-gradient(ellipse 70% 50% at 50% 0%, rgba(226, 179, 60, 0.2), transparent 65%),
+    repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.025) 0 18px, transparent 18px 36px);
+}

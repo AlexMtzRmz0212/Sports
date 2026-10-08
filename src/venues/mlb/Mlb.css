@@ -1,0 +1,112 @@
+/* Hand-operated scoreboard: green steel, white painted plates */
+.scoreboard {
+  padding: 12px;
+  background: var(--surface);
+  border: 6px solid #0f281d;
+  border-radius: 2px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.scoreboard .reading {
+  background: #0f281d;
+  border: 1px solid rgba(246, 242, 230, 0.12);
+  border-radius: 0;
+}
+
+.scoreboard .reading-value {
+  display: inline-block;
+  padding: 4px 10px 6px;
+  background: #f6f2e6;
+  color: #10261b;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15);
+}
+
+.scoreboard-panel {
+  padding: 18px;
+  background: var(--surface);
+  border-radius: var(--radius);
+}
+
+/* ---------- Pennants ---------- */
+.pennants {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 14px 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pennant {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 10px;
+  align-items: center;
+  padding: 12px 30px 12px 14px;
+  min-height: 74px;
+  color: #f6f2e6;
+  background: #1a2f5a;
+  /* Felt pennant: full height at the pole, tapering toward the tip */
+  clip-path: polygon(0 0, 100% 32%, 100% 68%, 0 100%);
+  border-left: 8px solid #e8e1cc;
+}
+
+.pennant:nth-child(3n + 2) {
+  background: #8f2b1d;
+}
+
+.pennant:nth-child(3n) {
+  background: #0f3a28;
+}
+
+.pennant-count {
+  grid-row: span 2;
+  font: 800 2.3rem/1 var(--f-sign);
+}
+
+.pennant-name {
+  font: 800 1.2rem/1 var(--f-sign);
+  text-transform: uppercase;
+}
+
+.pennant-years {
+  font: 600 0.72rem/1.2 var(--f-cond);
+  opacity: 0.75;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-width: 88%;
+}
+
+/* ---------- Roll of champions ---------- */
+.roll {
+  columns: 3 300px;
+  column-gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.roll li {
+  display: flex;
+  gap: 12px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--line);
+  break-inside: avoid;
+  font-size: 0.98rem;
+  line-height: 1.3;
+}
+
+.roll-year {
+  flex: none;
+  width: 4.2ch;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.roll-none {
+  font-style: italic;
+}

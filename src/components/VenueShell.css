@@ -1,0 +1,106 @@
+.skip {
+  position: absolute;
+  left: 12px;
+  top: -60px;
+  z-index: 3000;
+  padding: 8px 14px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-family: var(--f-cond);
+  font-weight: 700;
+}
+
+.skip:focus {
+  top: 12px;
+}
+
+.shell-head {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+
+.shell-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-height: 60px;
+}
+
+.brand {
+  flex: none;
+  font: 800 1.7rem/1 var(--f-sign);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+
+.shell-nav {
+  display: flex;
+  gap: 6px;
+  margin-left: auto;
+  padding-block: 10px;
+  min-width: 0;
+}
+
+.shell-nav a {
+  flex: none;
+  position: relative;
+  padding: 5px 11px 5px 15px;
+  font: 700 1rem/1.2 var(--f-cond);
+  text-decoration: none;
+  border-radius: 2px;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--ink) 7%, transparent);
+}
+
+/* A strip of the league's tape color, like a locker nameplate */
+.shell-nav a::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 7px;
+  bottom: 7px;
+  width: 4px;
+  border-radius: 1px;
+  background: var(--tape);
+}
+
+.shell-nav a:hover {
+  background: color-mix(in srgb, var(--ink) 14%, transparent);
+}
+
+.shell-nav a[aria-current="page"] {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+main:focus {
+  outline: none;
+}
+
+.shell-foot {
+  margin-top: 40px;
+  padding-block: 36px 48px;
+  border-top: 1px solid var(--line);
+  font-size: var(--fs-sm);
+}
+
+.shell-foot p {
+  margin: 0 0 6px;
+}
+
+@media (max-width: 560px) {
+  .shell-bar {
+    flex-wrap: wrap;
+    gap: 0;
+    padding-top: 10px;
+  }
+
+  .shell-nav {
+    margin-left: 0;
+    width: 100%;
+  }
+}
