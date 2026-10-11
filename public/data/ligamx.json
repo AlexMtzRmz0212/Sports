@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T15:05:23+00:00",
+ "generated": "2026-10-11T15:22:27+00:00",
  "teams": [
   {
    "id": "227",
@@ -1747,13 +1747,13 @@
     "team": "América",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
     "rank": 1,
-    "gp": 9,
+    "gp": 10,
     "w": 6,
-    "d": 2,
+    "d": 3,
     "l": 1,
-    "gf": 21,
-    "ga": 10,
-    "pts": 20
+    "gf": 22,
+    "ga": 11,
+    "pts": 21
    },
    {
     "id": "223",
@@ -1769,23 +1769,36 @@
     "pts": 20
    },
    {
+    "id": "222",
+    "team": "Querétaro",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/222.png",
+    "rank": 3,
+    "gp": 10,
+    "w": 6,
+    "d": 2,
+    "l": 2,
+    "gf": 15,
+    "ga": 8,
+    "pts": 20
+   },
+   {
     "id": "219",
     "team": "Guadalajara",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png",
-    "rank": 3,
-    "gp": 10,
+    "rank": 4,
+    "gp": 11,
     "w": 5,
-    "d": 3,
+    "d": 4,
     "l": 2,
-    "gf": 17,
-    "ga": 10,
-    "pts": 18
+    "gf": 18,
+    "ga": 11,
+    "pts": 19
    },
    {
     "id": "228",
     "team": "León",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
-    "rank": 4,
+    "rank": 5,
     "gp": 11,
     "w": 5,
     "d": 3,
@@ -1795,30 +1808,17 @@
     "pts": 18
    },
    {
-    "id": "222",
-    "team": "Querétaro",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/222.png",
-    "rank": 5,
-    "gp": 9,
-    "w": 5,
-    "d": 2,
-    "l": 2,
-    "gf": 13,
-    "ga": 8,
-    "pts": 17
-   },
-   {
     "id": "216",
     "team": "Atlas",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
     "rank": 6,
-    "gp": 10,
+    "gp": 11,
     "w": 5,
-    "d": 2,
+    "d": 3,
     "l": 3,
-    "gf": 16,
-    "ga": 17,
-    "pts": 17
+    "gf": 17,
+    "ga": 18,
+    "pts": 18
    },
    {
     "id": "218",
@@ -1834,10 +1834,23 @@
     "pts": 16
    },
    {
+    "id": "10125",
+    "team": "Tijuana",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png",
+    "rank": 8,
+    "gp": 10,
+    "w": 4,
+    "d": 3,
+    "l": 3,
+    "gf": 15,
+    "ga": 14,
+    "pts": 15
+   },
+   {
     "id": "231",
     "team": "Puebla",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/231.png",
-    "rank": 8,
+    "rank": 9,
     "gp": 11,
     "w": 4,
     "d": 3,
@@ -1847,30 +1860,17 @@
     "pts": 15
    },
    {
-    "id": "10125",
-    "team": "Tijuana",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png",
-    "rank": 9,
-    "gp": 9,
-    "w": 4,
-    "d": 2,
-    "l": 3,
-    "gf": 14,
-    "ga": 13,
-    "pts": 14
-   },
-   {
     "id": "220",
     "team": "Monterrey",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
     "rank": 10,
-    "gp": 9,
+    "gp": 10,
     "w": 4,
-    "d": 1,
+    "d": 2,
     "l": 4,
-    "gf": 16,
-    "ga": 14,
-    "pts": 13
+    "gf": 17,
+    "ga": 15,
+    "pts": 14
    },
    {
     "id": "232",
@@ -1929,12 +1929,12 @@
     "team": "Atlante",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/226.png",
     "rank": 15,
-    "gp": 10,
+    "gp": 11,
     "w": 2,
     "d": 5,
-    "l": 3,
+    "l": 4,
     "gf": 12,
-    "ga": 15,
+    "ga": 17,
     "pts": 11
    },
    {
@@ -1968,13 +1968,13 @@
     "team": "FC Juárez",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17851.png",
     "rank": 18,
-    "gp": 10,
+    "gp": 11,
     "w": 1,
-    "d": 0,
+    "d": 1,
     "l": 9,
-    "gf": 7,
-    "ga": 25,
-    "pts": 3
+    "gf": 8,
+    "ga": 26,
+    "pts": 4
    }
   ]
  }
