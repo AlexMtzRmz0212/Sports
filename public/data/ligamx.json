@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T15:22:27+00:00",
+ "generated": "2026-10-12T18:40:51+00:00",
  "teams": [
   {
    "id": "227",
@@ -1825,13 +1825,13 @@
     "team": "Cruz Azul",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
     "rank": 7,
-    "gp": 10,
+    "gp": 11,
     "w": 5,
-    "d": 1,
+    "d": 2,
     "l": 4,
-    "gf": 19,
-    "ga": 18,
-    "pts": 16
+    "gf": 22,
+    "ga": 21,
+    "pts": 17
    },
    {
     "id": "10125",
@@ -1873,10 +1873,36 @@
     "pts": 14
    },
    {
+    "id": "234",
+    "team": "Pachuca",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/234.png",
+    "rank": 11,
+    "gp": 11,
+    "w": 3,
+    "d": 4,
+    "l": 4,
+    "gf": 18,
+    "ga": 14,
+    "pts": 13
+   },
+   {
+    "id": "233",
+    "team": "Pumas UNAM",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/233.png",
+    "rank": 12,
+    "gp": 11,
+    "w": 3,
+    "d": 4,
+    "l": 4,
+    "gf": 17,
+    "ga": 19,
+    "pts": 13
+   },
+   {
     "id": "232",
     "team": "Tigres UANL",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/232.png",
-    "rank": 11,
+    "rank": 13,
     "gp": 11,
     "w": 3,
     "d": 4,
@@ -1886,49 +1912,36 @@
     "pts": 13
    },
    {
-    "id": "234",
-    "team": "Pachuca",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/234.png",
-    "rank": 12,
-    "gp": 10,
-    "w": 3,
-    "d": 3,
-    "l": 4,
-    "gf": 15,
-    "ga": 11,
-    "pts": 12
-   },
-   {
-    "id": "233",
-    "team": "Pumas UNAM",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/233.png",
-    "rank": 13,
-    "gp": 10,
-    "w": 3,
-    "d": 3,
-    "l": 4,
-    "gf": 14,
+    "id": "225",
+    "team": "Santos",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/225.png",
+    "rank": 14,
+    "gp": 11,
+    "w": 4,
+    "d": 1,
+    "l": 6,
+    "gf": 12,
     "ga": 16,
-    "pts": 12
+    "pts": 13
    },
    {
     "id": "15720",
     "team": "Atlético de San Luis",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
-    "rank": 14,
-    "gp": 10,
+    "rank": 15,
+    "gp": 11,
     "w": 3,
     "d": 3,
-    "l": 4,
-    "gf": 14,
-    "ga": 18,
+    "l": 5,
+    "gf": 15,
+    "ga": 20,
     "pts": 12
    },
    {
     "id": "226",
     "team": "Atlante",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/226.png",
-    "rank": 15,
+    "rank": 16,
     "gp": 11,
     "w": 2,
     "d": 5,
@@ -1938,30 +1951,17 @@
     "pts": 11
    },
    {
-    "id": "225",
-    "team": "Santos",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/225.png",
-    "rank": 16,
-    "gp": 10,
-    "w": 3,
-    "d": 1,
-    "l": 6,
-    "gf": 10,
-    "ga": 15,
-    "pts": 10
-   },
-   {
     "id": "229",
     "team": "Necaxa",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/229.png",
     "rank": 17,
-    "gp": 10,
+    "gp": 11,
     "w": 2,
-    "d": 2,
+    "d": 3,
     "l": 6,
-    "gf": 12,
-    "ga": 20,
-    "pts": 8
+    "gf": 15,
+    "ga": 23,
+    "pts": 9
    },
    {
     "id": "17851",
