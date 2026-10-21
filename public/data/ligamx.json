@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T14:09:17+00:00",
+ "generated": "2026-10-21T14:23:00+00:00",
  "teams": [
   {
    "id": "227",
@@ -1756,10 +1756,23 @@
     "pts": 24
    },
    {
+    "id": "219",
+    "team": "Guadalajara",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png",
+    "rank": 2,
+    "gp": 13,
+    "w": 6,
+    "d": 5,
+    "l": 2,
+    "gf": 20,
+    "ga": 12,
+    "pts": 23
+   },
+   {
     "id": "223",
     "team": "Toluca",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
-    "rank": 2,
+    "rank": 3,
     "gp": 12,
     "w": 6,
     "d": 3,
@@ -1769,10 +1782,23 @@
     "pts": 21
    },
    {
+    "id": "228",
+    "team": "León",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
+    "rank": 4,
+    "gp": 13,
+    "w": 6,
+    "d": 3,
+    "l": 4,
+    "gf": 20,
+    "ga": 17,
+    "pts": 21
+   },
+   {
     "id": "216",
     "team": "Atlas",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
-    "rank": 3,
+    "rank": 5,
     "gp": 12,
     "w": 6,
     "d": 3,
@@ -1782,23 +1808,10 @@
     "pts": 21
    },
    {
-    "id": "219",
-    "team": "Guadalajara",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png",
-    "rank": 4,
-    "gp": 12,
-    "w": 5,
-    "d": 5,
-    "l": 2,
-    "gf": 19,
-    "ga": 12,
-    "pts": 20
-   },
-   {
     "id": "218",
     "team": "Cruz Azul",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
-    "rank": 5,
+    "rank": 6,
     "gp": 12,
     "w": 6,
     "d": 2,
@@ -1811,27 +1824,14 @@
     "id": "222",
     "team": "Querétaro",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/222.png",
-    "rank": 6,
-    "gp": 11,
-    "w": 6,
-    "d": 2,
-    "l": 3,
-    "gf": 15,
-    "ga": 13,
-    "pts": 20
-   },
-   {
-    "id": "228",
-    "team": "León",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
     "rank": 7,
     "gp": 12,
-    "w": 5,
-    "d": 3,
+    "w": 6,
+    "d": 2,
     "l": 4,
-    "gf": 18,
-    "ga": 17,
-    "pts": 18
+    "gf": 16,
+    "ga": 15,
+    "pts": 20
    },
    {
     "id": "220",
@@ -1899,23 +1899,49 @@
     "pts": 16
    },
    {
+    "id": "15720",
+    "team": "Atlético de San Luis",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
+    "rank": 13,
+    "gp": 13,
+    "w": 4,
+    "d": 4,
+    "l": 5,
+    "gf": 18,
+    "ga": 22,
+    "pts": 16
+   },
+   {
     "id": "232",
     "team": "Tigres UANL",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/232.png",
-    "rank": 13,
-    "gp": 12,
+    "rank": 14,
+    "gp": 13,
     "w": 3,
     "d": 5,
-    "l": 4,
+    "l": 5,
     "gf": 14,
-    "ga": 16,
+    "ga": 18,
+    "pts": 14
+   },
+   {
+    "id": "226",
+    "team": "Atlante",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/226.png",
+    "rank": 15,
+    "gp": 13,
+    "w": 3,
+    "d": 5,
+    "l": 5,
+    "gf": 14,
+    "ga": 19,
     "pts": 14
    },
    {
     "id": "234",
     "team": "Pachuca",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/234.png",
-    "rank": 14,
+    "rank": 16,
     "gp": 12,
     "w": 3,
     "d": 4,
@@ -1925,42 +1951,16 @@
     "pts": 13
    },
    {
-    "id": "15720",
-    "team": "Atlético de San Luis",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
-    "rank": 15,
-    "gp": 12,
-    "w": 3,
-    "d": 4,
-    "l": 5,
-    "gf": 16,
-    "ga": 21,
-    "pts": 13
-   },
-   {
-    "id": "226",
-    "team": "Atlante",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/226.png",
-    "rank": 16,
-    "gp": 12,
-    "w": 2,
-    "d": 5,
-    "l": 5,
-    "gf": 13,
-    "ga": 19,
-    "pts": 11
-   },
-   {
     "id": "229",
     "team": "Necaxa",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/229.png",
     "rank": 17,
-    "gp": 12,
+    "gp": 13,
     "w": 2,
     "d": 3,
-    "l": 7,
+    "l": 8,
     "gf": 15,
-    "ga": 25,
+    "ga": 26,
     "pts": 9
    },
    {
@@ -1968,12 +1968,12 @@
     "team": "FC Juárez",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17851.png",
     "rank": 18,
-    "gp": 12,
+    "gp": 13,
     "w": 1,
     "d": 1,
-    "l": 10,
+    "l": 11,
     "gf": 8,
-    "ga": 31,
+    "ga": 32,
     "pts": 4
    }
   ]
