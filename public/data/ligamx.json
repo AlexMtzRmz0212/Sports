@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T15:46:13+00:00",
+ "generated": "2026-10-29T15:54:54+00:00",
  "teams": [
   {
    "id": "227",
@@ -1747,13 +1747,13 @@
     "team": "América",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
     "rank": 1,
-    "gp": 13,
+    "gp": 14,
     "w": 8,
-    "d": 3,
+    "d": 4,
     "l": 2,
-    "gf": 33,
-    "ga": 18,
-    "pts": 27
+    "gf": 34,
+    "ga": 19,
+    "pts": 28
    },
    {
     "id": "218",
@@ -1821,29 +1821,29 @@
     "pts": 22
    },
    {
+    "id": "10125",
+    "team": "Tijuana",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png",
+    "rank": 7,
+    "gp": 14,
+    "w": 5,
+    "d": 6,
+    "l": 3,
+    "gf": 22,
+    "ga": 18,
+    "pts": 21
+   },
+   {
     "id": "220",
     "team": "Monterrey",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
-    "rank": 7,
+    "rank": 8,
     "gp": 13,
     "w": 6,
     "d": 2,
     "l": 5,
     "gf": 23,
     "ga": 18,
-    "pts": 20
-   },
-   {
-    "id": "10125",
-    "team": "Tijuana",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png",
-    "rank": 8,
-    "gp": 13,
-    "w": 5,
-    "d": 5,
-    "l": 3,
-    "gf": 21,
-    "ga": 17,
     "pts": 20
    },
    {

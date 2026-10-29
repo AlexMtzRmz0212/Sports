@@ -1087,5 +1087,14 @@
   "losses": 3,
   "ties": 0,
   "decidedOn": "2025-11-01"
+ },
+ "2026": {
+  "year": 2026,
+  "champion": "Milwaukee Brewers",
+  "runnerUp": "Tampa Bay Rays",
+  "wins": 4,
+  "losses": 1,
+  "ties": 0,
+  "decidedOn": "2026-10-28"
  }
 }
