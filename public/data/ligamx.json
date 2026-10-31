@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T15:37:05+00:00",
+ "generated": "2026-10-31T15:07:01+00:00",
  "teams": [
   {
    "id": "227",
@@ -1756,10 +1756,23 @@
     "pts": 28
    },
    {
+    "id": "216",
+    "team": "Atlas",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
+    "rank": 2,
+    "gp": 15,
+    "w": 8,
+    "d": 3,
+    "l": 4,
+    "gf": 26,
+    "ga": 26,
+    "pts": 27
+   },
+   {
     "id": "218",
     "team": "Cruz Azul",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
-    "rank": 2,
+    "rank": 3,
     "gp": 14,
     "w": 8,
     "d": 2,
@@ -1772,7 +1785,7 @@
     "id": "219",
     "team": "Guadalajara",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png",
-    "rank": 3,
+    "rank": 4,
     "gp": 14,
     "w": 7,
     "d": 5,
@@ -1780,19 +1793,6 @@
     "gf": 21,
     "ga": 12,
     "pts": 26
-   },
-   {
-    "id": "216",
-    "team": "Atlas",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
-    "rank": 4,
-    "gp": 14,
-    "w": 7,
-    "d": 3,
-    "l": 4,
-    "gf": 25,
-    "ga": 26,
-    "pts": 24
    },
    {
     "id": "223",
@@ -1847,23 +1847,36 @@
     "pts": 20
    },
    {
+    "id": "233",
+    "team": "Pumas UNAM",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/233.png",
+    "rank": 9,
+    "gp": 15,
+    "w": 5,
+    "d": 5,
+    "l": 5,
+    "gf": 22,
+    "ga": 24,
+    "pts": 20
+   },
+   {
     "id": "222",
     "team": "Querétaro",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/222.png",
-    "rank": 9,
-    "gp": 13,
+    "rank": 10,
+    "gp": 14,
     "w": 6,
     "d": 2,
-    "l": 5,
-    "gf": 17,
-    "ga": 18,
+    "l": 6,
+    "gf": 18,
+    "ga": 21,
     "pts": 20
    },
    {
     "id": "225",
     "team": "Santos",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/225.png",
-    "rank": 10,
+    "rank": 11,
     "gp": 14,
     "w": 6,
     "d": 1,
@@ -1876,27 +1889,14 @@
     "id": "15720",
     "team": "Atlético de San Luis",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
-    "rank": 11,
-    "gp": 14,
+    "rank": 12,
+    "gp": 15,
     "w": 5,
     "d": 4,
-    "l": 5,
+    "l": 6,
     "gf": 19,
-    "ga": 22,
-    "pts": 19
-   },
-   {
-    "id": "233",
-    "team": "Pumas UNAM",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/233.png",
-    "rank": 12,
-    "gp": 14,
-    "w": 4,
-    "d": 5,
-    "l": 5,
-    "gf": 20,
     "ga": 23,
-    "pts": 17
+    "pts": 19
    },
    {
     "id": "234",
@@ -1916,12 +1916,12 @@
     "team": "Puebla",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/231.png",
     "rank": 14,
-    "gp": 14,
+    "gp": 15,
     "w": 4,
     "d": 4,
-    "l": 6,
-    "gf": 16,
-    "ga": 21,
+    "l": 7,
+    "gf": 17,
+    "ga": 23,
     "pts": 16
    },
    {
@@ -1968,13 +1968,13 @@
     "team": "FC Juárez",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17851.png",
     "rank": 18,
-    "gp": 14,
-    "w": 1,
+    "gp": 15,
+    "w": 2,
     "d": 2,
     "l": 11,
-    "gf": 9,
-    "ga": 33,
-    "pts": 5
+    "gf": 12,
+    "ga": 34,
+    "pts": 8
    }
   ]
  }
