@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T15:07:01+00:00",
+ "generated": "2026-11-01T15:50:11+00:00",
  "teams": [
   {
    "id": "227",
@@ -1747,19 +1747,32 @@
     "team": "América",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
     "rank": 1,
-    "gp": 14,
+    "gp": 15,
     "w": 8,
-    "d": 4,
+    "d": 5,
     "l": 2,
-    "gf": 34,
-    "ga": 19,
-    "pts": 28
+    "gf": 36,
+    "ga": 21,
+    "pts": 29
+   },
+   {
+    "id": "219",
+    "team": "Guadalajara",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png",
+    "rank": 2,
+    "gp": 15,
+    "w": 8,
+    "d": 5,
+    "l": 2,
+    "gf": 25,
+    "ga": 14,
+    "pts": 29
    },
    {
     "id": "216",
     "team": "Atlas",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
-    "rank": 2,
+    "rank": 3,
     "gp": 15,
     "w": 8,
     "d": 3,
@@ -1772,7 +1785,7 @@
     "id": "218",
     "team": "Cruz Azul",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
-    "rank": 3,
+    "rank": 4,
     "gp": 14,
     "w": 8,
     "d": 2,
@@ -1782,36 +1795,36 @@
     "pts": 26
    },
    {
-    "id": "219",
-    "team": "Guadalajara",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png",
-    "rank": 4,
-    "gp": 14,
-    "w": 7,
-    "d": 5,
-    "l": 2,
-    "gf": 21,
-    "ga": 12,
-    "pts": 26
-   },
-   {
     "id": "223",
     "team": "Toluca",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
     "rank": 5,
-    "gp": 14,
+    "gp": 15,
     "w": 6,
-    "d": 5,
+    "d": 6,
     "l": 3,
-    "gf": 29,
-    "ga": 19,
-    "pts": 23
+    "gf": 31,
+    "ga": 21,
+    "pts": 24
+   },
+   {
+    "id": "10125",
+    "team": "Tijuana",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png",
+    "rank": 6,
+    "gp": 15,
+    "w": 5,
+    "d": 7,
+    "l": 3,
+    "gf": 25,
+    "ga": 21,
+    "pts": 22
    },
    {
     "id": "228",
     "team": "León",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
-    "rank": 6,
+    "rank": 7,
     "gp": 14,
     "w": 6,
     "d": 4,
@@ -1821,30 +1834,17 @@
     "pts": 22
    },
    {
-    "id": "10125",
-    "team": "Tijuana",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png",
-    "rank": 7,
-    "gp": 14,
-    "w": 5,
-    "d": 6,
-    "l": 3,
-    "gf": 22,
-    "ga": 18,
-    "pts": 21
-   },
-   {
     "id": "220",
     "team": "Monterrey",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
     "rank": 8,
-    "gp": 13,
+    "gp": 14,
     "w": 6,
-    "d": 2,
+    "d": 3,
     "l": 5,
-    "gf": 23,
-    "ga": 18,
-    "pts": 20
+    "gf": 26,
+    "ga": 21,
+    "pts": 21
    },
    {
     "id": "233",
@@ -1873,10 +1873,23 @@
     "pts": 20
    },
    {
+    "id": "234",
+    "team": "Pachuca",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/234.png",
+    "rank": 11,
+    "gp": 15,
+    "w": 5,
+    "d": 4,
+    "l": 6,
+    "gf": 25,
+    "ga": 19,
+    "pts": 19
+   },
+   {
     "id": "225",
     "team": "Santos",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/225.png",
-    "rank": 11,
+    "rank": 12,
     "gp": 14,
     "w": 6,
     "d": 1,
@@ -1889,7 +1902,7 @@
     "id": "15720",
     "team": "Atlético de San Luis",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
-    "rank": 12,
+    "rank": 13,
     "gp": 15,
     "w": 5,
     "d": 4,
@@ -1897,19 +1910,6 @@
     "gf": 19,
     "ga": 23,
     "pts": 19
-   },
-   {
-    "id": "234",
-    "team": "Pachuca",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/234.png",
-    "rank": 13,
-    "gp": 14,
-    "w": 4,
-    "d": 4,
-    "l": 6,
-    "gf": 22,
-    "ga": 19,
-    "pts": 16
    },
    {
     "id": "231",
@@ -1929,12 +1929,12 @@
     "team": "Tigres UANL",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/232.png",
     "rank": 15,
-    "gp": 14,
+    "gp": 15,
     "w": 3,
     "d": 6,
-    "l": 5,
+    "l": 6,
     "gf": 15,
-    "ga": 19,
+    "ga": 22,
     "pts": 15
    },
    {
@@ -1942,12 +1942,12 @@
     "team": "Atlante",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/226.png",
     "rank": 16,
-    "gp": 14,
+    "gp": 15,
     "w": 3,
     "d": 5,
-    "l": 6,
-    "gf": 14,
-    "ga": 20,
+    "l": 7,
+    "gf": 16,
+    "ga": 24,
     "pts": 14
    },
    {
