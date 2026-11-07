@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T16:37:49+00:00",
+ "generated": "2026-11-07T15:28:23+00:00",
  "leagues": {
   "mlb": {
    "name": "MLB",
@@ -348,19 +348,19 @@
        "key": "reg",
        "name": "Apertura",
        "start": "2026-06-01",
-       "end": "2026-11-11"
-      },
-      {
-       "key": "post",
-       "name": "Apertura Liguilla",
-       "start": "2026-11-11",
-       "end": "2026-12-31"
+       "end": "2026-11-23"
       },
       {
        "key": "post",
        "name": "Clausura Liguilla",
        "start": "2026-11-24",
-       "end": "2027-05-04"
+       "end": "2026-12-30"
+      },
+      {
+       "key": "post",
+       "name": "Apertura Liguilla",
+       "start": "2026-11-25",
+       "end": "2026-12-31"
       },
       {
        "key": "reg",
