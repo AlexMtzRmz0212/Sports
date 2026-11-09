@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T15:50:17+00:00",
+ "generated": "2026-11-09T19:33:09+00:00",
  "teams": [
   {
    "id": "227",
@@ -1773,13 +1773,13 @@
     "team": "Guadalajara",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png",
     "rank": 3,
-    "gp": 15,
+    "gp": 16,
     "w": 8,
-    "d": 5,
+    "d": 6,
     "l": 2,
-    "gf": 25,
-    "ga": 14,
-    "pts": 29
+    "gf": 26,
+    "ga": 15,
+    "pts": 30
    },
    {
     "id": "223",
@@ -1821,10 +1821,23 @@
     "pts": 25
    },
    {
+    "id": "228",
+    "team": "León",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
+    "rank": 7,
+    "gp": 16,
+    "w": 6,
+    "d": 5,
+    "l": 5,
+    "gf": 23,
+    "ga": 21,
+    "pts": 23
+   },
+   {
     "id": "234",
     "team": "Pachuca",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/234.png",
-    "rank": 7,
+    "rank": 8,
     "gp": 16,
     "w": 6,
     "d": 4,
@@ -1837,26 +1850,13 @@
     "id": "10125",
     "team": "Tijuana",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png",
-    "rank": 8,
+    "rank": 9,
     "gp": 16,
     "w": 5,
     "d": 7,
     "l": 4,
     "gf": 25,
     "ga": 22,
-    "pts": 22
-   },
-   {
-    "id": "228",
-    "team": "León",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
-    "rank": 9,
-    "gp": 15,
-    "w": 6,
-    "d": 4,
-    "l": 5,
-    "gf": 22,
-    "ga": 20,
     "pts": 22
    },
    {
@@ -1890,19 +1890,32 @@
     "team": "Querétaro",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/222.png",
     "rank": 12,
-    "gp": 14,
+    "gp": 15,
     "w": 6,
     "d": 2,
-    "l": 6,
+    "l": 7,
     "gf": 18,
-    "ga": 21,
+    "ga": 23,
     "pts": 20
+   },
+   {
+    "id": "231",
+    "team": "Puebla",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/231.png",
+    "rank": 13,
+    "gp": 16,
+    "w": 5,
+    "d": 4,
+    "l": 7,
+    "gf": 19,
+    "ga": 23,
+    "pts": 19
    },
    {
     "id": "15720",
     "team": "Atlético de San Luis",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
-    "rank": 13,
+    "rank": 14,
     "gp": 16,
     "w": 5,
     "d": 4,
@@ -1910,19 +1923,6 @@
     "gf": 19,
     "ga": 24,
     "pts": 19
-   },
-   {
-    "id": "231",
-    "team": "Puebla",
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/231.png",
-    "rank": 14,
-    "gp": 15,
-    "w": 4,
-    "d": 4,
-    "l": 7,
-    "gf": 17,
-    "ga": 23,
-    "pts": 16
    },
    {
     "id": "232",
